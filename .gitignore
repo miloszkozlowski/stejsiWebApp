@@ -29,3 +29,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Passwords Privacy
+/google/
+/src/main/resources/application-local.yml
+/src/main/resources/application-prod.yml

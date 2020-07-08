@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src='/script/jquery-3.5.1.min.js'></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+  $( function() {
+    $( "#date_of" ).datepicker({
+    	dateFormat: "yy-mm-dd"
+    });
+    
+  } );
+  </script>
+<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_mischka.min.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<style>
+	.Bd {
+		border:solid 1px white;
+	}
+	.Bdc\(red\) {
+		border-color: red !important;
+	}
+	.C\(red\) {
+		color: red;
+	}
+	.C\(black\) {
+		color: black;
+	}
+	.C\(gray\) {
+		color: #b4b4cb;
+	}
+	.Dec\(strike\) {
+		text-decoration: line-through;
+	}
+	.P\(0\) {
+		padding: 0;
+	}
+	.P\(10px\) {
+		padding: 10px;
+	}
+	.P\(3px\) {
+		padding: 3px;
+	}
+	.F\(11px\) {
+		font-size: 11px;
+	}
+	.M\(5px\) {
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+	.Tl {
+		table-layout: fixed;
+		width: 98%;
+		align: center;
+	}
+	.Td {
+		width: 14%;
+		text-align: center;
+	}
+	.TRh\(150px\) {
+		height: 450px;
+	}
+	.TDc\(blue\) {
+		background-color: #af89c1;
+		width: 98%;
+	}
+	.Ii {
+		display: inline-flex;
+	}
+	.Mr {
+		margin-right: 3px !important;
+		margin-bottom: 0px !important;
+		font-size: 0.7em !important;
+	}
+	.W\(60px\) {
+		width: 60px !important;
+	}
+	.W\(90px\) {
+		width: 90px !important;
+	}
+	.W\(190px\) {
+		width: 190px !important;
+	}
+	
+</style>
+<title>Planowanie treningów - Stejsi App - Twój trener personalny</title>
+</head>
+<body>
+<main>
+	<nav>
+		<ul>
+			<li><a href="/">Menu główne</a></li>
+			
+			<li><a href="/logout">Wyloguj się</a></li>
+		</ul>
+	</nav>
+	
+	
+	<!--  zmiana pojedynczego -->
+	<div th:if="${opcja} == 'trainingChange'" th:object="${training.getTrainingPackageToRead().getOwner()}">
+	<h5><a th:href="@{/podopieczni/{id}(id = *{getId()})}" th:text="|*{getName()} *{getSurname()} - ${training.getTrainingPackageToRead().getPackageType().getTitle()}|"></a></h5>
+		<form method="post" th:action="@{/plan/{pid}(pid = ${training.getTrainingPackage().getId()}, week = ${week})}" name="trainingChange">
+			<fieldset>
+				<legend th:text="${training.getTrainingPackageToRead().getPackageType().getTitle()}"></legend>
+				<input type="hidden" name="tid" th:value="${training.getId()}">
+				<label>Data treningu</label>
+				<input type="date" id="date_of" placeholder="2020-05-29" pattern="^[0-9]{4}-(((0[13578]|(10|12))-(0[1-9]|[1-2][0-9]|3[0-1]))|(02-(0[1-9]|[1-2][0-9]))|((0[469]|11)-(0[1-9]|[1-2][0-9]|30)))$" name="trainingDate" th:value="${training.getReadableDateScheduled()}" required>
+				<label>Godzina treningu</label>
+				<input type="time" placeholder="00:00" pattern="^(2[0-3]|1[0-9]|0*[0-9]):[0-5][0-9]$" name="trainingTime" th:value="${training.getReadableTimeScheduled()}" required>
+				<label>Lokalizacja treningu</label> 
+				<select name="locationId">
+					<option></option>
+					<option th:each="location : ${locations}" th:value="${location.getId()}" th:text="${location.getName()}" th:selected="${training.getLocation() == null} ? false : ${training.getLocation().getId() == location.getId()}"></option>
+				</select>
+				<span th:if="${training.isConfirmed()} and ${!training.isCanceled()}" style="margin-bottom:5px"><b>Ten trening został już potwierdzony przez Podopiecznego. Jeżeli dokonasz zmian, podopieczny będzie musiał potweirdzić go jeszcze raz.</b><br/></span>
+				<span th:if="${training.isConfirmed()} and ${training.isCanceled()}" style="margin-bottom:5px"><b>Podopieczny odwołał ten trening. Jeżeli dokonasz zmian, to podopieczny zostanie powiadomiony ponownie.</b><br/></span>
+				<span th:if="${!training.isConfirmed()}" style="margin-bottom:5px"><i>Ten trening nie jest jeszcze potwierdzony przez Podopiecznego.</i><br/></span>
+				<button type="submit">Zmień</button>
+				<a th:href="@{/plan/{pid}(pid = ${training.getTrainingPackageToRead().getId()})}" style="margin-left:10px">Pokaż cały pakiet</a> 
+				<span  th:if="${training.isInPast()} and ${!training.isDone()}"> | <a th:href="@{/plan/{pid}/obecny/{tid}(week = ${week}, pid = ${training.getTrainingPackage().getId()}, tid = ${training.getId()})}" class="confirmationPresence">Potwierdź obecność</a></span>
+			</fieldset>
+		</form>
+	</div>
+	
+	<!--  cały pakiet - domyślnie -->
+	<div th:if="${opcja} == 'packagePlan'" th:object="${package}">
+		<h5><a th:href="@{/podopieczni/{id}(id = *{getOwner().getId()})}" th:text="|*{getOwner().getName()} *{getOwner().getSurname()} - *{getPackageType().getTitle()}|"></a></h5>
+		<p th:unless="${msg == null}"><strong class="C(red)" th:text="${msg}"></strong></p>
+		<table>
+		<tr th:each="trening, iter : *{getTrainings()}">
+			<td th:text="|${iter.count}.|"></td>
+			<td>
+				<table class="tl" th:unless="${trening.getScheduledFor() == null}">
+					<tr>
+						<td class="F(11px)" th:text="${trening.getReadableDateScheduled()}" th:classappend="|${(!trening.isConfirmed() and !trening.isDone()) ? 'C(gray)' : ''} ${trening.isDone() ? 'Dec(strike)' : ''}|"></td>
+						<td class="F(11px)" th:text="${trening.getReadableTimeScheduled()}" th:classappend="|${(!trening.isConfirmed() and !trening.isDone()) ? 'C(gray)' : ''} ${trening.isDone() ? 'Dec(strike)' : ''}|"></td>
+						<td class="F(11px)" ><span th:text="${trening.getLocation() == null} ? 'nieokreślona' : ${trening.getLocation().getName()}" th:classappend="|${(!trening.isConfirmed() and !trening.isDone()) ? 'C(gray)' : ''}   ${trening.isDone() ? 'Dec(strike)' : ''}|"></span></td>
+						<td class="F(11px)">
+							<span th:text="${trening.getStatus().getDescription()}"></span>							
+						</td>
+						<td class="F(11px)">
+							<span th:if="${!trening.isDone()}"><a th:href="@{/plan/zmien/{tid}(tid = ${trening.getId()}, week = ${week})}">Zmień</a> | <a th:href="@{/plan/{pid}/usun/{tid}(week = ${week}, tid = ${trening.getId()}, pid = ${trening.getTrainingPackage().getId()})}" th:classappend="${trening.isConfirmed() ? 'confirmationRemove' : ''}">Usuń</a></span>
+							<span th:if="${!trening.isDone()} and ${trening.isInPast()} and ${!trening.isCanceled()}"> | <a th:href="@{/plan/{pid}/obecny/{tid}(week = ${week}, tid = ${trening.getId()}, pid = *{getId()})}" class="confirmationPresence">Odbył się</a></span>
+							<span th:if="${trening.isCanceled()}"> | <a th:href="@{/plan/{pid}/przywroc/{tid}(week = ${week}, tid = ${trening.getId()}, pid = *{getId()})}">Przywróć</a></span>
+							<span th:if="${trening.isDone() and !trening.isPresenceConfirmed()}">Czeka...</span>
+							<img src="/img/done.png" th:if="${trening.isDone() and trening.isPresenceConfirmed()}" />
+						</td>
+					</tr>
+				</table>
+				<form method="post" th:action="@{/plan/{pid}(pid = *{getId()}, week = ${week})}" class="Ii" th:if="${trening.getScheduledFor() == null}">
+					<input type="hidden" name="tid" th:value="${trening.getId()}">
+					<input type="date" id="date_of" class="Mr W(90px)" placeholder="2020-05-29" pattern="^[0-9]{4}-(((0[13578]|(10|12))-(0[1-9]|[1-2][0-9]|3[0-1]))|(02-(0[1-9]|[1-2][0-9]))|((0[469]|11)-(0[1-9]|[1-2][0-9]|30)))$" name="trainingDate" required>
+					<input type="time" class="Mr W(60px)" placeholder="00:00" pattern="^(2[0-3]|1[0-9]|0*[0-9]):[0-5][0-9]$" name="trainingTime" required> 
+					<select name="locationId" class="Mr W(190px)">
+						<option></option>
+						<option th:each="location : ${locations}" th:value="${location.getId()}" th:text="${location.getName()}" th:selected="${defaultLocation == location.getId()}"></option>
+					</select>
+					<button type="submit" style="font-size:0.7em">Zaplanuj</button>
+				</form>
+			</td>
+		</tr>
+		</table>
+			
+	</div>   
+	
+	<h3>Planowanie</h3>
+	<nav>
+		<ul class="F(11px)">
+			<li><a th:href="@{__${#httpServletRequest.requestURI}__(week = ${week}-1)}"><< Poprzedni tydzień</a></li>
+			<li><a th:href="@{__${#httpServletRequest.requestURI}__(week = ${week}+1)}">Następny tydzień >></a></li>
+		</ul>
+	</nav>
+	<table class="Tl">
+		<tr>
+			<th class="Td F(11px)">Poniedziałek</th>
+			<th class="Td F(11px)">Wtorek</th>
+			<th class="Td F(11px)">Środa</th>
+			<th class="Td F(11px)">Czwartek</th>
+			<th class="Td F(11px)">Piątek</th>
+			<th class="Td F(11px)">Sobota</th>
+			<th class="Td F(11px)">Niedziela</th>
+		</tr>
+		<tr>
+			<td class="Td F(11px)" th:each="data : ${weekDates}"><a href="#" th:text="${data}" class="dateLink">2020-05-18</a></td>
+		</tr>
+		<tr class="TRh(150px)">
+			<td class="Td F(11px)" th:each="trainingsDaily : ${weeklyTrainings}">
+				<div th:each="oneTraining : ${trainingsDaily}" style="background:#af89c1; text-align:left; margin:1px"><p class="P(3px)"><b th:text="${oneTraining.getReadableTimeScheduled()}">15:00</b>
+				<img th:src="@{/img/unknown.png}" th:if="${!oneTraining.isDone()} and ${!oneTraining.isConfirmed()}" style="height:12px" alt="Grafik niepotwierdzony">
+				<img th:src="@{/img/confirmed.png}" th:if="${!oneTraining.isDone()} and ${oneTraining.isConfirmed()}" style="height:12px" alt="Grafik potwierdzony">
+				<img th:src="@{/img/ok.png}" th:if="${oneTraining.isDone()} and ${oneTraining.isPresenceConfirmed()}" style="height:12px" alt="Obecność potwierdzona">
+				<img th:src="@{/img/waiting.png}" th:if="${oneTraining.isDone()} and ${!oneTraining.isPresenceConfirmed()}" style="height:12px" alt="Czeka na potwierdzenie obecności">
+				<br />
+				<span th:inline="text" th:if="${oneTraining.isDone()}">[[${oneTraining.getTrainingPackage().getOwner().getImie()}]]<br />
+				[[${oneTraining.getTrainingPackage().getOwner().getNazwisko()}]]</span>
+				<a th:href="@{/plan/zmien/{tid}(tid = ${oneTraining.getId()})}" th:unless="${oneTraining.isDone()}" th:inline="text">[[${oneTraining.getTrainingPackage().getOwner().getImie()}]]<br />
+				[[${oneTraining.getTrainingPackage().getOwner().getNazwisko()}]]</a>
+				<br />
+				<span th:text="|(${oneTraining.getTrainingPackage().getPackageType().getLengthMinutes()}min.)|">(55min.)</span>
+				<a th:if="${oneTraining.isInPast()} and ${!oneTraining.isDone()}"th:href="@{/plan/{pid}/obecny/{tid}(week = ${week}, pid = ${oneTraining.getTrainingPackage().getId()}, tid = ${oneTraining.getId()})}" class="confirmationPresence"><img th:src="@{/img/done.png}" style="height:12px; margin-top: 3px" alt="Potwierdź pd bycie treningu"></a>
+				<a th:if="${!oneTraining.isInPast()}" th:href="@{/plan/{pid}/usun/{tid}(week = ${week}, tid = ${oneTraining.getId()}, pid = ${oneTraining.getTrainingPackage().getId()})}" th:class="${oneTraining.isConfirmed() ? 'confirmationRemove' : ''}"><img th:src="@{/img/delete.png}" style="height:12px; margin-top: 3px" alt="Potwierdź odbycie treningu"></a>
+				</p></div>
+			
+			</td>
+		</tr>
+	</table>
+	<script type="text/javascript">	    
+	$(".dateLink").click(function(){
+		 $("#date_of").val($(this).text());
+		});
+    </script>
+    <script type="text/javascript">
+		    var elems = document.getElementsByClassName('confirmationPresence');
+		    var confirmIt = function (e) {
+		        if (!confirm('Potwierdź, że ten trening się odbył. Tej operacji nie będzie można cofnąć.')) e.preventDefault();
+		    };
+		    for (var i = 0, l = elems.length; i < l; i++) {
+		        elems[i].addEventListener('click', confirmIt, false);
+		    }
+		    var elems = document.getElementsByClassName('confirmationRemove');
+		    var confirmIt = function (e) {
+		        if (!confirm('Usunąć ten trening? Potwierdź, że się nie odbył.')) e.preventDefault();
+		    };
+		    for (var i = 0, l = elems.length; i < l; i++) {
+		        elems[i].addEventListener('click', confirmIt, false);
+		    }
+		    var elems = document.getElementsByClassName('confirmationRemoveConfirmed');
+		    var confirmIt = function (e) {
+		        if (!confirm('Usunąć ten trening? Podpopieczny już potwierdził termin.')) e.preventDefault();
+		    };
+		    for (var i = 0, l = elems.length; i < l; i++) {
+		        elems[i].addEventListener('click', confirmIt, false);
+		    }
+	</script>
+</main>
+</body>
+</html>

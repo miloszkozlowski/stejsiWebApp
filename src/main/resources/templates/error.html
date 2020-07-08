@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_white.min.css">
+<style>
+	.Bd {
+		border:solid 1px white;
+	}
+	.Bdc\(red\) {
+		border-color: red !important;
+	}
+	.C\(red\) {
+		color: red;
+	}
+	.P\(0\) {
+		padding: 0;
+	}
+	.P\(10px\) {
+		padding: 10px;
+	}
+</style>
+<title th:text="|Bład ${errorcode} - Stejsi App - Twój trener personalny|">Bład - Stejsi App - Twój trener personalny</title>
+</head>
+<body>
+<header>Oooops... Bład <span th:text="${errorcode}"></span> <span th:if="${errorreason != ''}" th:text="|(${errorreason})|"></span><p>Coś poszło nie tak...</p>
+<nav><ul><li><a href="/">Do strony głównej</a></li></ul></nav>
+</header>
+</body>
+</html>

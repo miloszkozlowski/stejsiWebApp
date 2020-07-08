@@ -1,50 +1,64 @@
 package pl.mihome.stejsiWebApp.model;
 
-import java.util.Date;
+import java.util.Set;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Size;
+import javax.persistence.*;
+import javax.validation.constraints.*;
 
-import org.springframework.boot.context.properties.bind.DefaultValue;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+
 
 
 @Entity
 @Table(name = "uzytkownicy")
-public class Podopieczny {
+@JsonIdentityInfo(
+		generator = ObjectIdGenerators.PropertyGenerator.class,
+		property = "id",
+		scope = Podopieczny.class)
+public class Podopieczny extends AuditBase {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotEmpty(message = "Pole imię nie może być puste")
-	@Size(min = 3)
+	@NotBlank(message = "Pole imię nie może być puste")
+	@Size(min = 3, max = 30)
 	private String imie;
 	
 	@NotEmpty(message = "Pole nazwisko nie może być puste")
-	@Size(min = 3)
+	@Size(min = 3, max = 50)
 	private String nazwisko;
 	
 	@NotEmpty(message = "Pole email nie może być puste")
 	@Email(message = "Pole e-email musi zawierać prawidłowy adres e-mail")
-	private String email;
+	@Size(max = 200)
+	private String email;	
 	
+	private int phoneNumber;
 	
-	private Date dataRejestracji;
+	private boolean aktywny;	
 	
-	private boolean aktywny = false;
+	@OneToMany(mappedBy = "owner")
+	//@JsonManagedReference
+	private Set<PakietTreningow> trainingPackages;
 	
-	private boolean usuniety = false;
+	@OneToMany(mappedBy = "author", fetch = FetchType.LAZY)
+	private Set<TipComment> comments;
 	
-	public Podopieczny()
-	{
-		this.dataRejestracji = new Date();
+	@ManyToMany
+	@JoinTable(name = "tip_read_status",
+			joinColumns = @JoinColumn(name = "user_id"),
+			inverseJoinColumns = @JoinColumn(name = "tip_id"))
+	private Set<Tip> tipsRead;
+	
+	@OneToMany(mappedBy = "owner")
+	private Set<Token> tokens;
+	
+		
+	public Podopieczny() {
 	}
+
 	
 	public Long getId() {
 		return id;
@@ -76,20 +90,52 @@ public class Podopieczny {
 	public void setAktywny(boolean aktywny) {
 		this.aktywny = aktywny;
 	}
-	public boolean isUsuniety() {
-		return usuniety;
+	
+	public int getPhoneNumber() {
+		return phoneNumber;
 	}
-	public void setUsuniety(boolean usuniety) {
-		this.usuniety = usuniety;
+
+	public Set<PakietTreningow> getTrainingPackages() {
+		return trainingPackages;
 	}
-	public Date getDataRejestracji() {
-		return dataRejestracji;
+
+	public void setPhoneNumber(int phoneNumber) {
+		this.phoneNumber = phoneNumber;
 	}
-	public void setDataRejestracji(Date dataRejestracji) {
-		this.dataRejestracji = dataRejestracji;
+
+	public void setTrainingPackages(Set<PakietTreningow> trainingPackages) {
+		this.trainingPackages = trainingPackages;
 	}
 	
-	
-	
+	public Set<TipComment> getComments() {
+		return comments;
+	}
+
+	public Set<Tip> getTipsRead() {
+		return tipsRead;
+	}	
+
+	public Set<Token> getTokens() {
+		return tokens;
+	}
+
+
+	public void setTokens(Set<Token> tokens) {
+		this.tokens = tokens;
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if(obj == null)
+			return false;
+		if(obj instanceof Podopieczny) {
+			var p = (Podopieczny)obj;
+			if(this.id == p.getId())
+				return true;
+			return false;
+		}
+		return false;	
+	}
 
 }

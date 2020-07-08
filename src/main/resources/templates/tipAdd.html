@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_white.min.css">
+<style>
+	.Bd {
+		border:solid 1px white;
+	}
+	.Bdc\(red\) {
+		border-color: red !important;
+	}
+	.C\(red\) {
+		color: red;
+	}
+	.P\(0\) {
+		padding: 0;
+	}
+	.P\(10px\) {
+		padding: 10px;
+	}
+	img {
+		max-width: 500px;
+		height: auto;
+		display: initial;
+	}
+	small {
+		font-size: 10px;
+		color: grey;
+	}
+	
+</style>
+<title>Dobre rady - Stejsi App - Twój trener personalny</title>
+</head>
+<body>
+<main>
+	<nav>
+		<ul>
+			<li th:if="${newTip != null}"><a href="/tips"><< Wróć</a></li>
+			<li><a href="/">Menu główne</a></li>
+		</ul>
+	</nav>
+	<h3>Ty tu dajesz rady</h3>
+	<p>Dodawaj dobre rady wraz ze zdjęciami, przeglądaj komentarze podopiecznych.</p>
+	<form method="post" action="#" th:action="@{/tips}" th:if="${newTip == null}" style="margin-left:0; margin-bottom:10px">
+			<button type=submit name="addnew">Dodaj nową poradę</button>
+	</form>
+	<p><strong th:if="${msg != null}" th:text="${msg}"></strong></p>
+	<fieldset th:if="${newTip != null}">
+		<legend>Nowa mądrość</legend>
+		
+
+		<form method="post" action="#" th:action="@{/tips/dodaj}" th:object="${newTip}" enctype="multipart/form-data">
+		<p class="C(red)" th:if="${#fields.hasAnyErrors()}" th:errors="*{all}"><span class="C(red)" th:if="${err != null}" th:text="${err}"></span></p>
+			<label>Nagłówek
+				<input type="text" maxlength="100" th:errorclass="'Bdc(red)'" th:field="*{heading}" />
+			</label>
+			<label>Treść
+				<textarea th:field="*{body}" maxlength="1000" th:errorclass="'Bdc(red)'"></textarea>
+			</label>
+			<label>Fotka
+				<input type="file" name="picture_upload" accept="image/gif, image/jpeg, image/png" style="margin-bottom:5px">
+				lub wklej link: <input type="text" th:field="*{imageUrl}" maxlength="1000" style="margin-top:5px" />
+			</label>
+			<p>
+				<button type="submit">Opublikuj radę</button>
+				<button type="reset">Wyczyść pola</button>
+			</p>
+		</form>
+	</fieldset>	
+	<fieldset th:if="${not #lists.isEmpty(tips)}">
+		<legend>Porady trenera personalnego</legend>
+		<fieldset th:each="tip : ${tips}">
+			<legend th:text="${tip.heading}"></legend>
+			<span><img th:src="@{/tips/img/{tid}(tid = ${tip.id})}" /><br /></span>
+			<span style="margin-bottom:5px" th:if="${tip.body != ''}"><i th:text="${tip.body}"></i></span>
+			<br />
+			<a th:href="@{/tips/usun/{tid}(tid = ${tip.id})}" class="confirmationRemoveConfirmed"><img src="/img/delete.png" /> usuń</a>
+			<small style="margin-left:15px" th:text="${tip.getWhenCreated()}"></small> 
+			<a style="margin-left:15px" th:unless="${#lists.isEmpty(tip.getComments())}" th:text="'Komentarzy: ' + ${tip.getCommentsAmount()}" th:href="@{/tips(comments = ${tip.getId()})}"></a>
+			<span style="margin-left:15px" th:if="${#lists.isEmpty(tip.getComments())}">Jeszcze bez komentarzy</span>
+			
+			
+			<!--  komentarze do wybranego posta -->
+			<div th:if="${#httpServletRequest.getParameter('comments')} == ${tip.getId()}">
+				<table style="margin-top:10px; margin-bottom:10px">
+					<tr th:each="comment : ${tip.getComments()}">
+						<td>
+							<p>
+							<b th:text="${comment.getAuthorName()}"></b>
+							<small th:text="${comment.getWhenCreated()}"></small><br>
+							<span th:text="${comment.getBody()}"></span></p>
+						</td>
+						<td>
+							<a th:href="@{/tips#comments(comments = ${tip.getId()}, remove = ${comment.getId()})}"><img src="/img/delete.png" /></a>
+						</td>
+					</tr>
+				</table>
+				<a id="comments"></a>
+				<form method="post" action="#" th:action="@{/tips(comments = ${#httpServletRequest.getParameter('comments')})}" th:object="${newcomment}" style="max-width:100%">
+					<p class="C(red)" th:if="${#fields.hasAnyErrors()}" th:errors="*{all}">Błedy</p>
+					<input type="hidden" id="tipId" name="tipId" th:value="${tip.getId()}">
+					<textarea th:field=*{body}></textarea>
+					<button type="submit" name="newcomment">Skomentuj</button>
+				</form>
+			
+			
+			</div>
+		</fieldset>
+	</fieldset>	
+	<script type="text/javascript">
+		    var elems = document.getElementsByClassName('confirmationRemoveConfirmed');
+		    var confirmIt = function (e) {
+		        if (!confirm('Chcesz na pewno usunać tą poradę? Razem z nią usuniesz komentarze podopiecznych oraz zdjęcie dodane wraz z poradą.')) e.preventDefault();
+		    };
+		    for (var i = 0, l = elems.length; i < l; i++) {
+		        elems[i].addEventListener('click', confirmIt, false);
+		    }
+	</script>
+</main>
+</body>
+</html>

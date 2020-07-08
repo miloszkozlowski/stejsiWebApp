@@ -1,0 +1,1 @@
+alter table tips add column image_present bit default false;

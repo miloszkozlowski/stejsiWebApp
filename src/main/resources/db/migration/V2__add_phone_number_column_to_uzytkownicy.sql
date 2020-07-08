@@ -1,0 +1,1 @@
+alter table uzytkownicy add column phone_number int(9);

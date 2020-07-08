@@ -1,0 +1,1 @@
+alter table tips add column heading varchar(100);

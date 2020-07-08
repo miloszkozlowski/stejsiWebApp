@@ -1,0 +1,1 @@
+alter table treningi alter column termin datetime null;

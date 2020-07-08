@@ -1,0 +1,1 @@
+alter table treningi add column kiedy_odwolany datetime null;

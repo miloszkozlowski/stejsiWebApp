@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_mischka.min.css">
+<style>
+	.Bd {
+		border:solid 1px white;
+	}
+	.Bdc\(red\) {
+		border-color: red !important;
+	}
+	.C\(red\) {
+		color: red;
+	}
+	.P\(0\) {
+		padding: 0;
+	}
+	.P\(10px\) {
+		padding: 10px;
+	}
+	.F\(11px\) {
+		font-size: 11px;
+	}
+	.M\(5px\) {
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+</style>
+<title>Podopieczni - Stejsi App - Twój trener personalny</title>
+</head>
+<body>
+<main>
+	<nav>
+		<ul>
+			<li><a href="/">Menu główne</a></li>
+			<li><a href="/podopieczni/dodaj">Dodaj podopiecznego</a></li>
+			<li><a href="/logout">Wyloguj się</a></li>
+		</ul>
+	</nav>
+	<h3>Podopieczni</h3>
+	<p th:if="${addedEmail != null}"><strong th:text="|Użytkownik ${addedEmail} został dodany.|"></strong></p>
+	<nav class="M(5px)">
+		<ul class="F(11px)">
+			<li>Sortuj:</li>
+			<li>
+				<a th:href="@{/podopieczni(sort = 'imie', reverse = 'false')}" th:unless="${sortParam == 'imie'}">imię</a>
+				<a th:href="@{/podopieczni(sort = 'imie', reverse = ${!rev})}" th:if="${sortParam == 'imie'}">imię</a>
+			</li>
+			<li>
+				<a th:href="@{/podopieczni(sort = 'nazwisko', reverse = 'false')}" th:unless="${sortParam == 'nazwisko'}">nazwisko</a>
+				<a th:href="@{/podopieczni(sort = 'nazwisko', reverse = ${!rev})}" th:if="${sortParam == 'nazwisko'}">nazwisko</a>
+			</li>
+			<li>
+				<a th:href="@{/podopieczni(sort = 'aktywny', reverse = 'false')}" th:unless="${sortParam == 'aktywny'}">aktywowany</a>
+				<a th:href="@{/podopieczni(sort = 'aktywny', reverse = ${!rev})}" th:if="${sortParam == 'aktywny'}">aktywowany</a>
+			</li>
+			<li>Filtr:</li>
+			<li>
+				<a th:href="@{/podopieczni(sort = ${sortParam}, reverse = ${rev}, onlyactive = 'false')}" th:if="${onlyActive}">pokaż także bez aktywacji</a>
+				<a th:href="@{/podopieczni(sort = ${sortParam}, reverse = ${rev}, onlyactive = 'true')}" th:unless="${onlyActive}">tylko aktywne konta</a>
+			</li>
+			
+		</ul>
+	</nav>
+	<nav class="M(5px)" th:if="${totalPages > 1}">
+		<ul class="F(11px)">
+			<li>Strony:</li>
+			<li th:each="pageNumber : ${pageNumbers}"><a th:href="@{/podopieczni(sort = ${sortParam}, reverse = ${rev}, onlyactive = ${onlyActive}, page = ${pageNumber-1})}" th:text="${pageNumber}" th:unless="${currentPage == pageNumber-1}"></a><span th:text="${pageNumber}" th:if="${currentPage == pageNumber-1}"></span></li>
+		</ul>
+	</nav>
+	
+	<fieldset>
+		<legend>Wybierz</legend>
+		<dl th:each="u : ${users}" class="Bd P(10px)">
+			<dt>
+				<a th:href="|/podopieczni/${u.id}|"><strong th:text="|${u.name} ${u.surname}|">Imię i nazwisko</strong></a> <i th:if="${!u.active}" th:text="|(nieaktywny)|"></i><span th:if="${u.isActive()}" th:text="|(${u.getRank().getDescription()})|"></span><br>
+			</dt>
+			<dd>
+				<div th:if="${not #lists.isEmpty(u.getActivePackages())} and ${u.isActive()}">Aktywne pakiety<br>
+					<table>
+						<tr th:each="p : ${u.getActivePackages()}">
+							<td><small><a th:href="@{/plan/{id}(id = ${p.getId()})}" th:text="${p.getPackageType().getTitle()}"></a></small></td><td><small th:text="${p.getReadableCreated()}"></small></td>
+						</tr>
+					</table>
+				</div>
+				<div th:if="${#lists.isEmpty(u.getActivePackages())} and ${u.isActive()}">
+				<i>Brak aktywnych pakietów - <a th:href="@{/podopieczni/{id}/newpackage(id=${u.id})}">otwórz nowy</a></i>
+				</div>
+			</dd>
+		</dl>
+	</fieldset>
+</main>
+</body>
+</html>

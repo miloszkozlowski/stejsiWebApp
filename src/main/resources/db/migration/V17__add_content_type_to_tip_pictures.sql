@@ -1,0 +1,1 @@
+alter table tip_pictures add column content_type varchar(20);

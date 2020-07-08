@@ -1,0 +1,1 @@
+alter table pakiety add column paid bit not null default false;

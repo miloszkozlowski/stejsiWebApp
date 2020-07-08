@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_white.min.css">
+<title>Stejsi App - Twój trener personalny</title>
+</head>
+<body>
+<main>
+	<h3>Co dzisiaj masz do zrobienia?</h3>
+	<p th:if="${msg != null}"><strong th:text="${msg}"></strong></p>
+	<p>Wybierz z poniższych, co teraz chcesz zrobić?<img alt="Logo" src="img/stejsi_48.png"></p>
+	<nav>
+		<ul>
+			<li sec:authorize="!isAuthenticated()"><a href="/login">Zaloguj się</a></li>
+			<li sec:authorize="isAuthenticated()"><a href="/tips">Dobre rady</a></li>
+			<li sec:authorize="isAuthenticated()"><a href="/plan">Plan treningów</a></li>
+			<li sec:authorize="isAuthenticated()"><a href="/podopieczni">Podopieczni</a></li>
+			<li sec:authorize="isAuthenticated()"><a href="/rodzaje">Oferta</a></li>
+			<li sec:authorize="isAuthenticated()"><a href="/ustawienia">Ustawienia</a></li>
+			<li sec:authorize="isAuthenticated()"><a href="/logout">Wyloguj się</a></li>
+		</ul>
+	</nav>
+</main>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_mischka.min.css">
+<style>
+	.Bd {
+		border:solid 1px white;
+	}
+	.Bdc\(red\) {
+		border-color: red !important;
+	}
+	.C\(red\) {
+		color: red;
+	}
+	.P\(0\) {
+		padding: 0;
+	}
+	.P\(10px\) {
+		padding: 10px;
+	}
+</style>
+<title>Dodaj nowego podopiecznego - Stejsi App - Twój trener personalny</title>
+</head>
+<body>
+<main>
+	<nav>
+		<ul>
+			<li><a href="/podopieczni"><< Wróć</a></li>
+			<li><a href="/">Menu główne</a></li>
+		</ul>
+	</nav>
+	<h3>Dodajmy nowego podopiecznego!</h3>
+	<p>Wypełnij formularz i kliknij "Dodaj":</p>
+	<fieldset>
+		<legend>Twój nowy podopieczny</legend>
+		<p><strong th:if="${msg != null}" th:text="${msg}"></strong></p>
+		<form method="post" action="#" th:action="@{/podopieczni/dodaj}" th:object="${user}">
+		<p class="C(red)" th:if="${#fields.hasAnyErrors()}" th:errors="*{all}">Błedy</p>
+			<label>Imię
+				<input type="text" th:errorclass="'Bdc(red)'" th:field="*{name}">
+			</label>
+			<label>Nazwisko
+				<input type="text" th:errorclass="'Bdc(red)'" th:field="*{surname}">
+			</label>
+			<label>Adres e-mail
+				<input type="email" th:errorclass="'Bdc(red)'" th:field="*{email}">
+			</label>
+			<label>Numer telefonu
+				<input type="tel" th:errorclass="'Bdc(red)'" pattern="[5-8][0-9]{8}" th:field="*{phoneNumber}" style="margin-bottom:0">
+				<small>np. 600120120</small>
+			</label>
+			<p>
+				<button type="submit">Dodaj nowego użytkownika</button>
+				<button type="reset">Wyczyść pola</button>
+			</p>
+		</form>
+	</fieldset>		
+</main>
+</body>
+</html>

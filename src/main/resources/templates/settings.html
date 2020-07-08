@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_mischka.min.css">
+<style>
+	.Bd {
+		border:solid 1px white;
+	}
+	.Bdc\(red\) {
+		border-color: red !important;
+	}
+	.C\(red\) {
+		color: red;
+	}
+	.P\(0\) {
+		padding: 0;
+	}
+	.P\(10px\) {
+		padding: 10px;
+	}
+	.P\(3px\) {
+		padding: 3px;
+	}
+	.F\(11px\) {
+		font-size: 11px;
+	}
+	.M\(5px\) {
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+	.Tl {
+		table-layout: fixed;
+		width: 98%;
+		align: center;
+	}
+	.Td {
+		width: 14%;
+		text-align: center;
+	}
+	.TRh\(150px\) {
+		height: 450px;
+	}
+	.TDc\(blue\) {
+		background-color: #af89c1;
+		width: 98%;
+	}
+	.Ii {
+		display: inline-flex;
+	}
+	.Mr {
+		margin-right: 3px !important;
+		margin-bottom: 0px !important;
+		font-size: 0.7em !important;
+	}
+</style>
+<title>Ustawienia - Stejsi App - Twój trener personalny</title>
+</head>
+<body>
+<main>
+	<nav>
+		<ul>
+			<li><a href="/">Menu główne</a></li>
+			<li><a href="/logout">Wyloguj się</a></li>
+		</ul>
+	</nav>
+	
+	<h3>Ustawienia</h3>
+	<p th:if="${msg} != null"><strong th:text="${msg}"></strong></p>
+	<nav>
+		<ul>
+			<li><a href="/ustawienia/lokalizacje" th:unless="${opcja} == 'lokalizacje'">Lokalizacje treningów</a><span th:if="${opcja} == 'lokalizacje'">Lokalizacje treningów</span></li>
+			
+		</ul>
+	</nav>
+	
+	<div th:if="${opcja} == 'lokalizacje'" th:object="${lokalizacje}">	
+	<fieldset style="margin-bottom:5px">
+		<legend>Dodaj nową lokalizację</legend>
+		<form method="post" th:object="${nowaLokalizacja}" th:action="@{/ustawienia/lokalizacje}">
+		<p class="C(red)" th:if="${#fields.hasAnyErrors()}" th:errors="*{all}">Błedy</p>
+			<label>Nazwa</label>
+			<input type="text" th:field="*{name}" th:errorclass="'Bdc(red)'">
+			<label>Adres</label>
+			<textarea th:field="*{postalAddress}"></textarea>
+			<span>Będzie używana jako domyślna: <input type="checkbox" th:field="*{defaultLocation}"></span><br>
+			<button type="submit" style="margin-top:10px">Dodaj</button>
+		</form>
+	</fieldset>
+	<table th:unless="${#lists.isEmpty(lokalizacje)}" class="Tl">
+		<tr>
+			<th><small>Nazwa</small></th>
+			<th><small>Adres</small></th>
+			<th><small>Domyślna</small></th>
+			<th></th>
+		<tr>
+		<tr th:each="lokalizacja : ${lokalizacje}">
+			<td th:text="${lokalizacja.getName()}"></td>
+			<td><small th:text="${lokalizacja.getPostalAddress()}"></small></td>
+			<td style="text-align:center"><form method="post" th:action="@{/ustawienia/lokalizacje/domyslna}"><input type="hidden" name="lid" th:value="${lokalizacja.getId()}" /><input type="checkbox" onChange="this.form.submit()" th:checked="${lokalizacja.getDefaultLocation()}" /></form></td>
+			<td><form method="post" th:action="@{/ustawienia/lokalizacje/usun}" onSubmit="return confirm('Czy na pewno usunąć lokalizację?');"><input type="hidden" name="lid_remove" th:value="${lokalizacja.getId()}" /><button type="submit">Usuń</button></form></td>
+		</tr>
+	</table>
+	
+	</div>
+	
+</main>
+</body>
+</html>

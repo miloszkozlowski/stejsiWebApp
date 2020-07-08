@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_white.min.css">
+<title>Aktywacja konta - Stejsi App - Twój trener personalny</title>
+</head>
+<body>
+	<header>
+		<table>
+			<tr>
+			<td style="border-collapse:collapse; border:0px"><img src="/img/stejsi_48.png" style="width:96px"></td>
+			<td style="border-collapse:collapse; border:0px">
+				<span th:if="${success == true}">Dzięki za aktywację! <br />Twoje konto jest teraz aktywne. Możesz korzystać z aplikacji StejsiApp na Twoim urządzeniu.</span>
+				<span th:unless="${success == true}"><b>Ooopps!</b><br />Dane do aktywacji są niepoprawne. Może to konto jest już aktywne? A może rejestracja została przeprowadzona więcej niż raz ten kod aktywacji nie jest już ważny?</span>
+			</td>
+			</tr>
+		</table>
+		
+	</header>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_mischka.min.css">
+<style>
+	.Bd {
+		border:solid 1px white;
+	}
+	.Bdc\(red\) {
+		border-color: red !important;
+	}
+	.C\(red\) {
+		color: red;
+	}
+	.P\(0\) {
+		padding: 0;
+	}
+	.P\(10px\) {
+		padding: 10px;
+	}
+	.D\(init\) {
+		display: initial;
+	}
+</style>
+<title>Oferta - Stejsi App - Twój trener personalny</title>
+</head>
+<body>
+<main>
+	<nav>
+		<ul>
+			<li th:if="${newType != null}"><a href="/rodzaje"><< Wróć</a></li>
+			<li><a href="/">Menu główne</a></li>
+		</ul>
+	</nav>
+	<h3>To Twoja oferta!</h3>
+	<p>Dodawaj nowe pakiety, aby ją uatrakcyjnić</p>
+	<form method="post" action="#" th:action="@{/rodzaje}" th:if="${newType == null}" style="margin-left:0; margin-bottom:10px">
+			<button type=submit name="addnew">Dodaj nową ofertę</button>
+	</form>
+	<p><strong th:if="${msg != null}" th:text="${msg}"></strong></p>
+	<fieldset th:if="${newType != null}">
+		<legend>Nowy pakiet treningów</legend>
+		
+
+		<form method="post" action="#" th:action="@{/rodzaje/dodaj}" th:object="${newType}">
+		<p class="C(red)" th:if="${#fields.hasAnyErrors()}" th:errors="*{all}">Błedy</p>
+			<label>Nazwa
+				<input type="text" maxlength="30" th:errorclass="'Bdc(red)'" th:field="*{title}" />
+			</label>
+			<label>Krótki i ciekawy opis
+				<textarea th:field="*{description}"></textarea>
+			</label>
+			<fieldset>
+				<legend>Treningi</legend>
+					<label>
+						Ilość: <input type="number" placeholder="0" th:errorclass="'Bdc(red)'" th:field="*{amount}" />
+					</label>
+					<label>
+						Długość w minutach: <input type="number" placeholder="0" th:errorclass="'Bdc(red)'" th:field="*{length}"/>
+					</label>
+			</fieldset>
+			<label>
+				Cena w PLN<input type="number" step="any" placeholder="0.00" th:errorclass="'Bdc(red)'" th:field="*{pricePLN}" /> 
+			</label>
+			<label>
+				Ważność pakietu w dniach<input type="number" step="any" placeholder="Wpisz 0 dla bezterminowej ważności" th:errorclass="'Bdc(red)'" th:field="*{validity}" /> 
+			</label>
+			<p>
+				<button type="submit">Dodaj nową ofertę</button>
+				<button type="reset">Wyczyść pola</button>
+			</p>
+		</form>
+	</fieldset>	
+	<fieldset th:if="${not #lists.isEmpty(types)}">
+		<legend>Twoja oferta</legend>
+		<fieldset th:each="type : ${types}">
+			<legend th:text="${type.title}"></legend>
+			<span style="margin-bottom:5px" th:if="${type.description != ''}"><i th:text="${type.description}"></i></span>
+			<br th:if="${type.description != ''}">Treningów: <b th:text="${type.amountOfTrainings}"></b> (długość: <b th:text="${type.LengthMinutes}"></b>min.) ważny <b th:text="${type.daysValid > 0} ? ${type.daysValid}:'bezterminowo'"></b> <span th:if="${type.daysValid > 0}">dni</span>
+			<br>Cena: <b>PLN</b> <b th:text="${type.pricePLN}">0</b><br />
+			<a th:href="@{/rodzaje/usun/{pid}(pid = ${type.id})}" class="confirmationRemoveConfirmed"><img src="/img/delete.png" class="D(init)"></a>
+		</fieldset>
+	</fieldset>	
+	<script type="text/javascript">
+		    var elems = document.getElementsByClassName('confirmationRemoveConfirmed');
+		    var confirmIt = function (e) {
+		        if (!confirm('Usunąć tą ofertę? Nie będzie można jej już wybrać otwierając nowy pakiet.')) e.preventDefault();
+		    };
+		    for (var i = 0, l = elems.length; i < l; i++) {
+		        elems[i].addEventListener('click', confirmIt, false);
+		    }
+	</script>
+</main>
+</body>
+</html>

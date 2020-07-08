@@ -12,9 +12,18 @@ public interface PodopiecznyRepo {
 	
 	Page<Podopieczny> findAll(Pageable page);
 	
+	Page<Podopieczny> findByAktywnyIsTrue(Pageable page);
+	
+	
 	Optional<Podopieczny> findById(Long id);
+	
+	Optional<Podopieczny> findByEmail(String email);
 	
 	Podopieczny save(Podopieczny user);
 	
 	boolean existsById(Long id);
+	
+	boolean existsByEmail(String email);
+	
+	boolean existsByPhoneNumber(int phoneNumber);
 }

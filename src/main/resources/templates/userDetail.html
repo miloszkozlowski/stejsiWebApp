@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:object="${loadedUser}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_mischka.min.css">
+<style>
+	.Bd {
+		border:solid 1px white;
+	}
+	.Bdc\(red\) {
+		border-color: red !important;
+	}
+	.C\(red\) {
+		color: red;
+	}
+	.P\(0\) {
+		padding: 0;
+	}
+	.Mt\(0\) {
+		margin-top: 0;
+	}
+	.F\(8\) {
+		font-size: 9px;
+		text-align: center;
+		padding: 4px;
+	}
+</style>
+<title th:text="|*{name} *{surname} - Stejsi App - Twój trener personalny|"></title>
+</head>
+<body>
+<main>
+	<nav>
+		<ul>
+			<li><a href="/podopieczni"><< Wróć</a></li>
+			<li><a href="/">Menu główne</a></li>
+		</ul>
+	</nav>
+	<h5 th:if="${msg != null}" th:text="${msg}"></h5>
+	<h3 th:text="|*{name} *{surname} (*{getRank().getDescription()})|"></h3>
+	<fieldset th:if="${newpackage != null and loadedUser.isActive()}">
+		<legend>
+			Otwieranie nowego pakietu
+		</legend>
+		<form method="post" action="#" th:action="@{/podopieczni/{id}/newpackage(id=${loadedUser.id})}" th:object="${newpackage}">
+		<select th:field="*{rodzajPakietuId}" style="width:100%">
+		<option value="-1">Wybierz rodzaj pakietu</option>
+		<option value="0"></option>
+		<option th:each="rodzaj: ${rodzaje}" th:value="${rodzaj.id}" th:text="|${rodzaj.title} (${rodzaj.amountOfTrainings} x ${rodzaj.lengthMinutes}min.) PLN ${rodzaj.pricePLN}|"></option>
+		</select>
+		<Button type="submit">Otwórz nowy</Button>
+		</form>
+	</fieldset>
+	<fieldset>
+		<legend>
+			Pakiety treningów
+		</legend>
+		<p class="Mt(0)" th:if="*{!isActive()}">Podopieczny nie ma jeszcze aktywnego konta. Aby aktywować konto konieczna jest instalacja aplikacji na telefonie, rejestracja i kliknięcie w link wiadomości e-mail, którą użytkownik otrzyma.<span th:text="*{email}"></span> <a href="#">klikając tutaj</a>.</p>		
+		<p><a th:href="@{/podopieczni/{id}/newpackage(id=*{id})}" th:unless="*{#lists.size(getActivePackages()) > 10} or *{!isActive()} or ${newpackage != null}">Nowy pakiet</a></p>
+		<p style="text-align:center;color:graytext;font-style:italic" th:if="*{#lists.isEmpty(getTrainingPackages())}">Nie ma jeszcze żadnego pakietu treningów</p>
+		<div th:if="${not #lists.isEmpty(activePackages)}"><b>Aktywne:</b><br />
+			<table style="margin-bottom:10px">
+				<tr>
+					<th class="F(8)">Pakiet</th>
+					<th class="F(8)">Zaplanowane</th>
+					<th class="F(8)">Odbyte</th>
+					<th class="F(8)">Do zaplanowania</th>
+					<th class="F(8)">Ważny</th>
+					<th class="F(8)">Opłacony</th>
+					<th class="F(8)"></th>
+				</tr>
+				<tr th:each="pakiet: ${activePackages}">
+					<td th:text="${pakiet.getPackageType().getTitle()}"></td>
+					<td th:text="${pakiet.getAmountTrainingsPlanned()}"></td>
+					<td th:text="${pakiet.getAmountTrainingsDone()}"></td>
+					<td th:with="result=${pakiet.getPackageType().getAmountOfTrainings() - pakiet.getAmountTrainingsPlanned()}"><span th:text="${result}"></span> <span th:if="${pakiet.getPackageType().getAmountOfTrainings() > pakiet.getAmountTrainingsDone()} and (${pakiet.getValidityDays() > 0} or ${pakiet.getPackageType().getDaysValid() == 0})">(<a th:href="@{/plan/{pid}(pid = ${pakiet.getId()})}">planuj</a>)</span></td>
+					<td>
+						<span th:if="${pakiet.isValid()} and ${!pakiet.isValidIndefinetely()}" th:text="|${pakiet.getValidityDays()} dni|"></span>
+						<span th:if="${pakiet.isValidIndefinetely()}" th:text="bezterminowo"></span>
+						<span th:unless="${pakiet.isValid()}" th:text="'nie'"></span>
+					</td>
+					<td>
+						<form method="post" th:action="@{/podopieczni/{id}(id=${loadedUser.id})}" onChange="return confirm('Czy na pewno? Użytkownik otrzyma powiedomienie na swoją aplikację!');">
+							<input type=hidden name="pid" th:value="${pakiet.id}">
+							<input type="checkbox" th:checked="${pakiet.isPaid()}" name="paidstatus" onChange="this.form.submit()">
+						</form>
+					</td>
+					<td>
+						<a th:href="@{/plan/{pid}(pid = ${pakiet.getId()})}">zobacz plan</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div th:if="${not #lists.isEmpty(archivePackages)}">
+			<b>Archiwalne:</b><br />
+			<table>
+				<tr>
+					<th class="F(8)">Pakiet</th>
+					<th class="F(8)">Zaplanowane</th>
+					<th class="F(8)">Odbyte</th>
+					<th class="F(8)">Potwierdzone</th>
+					<th class="F(8)">Ukończony</th>
+					<th class="F(8)">Opłacony</th>
+				</tr>
+				<tr th:each="pakiet: ${archivePackages}">
+					<td th:text="${pakiet.getPackageType().getTitle()}"></td>
+					<td th:text="${pakiet.getAmountTrainingsPlanned()}"></td>
+					<td th:text="${pakiet.getAmountTrainingsDone()}"></td>
+					<td th:text="${pakiet.getAmountOfPresenceConfirmations()}"></td>
+					<td th:text="${pakiet.whenDoneReadable()}"></td>
+					<td>
+						<form method="post" th:action="@{/podopieczni/{id}(id=${loadedUser.id})}" onChange="return confirm('Czy na pewno? Użytkownik otrzyma powiedomienie na swoją aplikację!');">
+							<input type=hidden name="pid" th:value="${pakiet.id}">
+							<input type="checkbox" th:checked="${pakiet.isPaid()}" name="paidstatus" onChange="this.form.submit()">
+						</form>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+</main>
+</body>
+</html>
