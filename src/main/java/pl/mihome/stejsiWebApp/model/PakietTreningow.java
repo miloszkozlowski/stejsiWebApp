@@ -3,6 +3,7 @@ package pl.mihome.stejsiWebApp.model;
 import java.util.Set;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -31,6 +32,9 @@ public class PakietTreningow extends AuditBase {
 	
 	@NotNull
 	private boolean paid;
+	
+	@NotNull 
+	private boolean closed;
 
 	@ManyToOne
 	@JoinColumn(name = "owner", referencedColumnName = "id")
@@ -44,7 +48,7 @@ public class PakietTreningow extends AuditBase {
 	private RodzajPakietu packageType;
 	
 	
-	@OneToMany(mappedBy = "trainingPackage")
+	@OneToMany(mappedBy = "trainingPackage", fetch = FetchType.EAGER)
 	@BatchSize(size = 12)
 	//@JsonManagedReference
 	private Set<Trening> trainings;
@@ -96,9 +100,15 @@ public class PakietTreningow extends AuditBase {
 
 	public void setPaid(boolean paid) {
 		this.paid = paid;
+	}
+
+	public boolean isClosed() {
+		return closed;
+	}
+
+	public void setClosed(boolean closed) {
+		this.closed = closed;
 	}	
-	
-	
 
 	
 }

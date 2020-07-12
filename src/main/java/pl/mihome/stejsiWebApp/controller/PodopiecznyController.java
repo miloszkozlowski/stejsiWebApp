@@ -146,6 +146,28 @@ public class PodopiecznyController {
 		return "userDetail";
 	}
 	
+	@PostMapping(value = "/{id}", params = "pid_toClose")
+	String closePackage(@RequestParam(name = "pid_toClose") Long pid, @PathVariable Long id, Model model) {
+		pakietService.closePackage(pid);
+		var user = service.getUserById(id);
+		model.addAttribute("activePackages", user.getActivePackages());
+		model.addAttribute("archivePackages", user.getInactivePackages());
+		model.addAttribute("loadedUser", user);
+		
+		return "userDetail";
+	}
+	
+	@PostMapping(value = "/{id}", params = "pid_toMarkDone")
+	String markAllDonePackage(@RequestParam(name = "pid_toMarkDone") Long pid, @PathVariable Long id, Model model) {
+		pakietService.markAllPastDone(pid);
+		var user = service.getUserById(id);
+		model.addAttribute("activePackages", user.getActivePackages());
+		model.addAttribute("archivePackages", user.getInactivePackages());
+		model.addAttribute("loadedUser", user);
+		
+		return "userDetail";
+	}
+	
 	@GetMapping("/{id}/newpackage")
 	String newUsersPackage(@PathVariable Long id, Model model) {
 		var user = service.getUserById(id);

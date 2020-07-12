@@ -3,7 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_mischka.min.css">
+<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_white.min.css">
+<link rel="icon" sizes="192x192" href="/icon.png">
+<link rel="apple-touch-icon" href="/ios-icon.png">
+<meta name="msapplication-square310x310logo" content="/icon_largetile.png">
 <style>
 	.Bd {
 		border:solid 1px white;
@@ -71,38 +74,60 @@
 	<nav>
 		<ul>
 			<li><a href="/ustawienia/lokalizacje" th:unless="${opcja} == 'lokalizacje'">Lokalizacje treningów</a><span th:if="${opcja} == 'lokalizacje'">Lokalizacje treningów</span></li>
+			<li><a href="/ustawienia/danetrenera" th:unless="${opcja} == 'danetrenera'">Dane trenera</a><span th:if="${opcja} == 'danetrenera'">Dane trenera</span></li>
 			
 		</ul>
 	</nav>
 	
-	<div th:if="${opcja} == 'lokalizacje'" th:object="${lokalizacje}">	
-	<fieldset style="margin-bottom:5px">
-		<legend>Dodaj nową lokalizację</legend>
-		<form method="post" th:object="${nowaLokalizacja}" th:action="@{/ustawienia/lokalizacje}">
-		<p class="C(red)" th:if="${#fields.hasAnyErrors()}" th:errors="*{all}">Błedy</p>
-			<label>Nazwa</label>
-			<input type="text" th:field="*{name}" th:errorclass="'Bdc(red)'">
-			<label>Adres</label>
-			<textarea th:field="*{postalAddress}"></textarea>
-			<span>Będzie używana jako domyślna: <input type="checkbox" th:field="*{defaultLocation}"></span><br>
-			<button type="submit" style="margin-top:10px">Dodaj</button>
-		</form>
-	</fieldset>
-	<table th:unless="${#lists.isEmpty(lokalizacje)}" class="Tl">
-		<tr>
-			<th><small>Nazwa</small></th>
-			<th><small>Adres</small></th>
-			<th><small>Domyślna</small></th>
-			<th></th>
-		<tr>
-		<tr th:each="lokalizacja : ${lokalizacje}">
-			<td th:text="${lokalizacja.getName()}"></td>
-			<td><small th:text="${lokalizacja.getPostalAddress()}"></small></td>
-			<td style="text-align:center"><form method="post" th:action="@{/ustawienia/lokalizacje/domyslna}"><input type="hidden" name="lid" th:value="${lokalizacja.getId()}" /><input type="checkbox" onChange="this.form.submit()" th:checked="${lokalizacja.getDefaultLocation()}" /></form></td>
-			<td><form method="post" th:action="@{/ustawienia/lokalizacje/usun}" onSubmit="return confirm('Czy na pewno usunąć lokalizację?');"><input type="hidden" name="lid_remove" th:value="${lokalizacja.getId()}" /><button type="submit">Usuń</button></form></td>
-		</tr>
-	</table>
+	<div th:if="${opcja} == 'danetrenera'" th:object="${currentsettings}">
+		<!-- Dane trenera - ustawienia -->
+		<fieldset style="margin-bottom:5px">
+			<legend>Dane trenera</legend>
+			<form method="post" th:object="${currentSettings}" th:action="@{/ustawienia/danetrenera/{edit}(edit = ${edit})}">
+			<p class="C(red)" th:if="${#fields.hasAnyErrors()}" th:errors="*{all}">Błedy</p>
+				<label>Adres e-mail</label>
+				<span th:unless="${edit} == 'email'">
+					<b th:text="*{email}"></b><i th:if="*{email == null}" th:text="'Nie podano'"></i> <small><a th:href="@{/ustawienia/danetrenera/email}">zmień</a></small>
+					<input th:unless="${edit} == 'email'" type="hidden" th:field="*{email}" />
+				</span>
+				<input th:if="${edit} == 'email'" type="text" th:field="*{email}" th:errorclass="'Bdc(red)'" />
+				
+				<button th:unless="${edit == null}" type="submit" style="margin-top:10px">Aktualizuj</button>
+			</form>
 	
+		</fieldset>
+	</div>
+	
+	<div th:if="${opcja} == 'lokalizacje'" th:object="${lokalizacje}">
+		<!-- Lokalizacje treninigów - ustawienia -->
+		<fieldset style="margin-bottom:5px">
+			<legend>Dodaj nową lokalizację</legend>
+			<form method="post" th:object="${nowaLokalizacja}" th:action="@{/ustawienia/lokalizacje}">
+			<p class="C(red)" th:if="${#fields.hasAnyErrors()}" th:errors="*{all}">Błedy</p>
+				<label>Nazwa</label>
+				<input type="text" th:field="*{name}" th:errorclass="'Bdc(red)'">
+				<label>Adres</label>
+				<textarea th:field="*{postalAddress}"></textarea>
+				<span>Będzie używana jako domyślna: <input type="checkbox" th:field="*{defaultLocation}"></span><br>
+				<button type="submit" style="margin-top:10px">Dodaj</button>
+			</form>
+		</fieldset>
+		<fieldset>
+			<table th:unless="${#lists.isEmpty(lokalizacje)}" class="Tl">
+				<tr>
+					<th><small>Nazwa</small></th>
+					<th><small>Adres</small></th>
+					<th><small>Domyślna</small></th>
+					<th></th>
+				<tr>
+				<tr th:each="lokalizacja : ${lokalizacje}">
+					<td th:text="${lokalizacja.getName()}"></td>
+					<td><small th:text="${lokalizacja.getPostalAddress()}"></small></td>
+					<td style="text-align:center"><form method="post" th:action="@{/ustawienia/lokalizacje/domyslna}"><input type="hidden" name="lid" th:value="${lokalizacja.getId()}" /><input type="checkbox" onChange="this.form.submit()" th:checked="${lokalizacja.getDefaultLocation()}" /></form></td>
+					<td><form method="post" th:action="@{/ustawienia/lokalizacje/usun}" onSubmit="return confirm('Czy na pewno usunąć lokalizację?');"><input type="hidden" name="lid_remove" th:value="${lokalizacja.getId()}" /><button type="submit">Usuń</button></form></td>
+				</tr>
+			</table>
+		</fieldset>
 	</div>
 	
 </main>

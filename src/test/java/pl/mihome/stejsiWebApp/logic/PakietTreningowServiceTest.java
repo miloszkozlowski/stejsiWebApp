@@ -51,7 +51,7 @@ class PakietTreningowServiceTest {
 		var trainingService = Mockito.mock(TreningService.class);
 		
 		//under test
-		var packageTest = new PakietTreningowService(inMemRepo, userRepo, typeService, trainingService);
+		var packageTest = new PakietTreningowService(inMemRepo, userRepo, null, trainingService, typeService, null);
 		
 		//when
 		packageTest.createNew(packageDto);

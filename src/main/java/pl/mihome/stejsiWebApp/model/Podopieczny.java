@@ -37,13 +37,15 @@ public class Podopieczny extends AuditBase {
 	
 	private int phoneNumber;
 	
-	private boolean aktywny;	
+	private boolean aktywny;
 	
-	@OneToMany(mappedBy = "owner")
+	private boolean settingTipNotifications;
+	
+	@OneToMany(mappedBy = "owner", fetch = FetchType.EAGER)
 	//@JsonManagedReference
 	private Set<PakietTreningow> trainingPackages;
 	
-	@OneToMany(mappedBy = "author", fetch = FetchType.LAZY)
+	@OneToMany(mappedBy = "author", fetch = FetchType.EAGER)
 	private Set<TipComment> comments;
 	
 	@ManyToMany
@@ -119,9 +121,17 @@ public class Podopieczny extends AuditBase {
 		return tokens;
 	}
 
-
 	public void setTokens(Set<Token> tokens) {
 		this.tokens = tokens;
+	}
+
+	public boolean isSettingTipNotifications() {
+		return settingTipNotifications;
+	}
+
+
+	public void setSettingTipNotifications(boolean settingTipNotifications) {
+		this.settingTipNotifications = settingTipNotifications;
 	}
 
 

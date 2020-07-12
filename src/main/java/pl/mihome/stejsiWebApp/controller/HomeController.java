@@ -5,10 +5,19 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import pl.mihome.stejsiWebApp.logic.AndroidNotificationsService;
+
 @Controller
 @RequestMapping("/")
-//@Secured("ROLE_STEJSI")
 public class HomeController {
+	
+	AndroidNotificationsService notificationService;
+	
+	
+
+	public HomeController(AndroidNotificationsService notificationService) {
+		this.notificationService = notificationService;
+	}
 
 	String homePage() {
 		return "index";
@@ -19,4 +28,5 @@ public class HomeController {
 	String logowanie() {
 		return "index";
 	}
+	
 }

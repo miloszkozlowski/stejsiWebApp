@@ -1,0 +1,1 @@
+alter table uzytkownicy add column setting_tip_notifications bit not null default true;

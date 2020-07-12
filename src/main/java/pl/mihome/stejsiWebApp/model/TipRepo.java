@@ -7,6 +7,8 @@ public interface TipRepo {
 	
 	List<Tip> findByRemovedIsFalse();
 	
+	List<Tip> findByRemovedIsFalseAndUsersNotifiedIsNull();
+	
 	void save(Tip source);
 	
 	Optional<Tip> findById(Long id);

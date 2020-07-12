@@ -28,7 +28,6 @@ import pl.mihome.stejsiWebApp.exeptions.CallendarTimeConflictException;
 import pl.mihome.stejsiWebApp.logic.LokalizacjaService;
 import pl.mihome.stejsiWebApp.logic.PakietTreningowService;
 import pl.mihome.stejsiWebApp.logic.TreningService;
-import pl.mihome.stejsiWebApp.model.Trening;
 
 @Controller
 @Secured("ROLE_STEJSI")

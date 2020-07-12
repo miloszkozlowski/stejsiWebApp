@@ -28,17 +28,14 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fasterxml.jackson.core.JsonParser;
 import com.google.gson.Gson;
 
-import net.minidev.json.JSONArray;
 import net.minidev.json.JSONObject;
-import net.minidev.json.parser.JSONParser;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import pl.mihome.stejsiWebApp.DTO.PodopiecznyReadModel;
+import pl.mihome.stejsiWebApp.DTO.PodopiecznyStatsReadModel;
 import pl.mihome.stejsiWebApp.DTO.appComms.EmailRegistrationDTO;
 import pl.mihome.stejsiWebApp.DTO.appComms.RegistrationStatus;
 import pl.mihome.stejsiWebApp.DTO.appComms.TipCommentReadModel;
@@ -48,6 +45,7 @@ import pl.mihome.stejsiWebApp.config.AndroidAuthorization;
 import pl.mihome.stejsiWebApp.exeptions.NotFoundCustomException;
 import pl.mihome.stejsiWebApp.logic.AppClientService;
 import pl.mihome.stejsiWebApp.logic.PodopiecznyService;
+import pl.mihome.stejsiWebApp.logic.TipPictureService;
 import pl.mihome.stejsiWebApp.logic.TipService;
 import pl.mihome.stejsiWebApp.logic.TreningService;
 import pl.mihome.stejsiWebApp.model.appClient.RegistrationAttemp;
@@ -60,15 +58,25 @@ public class UserInputRESTController {
 	private PodopiecznyService podopiecznyService;
 	private AppClientService appClientService;
 	private TipService tipService;
+	private TipPictureService pictureService;
 	
 	private static final Logger log = LoggerFactory.getLogger(UserInputRESTController.class);
 
 	
-	public UserInputRESTController(TreningService treningService, PodopiecznyService podopiecznyService, AppClientService appClientService, TipService tipService) {
+	public UserInputRESTController(TreningService treningService, PodopiecznyService podopiecznyService, AppClientService appClientService, TipService tipService, TipPictureService pictureService) {
 		this.treningService = treningService;
 		this.podopiecznyService = podopiecznyService;
 		this.appClientService = appClientService;
 		this.tipService = tipService;
+		this.pictureService = pictureService;
+	}
+	
+	@PatchMapping("/setting/{setting}/{status}")
+	@AndroidAuthorization
+	public ResponseEntity<?> changeUserSetting(@PathVariable String setting, @PathVariable boolean status, @RequestHeader String token) {
+		log.info("Zgłoszenie zmiany ustawienia: " + setting);
+		podopiecznyService.toggleSetting(setting, status, token);
+		return ResponseEntity.noContent().build();
 	}
 
 	
@@ -141,12 +149,13 @@ public class UserInputRESTController {
 		log.info("Zapytano o dane poprzez token");
 		var user = appClientService.getUser(token);
 		var tips = appClientService.getTips(token);
-		var rank = new PodopiecznyReadModel(user).getRank().getDescription();
+		var stats = new PodopiecznyStatsReadModel(user);
+
 		JSONObject jsonObject = new JSONObject();
 		jsonObject.put("user", user);
 		jsonObject.put("tips", tips);
-		jsonObject.put("rank", rank);
-		log.info("Poprawnie wydano dane dla tokenu");
+		jsonObject.put("stats", stats);
+		log.info("Poprawnie wydano dane dla tokenu dla " + user.getEmail());
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm");
 		return ResponseEntity.ok().header("current_time", sdf.format(new Date())).body(jsonObject);
 	}
@@ -161,7 +170,7 @@ public class UserInputRESTController {
 	@GetMapping("/tipimage/{tid}")
 	@AndroidAuthorization
 	public ResponseEntity<byte[]> getTipPicture(@PathVariable Long tid) {
-		var media = tipService.getTipPictureFromTipId(tid);
+		var media = pictureService.getTipPictureFromTipId(tid);
 		final HttpHeaders headers = new HttpHeaders();
 		headers.setContentType(MediaType.parseMediaType(media.getImageType()));
 		return new ResponseEntity<byte[]>(media.getSource(), headers, HttpStatus.CREATED);
@@ -170,7 +179,7 @@ public class UserInputRESTController {
 	@GetMapping("/tipthumbimage/{tid}")
 	@AndroidAuthorization
 	public ResponseEntity<byte[]> getTipPictureThumb(@PathVariable Long tid) {
-		var media = tipService.getTipPictureFromTipId(tid);
+		var media = pictureService.getTipPictureFromTipId(tid);
 		final HttpHeaders headers = new HttpHeaders();
 		headers.setContentType(MediaType.parseMediaType(media.getImageType()));
 		return new ResponseEntity<byte[]>(media.getThumb(), headers, HttpStatus.CREATED);

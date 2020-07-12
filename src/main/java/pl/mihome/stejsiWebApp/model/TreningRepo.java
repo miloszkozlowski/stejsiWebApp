@@ -11,4 +11,10 @@ public interface TreningRepo {
 	Optional<Trening> findById(Long id);
 	
 	List<Trening> findByScheduledForGreaterThanEqualAndScheduledForLessThan(LocalDateTime from, LocalDateTime to);
+	
+	List<Trening> findByUserNotifiedIsNullAndScheduledForIsNotNullAndScheduleConfirmedIsNullAndScheduledForIsGreaterThan(LocalDateTime now);
+	
+	List<Trening> findByScheduledForIsNotNullAndPresenceConfirmedByUserIsNullAndScheduledForIsLessThan(LocalDateTime trainingEnd);
+	
+	List<Trening> findByScheduledForIsNotNullAndPresenceConfirmedByUserIsNullAndUserNotifiedIsNotNullAndUserNotifiedIsLessThan(LocalDateTime twoDaysBeforeNow);
 }

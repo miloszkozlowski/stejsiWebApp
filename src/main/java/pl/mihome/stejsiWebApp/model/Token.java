@@ -11,6 +11,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.Size;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 @Entity
 @Table(name = "tokens")
 public class Token extends AuditBase {
@@ -21,6 +23,7 @@ public class Token extends AuditBase {
 	
 	@ManyToOne
 	@JoinColumn(name = "owner", referencedColumnName = "id")
+	@JsonBackReference
 	private Podopieczny owner;
 	
 	@Column(unique = true, name = "token_body", nullable = false, length = 32)
@@ -44,11 +47,12 @@ public class Token extends AuditBase {
 	}
 
 	public Token(Podopieczny owner, @Size(max = 32, min = 32) String tokenString, String assignedDeviceId,
-			@Size(max = 16, min = 16) String activationCode) {
+			String FCMToken, @Size(max = 16, min = 16) String activationCode) {
 		this.owner = owner;
 		this.tokenString = tokenString;
 		this.assignedDeviceId = assignedDeviceId;
 		this.activationCode = activationCode;
+		this.tokenFCM = FCMToken;
 	}
 
 	public boolean isActive() {

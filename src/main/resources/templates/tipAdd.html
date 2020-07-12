@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_white.min.css">
+<link rel="icon" sizes="192x192" href="/icon.png">
+<link rel="apple-touch-icon" href="/ios-icon.png">
+<meta name="msapplication-square310x310logo" content="/icon_largetile.png">
 <style>
 	.Bd {
 		border:solid 1px white;
@@ -29,6 +32,9 @@
 		font-size: 10px;
 		color: grey;
 	}
+	td {
+		border: none !important
+	}
 	
 </style>
 <title>Dobre rady - Stejsi App - Twój trener personalny</title>
@@ -39,13 +45,23 @@
 		<ul>
 			<li th:if="${newTip != null}"><a href="/tips"><< Wróć</a></li>
 			<li><a href="/">Menu główne</a></li>
+			<li><a href="/logout">Wyloguj się</a></li>
 		</ul>
 	</nav>
 	<h3>Ty tu dajesz rady</h3>
 	<p>Dodawaj dobre rady wraz ze zdjęciami, przeglądaj komentarze podopiecznych.</p>
-	<form method="post" action="#" th:action="@{/tips}" th:if="${newTip == null}" style="margin-left:0; margin-bottom:10px">
-			<button type=submit name="addnew">Dodaj nową poradę</button>
-	</form>
+	<table><tr>
+		<td style="width:180px">
+			<form method="post" action="#" th:action="@{/tips}" th:if="${newTip == null}" style="margin-left:0; margin-bottom:10px; max-width:100%">
+					<button type=submit name="addnew">Dodaj nową poradę</button>
+			</form>
+		</td>
+		<td style="width:220px">
+			<form method="get" action="#" th:action="@{/tips/notify}" th:if="${notificationPossible == true} and ${justNotified != true}" style="margin-left:0; margin-bottom:10px">
+					<button type=submit class="confirmationNotify">Powiadom o nowych</button>
+			</form>
+		</td>
+	</tr></table>
 	<p><strong th:if="${msg != null}" th:text="${msg}"></strong></p>
 	<fieldset th:if="${newTip != null}">
 		<legend>Nowa mądrość</legend>
@@ -113,6 +129,15 @@
 		    var elems = document.getElementsByClassName('confirmationRemoveConfirmed');
 		    var confirmIt = function (e) {
 		        if (!confirm('Chcesz na pewno usunać tą poradę? Razem z nią usuniesz komentarze podopiecznych oraz zdjęcie dodane wraz z poradą.')) e.preventDefault();
+		    };
+		    for (var i = 0, l = elems.length; i < l; i++) {
+		        elems[i].addEventListener('click', confirmIt, false);
+		    }
+	</script>
+	<script type="text/javascript">
+		    var elems = document.getElementsByClassName('confirmationNotify');
+		    var confirmIt = function (e) {
+		        if (!confirm('Wysyłasz właśnie powiadomienie na telefony wszystkich, którzy nie prezczytali jeszcze nowych porad. Dla każdej porady można to zrobić tylko raz. Na pewno?')) e.preventDefault();
 		    };
 		    for (var i = 0, l = elems.length; i < l; i++) {
 		        elems[i].addEventListener('click', confirmIt, false);

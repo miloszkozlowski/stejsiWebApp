@@ -2,14 +2,26 @@ package pl.mihome.stejsiWebApp.DTO.appComms;
 
 import java.time.LocalDateTime;
 
+import javax.persistence.Id;
+
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
+
 import pl.mihome.stejsiWebApp.model.TipComment;
 
+@JsonIdentityInfo(
+		generator = ObjectIdGenerators.PropertyGenerator.class,
+		property = "id")
 public class TipCommentReadModel {
 	
+	@Id
 	private Long id;
 	private String body;
 	private String authorName;
 	private Long authorId;
+	@JsonSerialize(using = LocalDateTimeSerializer.class)
 	private LocalDateTime whenCreated;
 	
 	public TipCommentReadModel() {	

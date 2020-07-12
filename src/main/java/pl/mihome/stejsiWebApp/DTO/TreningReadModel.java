@@ -3,8 +3,11 @@ package pl.mihome.stejsiWebApp.DTO;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
+
 import pl.mihome.stejsiWebApp.model.Lokalizacja;
-import pl.mihome.stejsiWebApp.model.PakietTreningow;
 import pl.mihome.stejsiWebApp.model.TrainingStatus;
 import pl.mihome.stejsiWebApp.model.Trening;
 
@@ -12,19 +15,35 @@ public class TreningReadModel {
 	
 	private long id;
 	
+	@JsonSerialize(using = LocalDateTimeSerializer.class)
 	private LocalDateTime scheduledFor;
 
+	@JsonSerialize(using = LocalDateTimeSerializer.class)
 	private LocalDateTime markedAsDone;
 	
+	@JsonSerialize(using = LocalDateTimeSerializer.class)
 	private LocalDateTime scheduleConfirmed;
 	
+	@JsonSerialize(using = LocalDateTimeSerializer.class)
 	private LocalDateTime whenCanceled;
 	
+	@JsonSerialize(using = LocalDateTimeSerializer.class)
 	private LocalDateTime presenceConfirmedByUser;
 	
-	private PakietTreningow trainingPackage;
+	private PakietReadModel trainingPackage;
 	
 	private Lokalizacja location;
+	
+	public TreningReadModel(Trening training, PakietReadModel pakiet) {
+		this.id = training.getId();
+		this.scheduledFor = training.getScheduledFor();
+		this.markedAsDone = training.getMarkedAsDone();
+		this.scheduleConfirmed = training.getScheduleConfirmed();
+		this.presenceConfirmedByUser = training.getPresenceConfirmedByUser();
+		this.trainingPackage = pakiet;
+		this.whenCanceled = training.getWhenCanceled();
+		this.location = training.getLocation();
+	}
 	
 	public TreningReadModel(Trening training) {
 		this.id = training.getId();
@@ -32,7 +51,7 @@ public class TreningReadModel {
 		this.markedAsDone = training.getMarkedAsDone();
 		this.scheduleConfirmed = training.getScheduleConfirmed();
 		this.presenceConfirmedByUser = training.getPresenceConfirmedByUser();
-		this.trainingPackage = training.getTrainingPackage();
+		this.trainingPackage = new PakietReadModel(training.getTrainingPackage());
 		this.whenCanceled = training.getWhenCanceled();
 		this.location = training.getLocation();
 	}
@@ -82,13 +101,11 @@ public class TreningReadModel {
 		this.presenceConfirmedByUser = presenceConfirmedByUser;
 	}
 
-	public PakietTreningow getTrainingPackage() {
+
+	public PakietReadModel getTrainingPackage() {
 		return trainingPackage;
 	}
 
-	public void setTrainingPackage(PakietTreningow trainingPackage) {
-		this.trainingPackage = trainingPackage;
-	}
 
 	public long getId() {
 		return id;
@@ -118,56 +135,68 @@ public class TreningReadModel {
 	 * 	Metody supportujące
 	 */
 	
+	@JsonIgnore
 	public LocalDateTime getWhenCanceled() {
 		return whenCanceled;
 	}
 
-
-
-
+	@JsonIgnore
 	public void setWhenCanceled(LocalDateTime whenCanceled) {
 		this.whenCanceled = whenCanceled;
 	}
 
-
-
-
+	@JsonIgnore
 	public boolean isDone() {
 		return markedAsDone != null;
 	}	
 	
+	@JsonIgnore
 	public boolean isCanceled() {
 		return whenCanceled != null;
 	}
 
+	@JsonIgnore
 	public boolean isConfirmed() {
 		return scheduleConfirmed != null;
 	}
 	
+	@JsonIgnore
 	public boolean isPresenceConfirmed() {
 		return presenceConfirmedByUser != null;
 	}
 
+	@JsonIgnore
 	public boolean isInPast() {
 		return scheduledFor.isBefore(LocalDateTime.now());
 	}
 
+	@JsonIgnore
 	public String getReadableDateScheduled() {
 		return this.scheduledFor.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 	}
 	
+	@JsonIgnore
 	public String getReadableTimeScheduled() {
 		return this.scheduledFor.format(DateTimeFormatter.ofPattern("HH:mm"));
 	}
 	
-	public PakietReadModel getTrainingPackageToRead() {
-		return new PakietReadModel(trainingPackage);
+	@JsonIgnore
+	public String getReadableEndDateScheduled() {
+		
+		return this.scheduledFor.plusMinutes(getTrainingPackage().getPackageType().getLengthMinutes()).format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 	}
 	
+	@JsonIgnore
+	public String getReadableEndTimeScheduled() {
+		return this.scheduledFor.plusMinutes(getTrainingPackage().getPackageType().getLengthMinutes()).format(DateTimeFormatter.ofPattern("HH:mm"));
+	}
+	
+	@JsonIgnore
 	public LocalDateTime getTrainingEndInclusive() {
 		return scheduledFor.plusMinutes(trainingPackage.getPackageType().getLengthMinutes()).minusSeconds(1);
 	}
 	
+	@JsonIgnore
 	public TrainingStatus getStatus() {
        
         LocalDateTime now = LocalDateTime.now();

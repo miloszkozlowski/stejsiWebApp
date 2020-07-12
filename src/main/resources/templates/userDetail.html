@@ -3,7 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_mischka.min.css">
+<link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm_theme_white.min.css">
+<link rel="icon" sizes="192x192" href="/icon.png">
+<link rel="apple-touch-icon" href="/ios-icon.png">
+<meta name="msapplication-square310x310logo" content="/icon_largetile.png">
 <style>
 	.Bd {
 		border:solid 1px white;
@@ -34,6 +37,7 @@
 		<ul>
 			<li><a href="/podopieczni"><< Wróć</a></li>
 			<li><a href="/">Menu główne</a></li>
+			<li><a href="/logout">Wyloguj się</a></li>
 		</ul>
 	</nav>
 	<h5 th:if="${msg != null}" th:text="${msg}"></h5>
@@ -80,9 +84,9 @@
 						<span th:unless="${pakiet.isValid()}" th:text="'nie'"></span>
 					</td>
 					<td>
-						<form method="post" th:action="@{/podopieczni/{id}(id=${loadedUser.id})}" onChange="return confirm('Czy na pewno? Użytkownik otrzyma powiedomienie na swoją aplikację!');">
+						<form method="post" th:action="@{/podopieczni/{id}(id=${loadedUser.id})}">
 							<input type=hidden name="pid" th:value="${pakiet.id}">
-							<input type="checkbox" th:checked="${pakiet.isPaid()}" name="paidstatus" onChange="this.form.submit()">
+							<input type="checkbox" th:disabled="${pakiet.isPaid()}" th:checked="${pakiet.isPaid()}" name="paidstatus" onChange="this.form.submit()" class="confirmationPayment">
 						</form>
 					</td>
 					<td>
@@ -96,28 +100,47 @@
 			<table>
 				<tr>
 					<th class="F(8)">Pakiet</th>
-					<th class="F(8)">Zaplanowane</th>
-					<th class="F(8)">Odbyte</th>
-					<th class="F(8)">Potwierdzone</th>
+					<th class="F(8)"><img src="/img/planned.png" alt="Zaplanowany"></th>
+					<th class="F(8)"><img src="/img/confirmed.png" alt="Lista obecności podpisana przez Podopiecznego"></th>
+					<th class="F(8)"><img src="/img/ok.png" alt="Potwierdzony przez Ciebie lub nieodbyty z powodu utraty ważności"></th>
 					<th class="F(8)">Ukończony</th>
-					<th class="F(8)">Opłacony</th>
+					<th class="F(8)"><img src="/img/paid.png" alt="Opłacony"></th>
 				</tr>
 				<tr th:each="pakiet: ${archivePackages}">
 					<td th:text="${pakiet.getPackageType().getTitle()}"></td>
 					<td th:text="${pakiet.getAmountTrainingsPlanned()}"></td>
-					<td th:text="${pakiet.getAmountTrainingsDone()}"></td>
 					<td th:text="${pakiet.getAmountOfPresenceConfirmations()}"></td>
-					<td th:text="${pakiet.whenDoneReadable()}"></td>
+					<td th:text="${pakiet.getAmountTrainingsDone()}"></td>
 					<td>
-						<form method="post" th:action="@{/podopieczni/{id}(id=${loadedUser.id})}" onChange="return confirm('Czy na pewno? Użytkownik otrzyma powiedomienie na swoją aplikację!');">
-							<input type=hidden name="pid" th:value="${pakiet.id}">
-							<input type="checkbox" th:checked="${pakiet.isPaid()}" name="paidstatus" onChange="this.form.submit()">
+						<span th:if="${pakiet.isClosed()}" th:text="${pakiet.whenDoneReadable()}"></span>
+						<form style="max-width:100%"th:if="${!pakiet.isClosed()} and ${pakiet.getAmountTrainigsPast()} == ${pakiet.getAmountTrainingsDone()}" method="post" th:action="@{/podopieczni/{id}(id=${loadedUser.id})}" onSubmit="return confirm('Zamykasz pakiet, który ma jeszcze niezaplanowane treningi, jednak data ważności upłynęła. Tego kroku nie można cofnąć (nie będzie można planować treningów w tym pakiecie). Czy na pewno?');">
+							<input type=hidden name="pid_toClose" th:value="${pakiet.id}">
+							<input type="submit" name="closePackage" style="margin-bottom:0em; height:1.5em" value="Zakończ">
+						</form>
+						<form style="max-width:100%"th:if="${!pakiet.isClosed()} and ${pakiet.getAmountTrainigsPast()} > ${pakiet.getAmountTrainingsDone()}" method="post" th:action="@{/podopieczni/{id}(id=${loadedUser.id})}" onSubmit="return confirm('Wszystkie treningi, które były zaplanowane zostaną oznaczone jako odbyte. Czy na pewno?');">
+							<input type=hidden name="pid_toMarkDone" th:value="${pakiet.id}" />
+							<input type="submit" name="markAllDone" style="margin-bottom:0em; height:1.5em" value="Oznacz wykonane" />
+						</form>
+					</td>
+					<td>
+						<form method="post" th:action="@{/podopieczni/{id}(id=${loadedUser.id})}" >
+							<input type=hidden name="pid" th:value="${pakiet.id}" />
+							<input type="checkbox" th:disabled="${pakiet.isPaid()}" th:checked="${pakiet.isPaid()}" name="paidstatus" onChange="this.form.submit()" class="confirmationPayment" />
 						</form>
 					</td>
 				</tr>
 			</table>
 		</div>
 	</fieldset>
+	<script type="text/javascript">
+	    var elems = document.getElementsByClassName('confirmationPayment');
+	    var confirmIt = function (e) {
+	        if (!confirm('Czy potwierdzasz opłacenie pakietu? Użytkownik będzie widział tą informację w aplikacji. Nie będzie można tego cofnąć.')) e.preventDefault();
+	    };
+	    for (var i = 0, l = elems.length; i < l; i++) {
+	        elems[i].addEventListener('click', confirmIt, false);
+	    }
+</script>
 </main>
 </body>
 </html>

@@ -17,8 +17,13 @@ public class EmailRegistrationDTO {
 	private String token;
 	
 	@NotBlank
+	@JsonAlias("fcmToken")
+	private String tokenFCM;
+	
+	@NotBlank
 	@JsonAlias("device")
 	private String androidDeviceId;
+	
 
 	public EmailRegistrationDTO() {
 	}
@@ -38,6 +43,15 @@ public class EmailRegistrationDTO {
 	public void setToken(String token) {
 		this.token = token;
 	}
+	
+
+	public String getTokenFCM() {
+		return tokenFCM;
+	}
+
+	public void setTokenFCM(String tokenFCM) {
+		this.tokenFCM = tokenFCM;
+	}
 
 	public String getAndroidDeviceId() {
 		return androidDeviceId;
@@ -46,9 +60,5 @@ public class EmailRegistrationDTO {
 	public void setAndroidDeviceId(String androidDeviceId) {
 		this.androidDeviceId = androidDeviceId;
 	}
-	
-	
-	
-	
 
 }

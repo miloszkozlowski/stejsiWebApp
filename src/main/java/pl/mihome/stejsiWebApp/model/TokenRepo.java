@@ -8,6 +8,8 @@ public interface TokenRepo {
 	
 	List<Token> findByOwnerAndActiveIsTrue(Podopieczny owner);
 	
+	List<Token> findByActiveIsTrueAndTokenFCMIsNotNull();
+	
 	Token save(Token token);
 
 	void removeOutOfDate(LocalDateTime olderThan);

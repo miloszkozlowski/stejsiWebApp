@@ -1,24 +1,17 @@
 package pl.mihome.stejsiWebApp.controller;
 
 import java.awt.image.BufferedImage;
-import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.List;
 
 import javax.imageio.ImageIO;
 import javax.validation.Valid;
-import javax.websocket.server.PathParam;
 
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -45,21 +38,26 @@ import pl.mihome.stejsiWebApp.model.TipPicture;
 @Controller
 @Secured("ROLE_STEJSI")
 @RequestMapping("/tips")
+@SuppressWarnings("unchecked")
 public class TipController {
 
-	TipService service;
+	private TipService service;
+	public static final int MAX_PICTURE_SIZE_TO_SAVE = 1000000;
+	
 	private static final Logger log = LoggerFactory.getLogger(TipController.class);
 
 	public TipController(TipService service) {
 		this.service = service;
 	}
 	
+	
 	@GetMapping
 	public String addTipBlank(@RequestParam(required = false) Long remove, @RequestParam(required = false) Long comments, Model model, RedirectAttributes redir) {
+		model.addAttribute("notificationPossible", isNotificationAvaliable((List<TipReadModel>)model.getAttribute("tips")));
 		model.addAttribute("newcomment", new TipCommentWriteModel());
 		if(remove != null) {
 			service.removeComment(remove);
-			redir.addFlashAttribute("msg", "Twoja porada została opublikowana!");
+			redir.addFlashAttribute("msg", "Komenatarz został usunięty!");
 			return "redirect:/tips?comments=" + comments + "#comments";
 		}
 		return "tipAdd";
@@ -96,47 +94,61 @@ public class TipController {
 	public String addTip(
 			@ModelAttribute("newTip") @Valid Tip source,
 			BindingResult bindingResult,
-			@RequestParam(name = "picture_upload", required = false) MultipartFile picture_upload,
+			@RequestParam(name = "picture_upload", required = false) MultipartFile pictureUpload,
 			Model model,
 			RedirectAttributes redir) throws IllegalArgumentException, IOException {
 		
 		model.addAttribute("newcomment", new TipCommentWriteModel());
 		
-		if(bindingResult.hasErrors() || (source.getImageUrl().isBlank() && picture_upload.isEmpty())) {
-			if(source.getImageUrl().isBlank() && picture_upload.isEmpty()) {
+		if(bindingResult.hasErrors() || (source.getImageUrl().isBlank() && pictureUpload.isEmpty())) {
+			if(source.getImageUrl().isBlank() && pictureUpload.isEmpty()) {
 				model.addAttribute("err", "Do porady należy albo watawić zdjęcie z dysku albo wpisać link");
 			}
 			return "tipAdd";
 		}
 		else {
 			
-			if(!picture_upload.isEmpty()) {
-				log.info("Załadowany plik o rozmiarze " + picture_upload.getSize());
+			if(!pictureUpload.isEmpty()) {
+				log.info("Załadowany plik o rozmiarze " + pictureUpload.getSize());
+				var picSize = pictureUpload.getSize();
 				try {
 					var pic = new TipPicture();
-					pic.setPicture(picture_upload.getBytes());
 					
-					//tworzenie miniaturki
-					ByteArrayInputStream bais = new ByteArrayInputStream(picture_upload.getBytes());
+					//zapis typu grafiki
+					ByteArrayInputStream bais = new ByteArrayInputStream(pictureUpload.getBytes());
 					String imageType = URLConnection.guessContentTypeFromStream(bais);
 					if(imageType == null) {
 						throw new IllegalArgumentException();
 					}
 					pic.setContentType(imageType);
-					BufferedImage bi = ImageIO.read(bais);
-					BufferedImage thumbBi = Scalr.resize(bi, Scalr.Method.QUALITY, Scalr.Mode.FIT_TO_WIDTH, 180, Scalr.OP_ANTIALIAS);
-					ByteArrayOutputStream baos = new ByteArrayOutputStream();
-
-					ImageIO.write(thumbBi, imageType.substring(6), baos);
+					
+					//zmniejszanie zdjęcia
+					if(picSize > MAX_PICTURE_SIZE_TO_SAVE) {
+						BufferedImage bi = ImageIO.read(bais);
+						BufferedImage outputPicBi = Scalr.resize(bi, Scalr.Method.QUALITY, Scalr.Mode.FIT_TO_WIDTH, 800, Scalr.OP_ANTIALIAS);
+						ByteArrayOutputStream baos = new ByteArrayOutputStream();
+						ImageIO.write(outputPicBi, imageType.substring(6), baos);
+						pic.setPicture(baos.toByteArray());
+					}
+					else {
+						pic.setPicture(pictureUpload.getBytes());
+					}
+		
+					
+					//tworzenie miniaturki
+					ByteArrayInputStream thbais = new ByteArrayInputStream(pictureUpload.getBytes());
+					BufferedImage thbi = ImageIO.read(thbais);
+					BufferedImage thumbBi = Scalr.resize(thbi, Scalr.Method.QUALITY, Scalr.Mode.FIT_TO_WIDTH, 180, Scalr.OP_ANTIALIAS);
+					ByteArrayOutputStream thbaos = new ByteArrayOutputStream();
+					ImageIO.write(thumbBi, imageType.substring(6), thbaos);
+					pic.setThumb(thbaos.toByteArray());
 		
 					//tworzenie obiektu to zapisu:
-					pic.setThumb(baos.toByteArray());
-					pic.setContentType(imageType);
 					source.setPicture(pic);
 					source.setLocalImagePresent(true);
 				}
 				catch(IOException ex) {
-					log.error("Nie powiodło się ładowanie obrazu z pliku " + picture_upload.getName() + ", bo: /n" + ex.getLocalizedMessage());
+					log.error("Nie powiodło się ładowanie obrazu z pliku " + pictureUpload.getName() + ", bo: /n" + ex.getLocalizedMessage());
 				}
 			}
 			else if(!source.getImageUrl().isBlank()) {
@@ -174,6 +186,7 @@ public class TipController {
 		if(!removedName.equals("")) {
 			model.addAttribute("msg", "Rada \"" + removedName + "\" została usunięta");
 			model.addAttribute("tips", service.getAllTips());
+			model.addAttribute("notificationPossible", isNotificationAvaliable((List<TipReadModel>)model.getAttribute("tips")));
 			model.addAttribute("newcomment", new TipCommentWriteModel());
 		}
 		
@@ -181,18 +194,25 @@ public class TipController {
 		
 	}
 	
-	//zwraca miniaturę
-	@GetMapping("/img/{tid}")
-	public ResponseEntity<byte[]> getImage(@PathVariable Long tid) {
-		var media = service.getTipPictureFromTipId(tid);
-		final HttpHeaders headers = new HttpHeaders();
-		headers.setContentType(MediaType.parseMediaType(media.getImageType()));
-		return new ResponseEntity<byte[]>(media.getThumb(), headers, HttpStatus.CREATED);
+	@GetMapping("/notify")
+	public String notifyNewTips(RedirectAttributes redir) {
+		service.notifyUsersOnNewTips();
+		redir.addFlashAttribute("msg", "Powiadomienia na telefony użytkowników zostały zlecone!");
+		redir.addFlashAttribute("justNotified", true);
+		return "redirect:/tips";
 	}
+	
+
 	
 	@ModelAttribute("tips")
 	List<TipReadModel> wszystkiePakiety() {
 		return service.getAllTips();
+	}
+	
+	private boolean isNotificationAvaliable(List<TipReadModel> tips) {
+		return 0 < tips.stream()
+		.filter(t -> t.getWhenNotificationSent() == null)
+		.count();
 	}
 	
 	

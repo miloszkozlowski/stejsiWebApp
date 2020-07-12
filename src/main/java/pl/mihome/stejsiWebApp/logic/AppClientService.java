@@ -1,6 +1,7 @@
 package pl.mihome.stejsiWebApp.logic;
 
 import java.time.LocalDateTime;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -11,8 +12,13 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.google.firebase.messaging.FirebaseMessaging;
+import com.google.firebase.messaging.FirebaseMessagingException;
+import com.google.firebase.messaging.TopicManagementResponse;
+
 import org.slf4j.LoggerFactory;
 
+import pl.mihome.stejsiWebApp.DTO.PodopiecznyReadModel;
 import pl.mihome.stejsiWebApp.DTO.appComms.EmailRegistrationDTO;
 import pl.mihome.stejsiWebApp.DTO.appComms.TipReadModel;
 import pl.mihome.stejsiWebApp.config.AndroidAppConfiguration;
@@ -50,12 +56,13 @@ public class AppClientService {
 	}
 	
 	public Boolean registerAttempAllowed(RegistrationAttemp attemp) {		
-		
+		log.info("Zapisywanie próby rejestracji z urządzenia przenośnego");
 		/*
 		 * Faktyczne sprawdzenie, czy w ciągu ostatnich {@code HOURS_FOR_REGISTRATION_LIMIT} ilość prób nie przekracza limitu {@code ALLOWED_AMOUNT_OF_REGISTRATION_ATTEMPS}
 		 */
 		if(registerAttempsList.isEmpty()) {
 			registerAttempsList.add(attemp);
+			log.info("Nie było wcześn iej prób z tego urządzenia");
 			return true;
 		}
 			
@@ -90,20 +97,27 @@ public class AppClientService {
 	
 	@Async
 	@Transactional
-	public void createNewDeviceSession(Podopieczny user, EmailRegistrationDTO registerSet) throws SendFailedException {		
+	public void createNewDeviceSession(Podopieczny user, EmailRegistrationDTO registerSet) {	
+		log.info("Tworzenie nowej sesji użytkownika w ramach rejestracji na urządzeniu");
 		tokenRepo.deleteAllByAssignedDeviceId(registerSet.getAndroidDeviceId());
 		
 		clearInactiveTokens();
 		
+		
 		String activationCode = generateActivationCode();
         
-		Token token = new Token(user, registerSet.getToken(), registerSet.getAndroidDeviceId(), activationCode);
+		Token token = new Token(user, registerSet.getToken(), registerSet.getAndroidDeviceId(), registerSet.getTokenFCM(), activationCode);
 		tokenRepo.save(token);
-		
-		sendActivationEmail(user, activationCode);
+		try {
+			sendActivationEmail(user, activationCode);
+		}
+		catch(SendFailedException ex) {
+			log.error("Nieudana wysyłka wiadomości e-mail do aktywacji konta w ramach rejestracji: " + ex.getMessage());
+		}
 	}
 
 	private String generateActivationCode() {
+		log.info("Generowanie kodu do aktywacji sesji");
 		// Generowanie kodu aktywacyjnego 16-znakowego
         String AlphaNumericString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                 + "0123456789"
@@ -133,12 +147,15 @@ public class AppClientService {
 	}
 	
 	private void clearInactiveTokens() {
+		log.info("Czyszczenie nieaktywnych tokenów");
 		tokenRepo.removeOutOfDate(LocalDateTime.now().minusDays(androidAppConfiguration.getInnactiveTokenValidityInDays()));
 	}
 	
 	public boolean isAuthorized(String token, String deviceId) throws AndroidSessionNotAuthorizedException {
+		log.info("Odpowiadanie na zapytanie autoryzacyjne");
 		var tokenFound = tokenRepo.findByTokenStringAndAssignedDeviceIdAndRemovedIsFalse(token, deviceId);
 		if(tokenFound.isEmpty()) {
+			log.warn("Nie można było udzielić autoryzacji, bo token nie istnieje w bazie. Zginął?");
 			throw new AndroidSessionNotAuthorizedException();
 		}
 		else {
@@ -148,6 +165,7 @@ public class AppClientService {
 	
 	@Transactional
 	public boolean activateToken(Long uid, String activationCode) {
+		log.info("Przetwarzanie żądania aktywacji tokenu");
 		var token = tokenRepo.findByActivationCodeAndActiveIsFalse(activationCode);
 		if(token.isPresent())
 		{
@@ -159,9 +177,20 @@ public class AppClientService {
 				
 				//dodawanie nowej sesji
 				token.get().setActive(true);
+				
+				//pierwotna akytacja użytkownika 
 				if(!token.get().getOwner().isAktywny()) {
 					token.get().getOwner().setAktywny(true);
-					
+				}
+				
+				//dopisanie do topicu FCM
+				try {
+					TopicManagementResponse response = FirebaseMessaging.getInstance().subscribeToTopic(
+					    Arrays.asList(token.get().getTokenFCM()), FirebaseCloudMessagingInit.GENERAL_TOPIC);
+					log.info("Aktywacja nowego tokenu - dopisanie do głównego topic'u w FCM udane: " + response.getSuccessCount() + "/1");
+				}
+				catch(FirebaseMessagingException ex) {
+					log.warn("Aktywacja nowego tokenu - nie udało się dopisać do głównego topic'u w FCM, bo: " + ex.getMessage());
 				}
 				return true;
 			}
@@ -170,15 +199,20 @@ public class AppClientService {
 		return false;
 	}
 	
-	public Podopieczny getUser(String token) throws AndroidSessionNotAuthorizedException {
+	public PodopiecznyReadModel getUser(String token) throws AndroidSessionNotAuthorizedException {
+		log.info("Pobieranie danych użytkownika na podstawie tokenu");
 		var foundToken = tokenRepo.findByTokenStringAndActiveIsTrueAndRemovedIsFalse(token);
-		if(foundToken.isPresent())
-			return foundToken.get().getOwner();
-		
+		if(foundToken.isPresent()) {
+			var user = new PodopiecznyReadModel(foundToken.get().getOwner());
+			return user;
+		}
+			
+		log.warn("Nie można było pobrać danych użytkownika, bo nie ma odpowiadającego tokenu");
 		throw new AndroidSessionNotAuthorizedException();
 	}
 	
 	public List<TipReadModel> getTips(String token) throws AndroidSessionNotAuthorizedException {
+		log.info("Pobieranie listy tipów na podstawie tokenu");
 		var foundToken = tokenRepo.findByTokenStringAndActiveIsTrueAndRemovedIsFalse(token);
 		
 		if(foundToken.isPresent()) {
@@ -187,25 +221,34 @@ public class AppClientService {
 					.map(tip -> new TipReadModel(tip, user))
 					.collect(Collectors.toList());
 		}
-		
+		log.warn("Nie można było pobrać tipów, bo nie ma odpowiadającego tokenu");
 		throw new AndroidSessionNotAuthorizedException();
 
 	}
 
 	@Transactional
 	public void logout(String token) throws AndroidSessionNotAuthorizedException {
+		log.info("Usuwanie tokenu po żądaniu wylogowania");
 		var foundToken = getAuthorizedToken(token);
 		foundToken.setRemoved(true);
+		try {
+			TopicManagementResponse response = FirebaseMessaging.getInstance().unsubscribeFromTopic(Arrays.asList(foundToken.getTokenFCM()), FirebaseCloudMessagingInit.GENERAL_TOPIC);
+			log.info("Wylogowanie z urządzenia - wypisanie z głównego topic'u FCM: " + response.getSuccessCount() + "/1");
+		} catch (FirebaseMessagingException e) {
+			log.warn("Podczas wylogowywania nastapił problem z wypisaniem z FCM topic: " + e.getMessage());
+		}
 
 	}
 
 	@Transactional
 	public void registerFCMToken(String token, String newFCMToken) {
+		log.info("Dopisywanie nowego tokenu FCM do danych sesji");
 		var authToken = getAuthorizedToken(token);
 		authToken.setTokenFCM(newFCMToken);
 	}
 	
-	private Token getAuthorizedToken(String token) {
+	private Token getAuthorizedToken(String token) throws AndroidSessionNotAuthorizedException {
+		log.info("Pobieranie danych tokenu na podstawie tokenu");
 		var foundToken = tokenRepo.findByTokenStringAndActiveIsTrueAndRemovedIsFalse(token);
 		if(foundToken.isPresent()) {
 			return foundToken.get();

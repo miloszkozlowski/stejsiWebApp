@@ -1,0 +1,1 @@
+alter table pakiety add column closed bit not null default false;

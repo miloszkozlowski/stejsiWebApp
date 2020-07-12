@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>pl.mihome</groupId>
 	<artifactId>stejsiWebApp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>stejsiWebApp</name>
 	<description>Personal Gym Trainer App</description>
 

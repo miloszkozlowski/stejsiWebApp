@@ -1,4 +1,6 @@
 spring:
  profiles.active: 'local'
  jpa.hibernate.ddl-auto: validate
+app:
+ firebase-configuration-file: 'google/stejsi-app-firebase-adminsdk-ada09-1e37cba1c8.json'
 

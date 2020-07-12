@@ -1,9 +1,5 @@
 package pl.mihome.stejsiWebApp.model;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.net.URLConnection;
-
 import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -13,7 +9,6 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
-import javax.persistence.Transient;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -27,6 +22,7 @@ public class TipPicture extends AuditBase {
 	private Long id;
 	
 	@OneToOne(mappedBy = "picture")
+	@Basic(fetch = FetchType.LAZY)
 	private Tip tip;
 	
 	@Lob

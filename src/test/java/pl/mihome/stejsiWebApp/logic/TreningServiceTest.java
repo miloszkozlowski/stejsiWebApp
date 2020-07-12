@@ -29,7 +29,7 @@ class TreningServiceTest {
 		var treningRepo = Mockito.mock(TreningRepo.class);
 		Mockito.when(treningRepo.findByScheduledForGreaterThanEqualAndScheduledForLessThan(Mockito.any(), Mockito.any())).thenReturn(trainingList);
 		
-		var trainingService = new TreningService(treningRepo, null, null, null);
+		var trainingService = new TreningService(treningRepo, null, null, null, null, null, null);
 		
 		//when
 		var weeklyListOfTrainingList1 = trainingService.getTrainingsWeekly(LocalDate.of(2020, 4, 17).atStartOfDay());

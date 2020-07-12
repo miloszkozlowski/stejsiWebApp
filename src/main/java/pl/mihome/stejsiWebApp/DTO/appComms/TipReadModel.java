@@ -3,7 +3,6 @@ package pl.mihome.stejsiWebApp.DTO.appComms;
 import java.time.LocalDateTime;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -22,6 +21,7 @@ public class TipReadModel {
 	private boolean localImagePresent;
 	private List<TipCommentReadModel> comments;
 	private LocalDateTime whenCreated;
+	private LocalDateTime whenNotificationSent;
 	
 	private TipStatusByUser tipStatusByUser;
 	
@@ -37,6 +37,7 @@ public class TipReadModel {
 				.map(TipCommentReadModel::new)
 				.collect(Collectors.toList());
 		this.whenCreated = tip.getWhenCreated();
+		this.whenNotificationSent = tip.getUsersNotified();
 	}
 	
 	public TipReadModel(Tip tip, Podopieczny user) {
@@ -86,6 +87,11 @@ public class TipReadModel {
 		this.tipStatusByUser = tipStatusByUser;
 	}
 	
+	@JsonIgnore
+	public LocalDateTime getWhenNotificationSent() {
+		return whenNotificationSent;
+	}
+
 	@JsonIgnore
 	public int getCommentsAmount() {
 		return getComments().size();
