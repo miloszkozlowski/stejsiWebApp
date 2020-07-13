@@ -1,5 +1,6 @@
 package pl.mihome.stejsiWebApp.model;
 
+import java.util.HashSet;
 import java.util.Set;
 
 import javax.persistence.Entity;
@@ -73,7 +74,14 @@ public class PakietTreningow extends AuditBase {
 
 	public void setOwner(Podopieczny owner) {
 		this.owner = owner;
-		owner.getTrainingPackages().add(this);
+		if(owner.getTrainingPackages() == null) {
+			Set<PakietTreningow> set = new HashSet<PakietTreningow>();
+			set.add(this);
+			owner.setTrainingPackages(set);
+		}
+		else {
+			owner.getTrainingPackages().add(this);
+		}
 	}
 
 	public RodzajPakietu getPackageType() {

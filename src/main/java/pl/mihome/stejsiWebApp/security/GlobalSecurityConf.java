@@ -47,8 +47,7 @@ public class GlobalSecurityConf extends KeycloakWebSecurityConfigurerAdapter {
 		super.configure(http);
 		http.authorizeRequests()
 			.antMatchers("/**").permitAll()
-			.and().csrf().ignoringAntMatchers("/userinput/**");
-			
+			.and().csrf().ignoringAntMatchers("/userinput/**");			
 	}
 
 }

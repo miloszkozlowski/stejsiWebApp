@@ -1,1 +1,1 @@
-alter table tip_comments alter column author bigint unsigned null;
+alter table tip_comments modify column author bigint unsigned;

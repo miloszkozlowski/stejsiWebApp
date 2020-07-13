@@ -1,0 +1,1 @@
+alter table tokens add column activation_code varchar(16) not null;

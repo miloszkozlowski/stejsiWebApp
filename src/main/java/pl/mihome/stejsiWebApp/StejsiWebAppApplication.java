@@ -14,7 +14,7 @@ import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 @SpringBootApplication
 @EnableAsync
 @EnableScheduling
-public class StejsiWebAppApplication implements RepositoryRestConfigurer{
+public class StejsiWebAppApplication implements RepositoryRestConfigurer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StejsiWebAppApplication.class, args);

@@ -1,1 +1,1 @@
-alter table treningi add column kiedy_potwierdzony datetime null;
+alter table treningi add column kiedy_potwierdzony datetime;

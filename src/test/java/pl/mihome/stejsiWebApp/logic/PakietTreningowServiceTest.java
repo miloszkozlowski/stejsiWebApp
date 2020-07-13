@@ -19,6 +19,8 @@ import pl.mihome.stejsiWebApp.model.PakietTreningowRepo;
 import pl.mihome.stejsiWebApp.model.Podopieczny;
 import pl.mihome.stejsiWebApp.model.PodopiecznyRepo;
 import pl.mihome.stejsiWebApp.model.RodzajPakietu;
+import pl.mihome.stejsiWebApp.model.TokenRepo;
+import pl.mihome.stejsiWebApp.model.Token;
 
 class PakietTreningowServiceTest {
 
@@ -26,6 +28,11 @@ class PakietTreningowServiceTest {
 	@DisplayName("Correct opening of new training package from DTO")
 	void creatingNewPackageForUser() {
 		//given
+		var tokenRepo = Mockito.mock(TokenRepo.class);
+		List<Token> listToken = List.of();
+		Mockito.when(tokenRepo.findByOwnerAndActiveIsTrue(any(Podopieczny.class))).thenReturn(listToken);
+		
+		//and
 		var packageDto = new PakietWriteModel(1L);
 		packageDto.setRodzajPakietuId(1L);
 		//and
@@ -51,7 +58,7 @@ class PakietTreningowServiceTest {
 		var trainingService = Mockito.mock(TreningService.class);
 		
 		//under test
-		var packageTest = new PakietTreningowService(inMemRepo, userRepo, null, trainingService, typeService, null);
+		var packageTest = new PakietTreningowService(inMemRepo, userRepo, tokenRepo, trainingService, typeService, null);
 		
 		//when
 		packageTest.createNew(packageDto);

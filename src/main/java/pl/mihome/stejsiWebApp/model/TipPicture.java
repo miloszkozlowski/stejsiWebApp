@@ -1,6 +1,7 @@
 package pl.mihome.stejsiWebApp.model;
 
 import javax.persistence.Basic;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -9,6 +10,8 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+
+import org.hibernate.annotations.Type;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -26,10 +29,14 @@ public class TipPicture extends AuditBase {
 	private Tip tip;
 	
 	@Lob
+	@Type(type="org.hibernate.type.ImageType")
+	@Column(columnDefinition = "BLOB")
 	@Basic(fetch = FetchType.LAZY)
 	private byte[] picture;
 	
 	@Lob
+	@Type(type="org.hibernate.type.ImageType")
+	@Column(columnDefinition = "BLOB")
 	@Basic(fetch = FetchType.LAZY)
 	private byte[] thumb;
 	

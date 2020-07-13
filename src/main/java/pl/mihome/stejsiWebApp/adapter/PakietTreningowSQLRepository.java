@@ -7,6 +7,6 @@ import pl.mihome.stejsiWebApp.model.PakietTreningow;
 import pl.mihome.stejsiWebApp.model.PakietTreningowRepo;
 
 @Repository
-public interface PakietTreningowSQLRepository extends JpaRepository<PakietTreningow, Long>, PakietTreningowRepo {
+interface PakietTreningowSQLRepository extends JpaRepository<PakietTreningow, Long>, PakietTreningowRepo {
 
 }

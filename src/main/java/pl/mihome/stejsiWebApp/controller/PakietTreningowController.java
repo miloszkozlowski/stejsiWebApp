@@ -15,17 +15,17 @@ import javax.validation.Valid;
 
 import org.slf4j.*;
 
-import pl.mihome.stejsiWebApp.adapter.PakietTreningowSQLRepository;
 import pl.mihome.stejsiWebApp.model.PakietTreningow;
+import pl.mihome.stejsiWebApp.model.PakietTreningowRepo;
 
 @Secured("ROLE_STEJSI")
 @RestController("/pakiety")
 public class PakietTreningowController {
 
 	private static final Logger loguj = LoggerFactory.getLogger(PakietTreningow.class);
-	private final PakietTreningowSQLRepository repo;
+	private final PakietTreningowRepo repo;
 	
-	public PakietTreningowController(PakietTreningowSQLRepository repo) {
+	public PakietTreningowController(PakietTreningowRepo repo) {
 		this.repo = repo;
 	}
 	

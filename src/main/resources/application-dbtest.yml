@@ -1,4 +1,6 @@
 spring:
+ flyway:
+  locations: 'classpath:db/migration_local/'
  jpa:
   show-sql: true
  datasource:

@@ -1,1 +1,1 @@
-alter table lokalizacje alter column when_created datetime null;
+alter table lokalizacje modify column when_created datetime;

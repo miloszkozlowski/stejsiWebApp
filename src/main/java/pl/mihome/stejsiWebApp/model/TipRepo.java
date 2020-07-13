@@ -3,13 +3,15 @@ package pl.mihome.stejsiWebApp.model;
 import java.util.List;
 import java.util.Optional;
 
+import pl.mihome.stejsiWebApp.model.Tip;
+
 public interface TipRepo {
 	
 	List<Tip> findByRemovedIsFalse();
 	
 	List<Tip> findByRemovedIsFalseAndUsersNotifiedIsNull();
 	
-	void save(Tip source);
+	Tip save(Tip source);
 	
 	Optional<Tip> findById(Long id);
 	

@@ -1,0 +1,29 @@
+2020-07-13 13:10:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "ALTER TABLE TRENINGI MODIFY[*] COLUMN TERMIN DATETIME"; oczekiwano "., ADD, SET, RENAME, DROP, ALTER"
+Syntax error in SQL statement "ALTER TABLE TRENINGI MODIFY[*] COLUMN TERMIN DATETIME"; expected "., ADD, SET, RENAME, DROP, ALTER"; SQL statement:
+alter table treningi modify column termin datetime [42001-200]
+2020-07-13 13:42:37 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "RODZAJE" nie istnieje
+Table "RODZAJE" not found; SQL statement:
+drop table rodzaje
+ [42102-200]
+2020-07-13 13:43:11 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "TRENINGI" nie istnieje
+Table "TRENINGI" not found; SQL statement:
+drop table treningi
+ [42102-200]
+2020-07-13 13:43:14 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "PAKIETY" nie istnieje
+Table "PAKIETY" not found; SQL statement:
+drop table pakiety
+ [42102-200]
+2020-07-13 13:43:16 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "UZYTKOWNICY" nie istnieje
+Table "UZYTKOWNICY" not found; SQL statement:
+drop table uzytkownicy
+ [42102-200]
+2020-07-13 13:43:19 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "FLYWAY_SCHEMA_HISTORY" nie istnieje
+Table "FLYWAY_SCHEMA_HISTORY" not found; SQL statement:
+drop table flyway_schema_history
+ [42102-200]

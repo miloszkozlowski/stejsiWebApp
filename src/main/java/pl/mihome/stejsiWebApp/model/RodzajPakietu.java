@@ -8,7 +8,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Lob;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.Min;
@@ -31,8 +30,8 @@ public class RodzajPakietu extends AuditBase {
 	@Size(max = 30)
 	private String title;
 	
-	@Column(name = "opis")
-	@Lob
+	@Column(name = "opis", columnDefinition = "TEXT")
+	@Size(max = 65535)
 	private String description;
 	
 	@NotNull
