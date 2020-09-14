@@ -30,6 +30,7 @@ public class Lokalizacja extends AuditBase {
 		
 		@Column(name = "adres", length = 100)
 		@Length(max = 100, message = "Adres może mieć maksymalnie 100 znaków")
+		@NotBlank(message = "Lokalizacja musi zawierać adres")
 		private String postalAddress;
 		
 		@Column(name = "domyslne")

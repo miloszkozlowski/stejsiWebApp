@@ -1,0 +1,26 @@
+2020-08-17 00:50:27,619 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-17 00:50:56,020 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h36s563ms).
+2020-08-17 02:51:12,088 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-17 04:51:26,379 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h30s451ms).
+2020-08-17 05:32:42,705 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m16s240ms).
+2020-08-17 05:32:47,406 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-17 07:33:10,252 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s650ms).
+2020-08-17 08:04:32,427 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m22s173ms).
+2020-08-17 08:05:54,554 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s517ms).
+2020-08-17 08:41:44,426 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m49s873ms).
+2020-08-17 08:42:13,725 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s297ms), soft-evicting connections from pool.
+2020-08-17 09:20:07,543 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m23s499ms).
+2020-08-17 09:59:58,135 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m50s597ms).
+2020-08-17 12:00:54,305 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h25s837ms).
+2020-08-17 12:32:54,167 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m29s842ms).
+2020-08-17 13:31:48,075 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m23s891ms).
+2020-08-17 14:08:24,946 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m6s857ms).
+2020-08-17 14:11:14,166 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-17 15:12:19,447 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m24s300ms).
+2020-08-17 17:13:15,356 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h25s874ms).
+2020-08-17 18:53:01,211 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m15s834ms).
+2020-08-17 20:06:34,761 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h13m33s550ms).
+2020-08-17 20:06:54,404 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-17 21:32:15,654 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m10s571ms).
+2020-08-17 21:32:20,834 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-17 23:33:12,488 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h26s813ms).

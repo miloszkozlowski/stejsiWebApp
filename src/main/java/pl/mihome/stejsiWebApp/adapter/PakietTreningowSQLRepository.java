@@ -8,5 +8,4 @@ import pl.mihome.stejsiWebApp.model.PakietTreningowRepo;
 
 @Repository
 interface PakietTreningowSQLRepository extends JpaRepository<PakietTreningow, Long>, PakietTreningowRepo {
-
 }

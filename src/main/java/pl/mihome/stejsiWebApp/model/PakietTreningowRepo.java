@@ -12,4 +12,6 @@ public interface PakietTreningowRepo {
 	List<PakietTreningow> findByOwner(Long id);
 	
 	PakietTreningow save(PakietTreningow source);
+
+	List<PakietTreningow> findByClosedIsFalse();
 }

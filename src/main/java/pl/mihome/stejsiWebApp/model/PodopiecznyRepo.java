@@ -5,6 +5,7 @@ import java.util.Optional;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Slice;
 
 public interface PodopiecznyRepo {
 	
@@ -13,7 +14,10 @@ public interface PodopiecznyRepo {
 	Page<Podopieczny> findAll(Pageable page);
 	
 	Page<Podopieczny> findByAktywnyIsTrue(Pageable page);
-	
+
+	Slice<Podopieczny> findByRemovedIsFalse(Pageable page);
+
+	Page<Podopieczny> findAllByImieContainingOrNazwiskoContaining(String imie, String nazwisko, Pageable page);
 	
 	Optional<Podopieczny> findById(Long id);
 	

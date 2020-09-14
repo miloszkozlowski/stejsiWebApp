@@ -169,6 +169,11 @@ public class TreningReadModel {
 	public boolean isInPast() {
 		return scheduledFor.isBefore(LocalDateTime.now());
 	}
+	
+	@JsonIgnore
+	public LocalDateTime getEndDateTime() {
+		return this.scheduledFor.plusMinutes(getTrainingPackage().getPackageType().getLengthMinutes());
+	}
 
 	@JsonIgnore
 	public String getReadableDateScheduled() {
@@ -183,17 +188,27 @@ public class TreningReadModel {
 	@JsonIgnore
 	public String getReadableEndDateScheduled() {
 		
-		return this.scheduledFor.plusMinutes(getTrainingPackage().getPackageType().getLengthMinutes()).format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+		return getEndDateTime().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 	}
 	
 	@JsonIgnore
 	public String getReadableEndTimeScheduled() {
-		return this.scheduledFor.plusMinutes(getTrainingPackage().getPackageType().getLengthMinutes()).format(DateTimeFormatter.ofPattern("HH:mm"));
+		return getEndDateTime().format(DateTimeFormatter.ofPattern("HH:mm"));
 	}
 	
 	@JsonIgnore
 	public LocalDateTime getTrainingEndInclusive() {
-		return scheduledFor.plusMinutes(trainingPackage.getPackageType().getLengthMinutes()).minusSeconds(1);
+		return getEndDateTime().minusSeconds(1);
+	}
+	
+	@JsonIgnore
+	public String getLocationInGoogleCalendarFormat() {
+		if(getLocation() != null) {
+			//var string = getLocation().getName() + ", " + getLocation().getPostalAddress();
+			//return string.replace(" ", "+"); //nieużyteczne, bo thymeleaf przekształca + na %2B
+			return getLocation().getName() + ", " + getLocation().getPostalAddress();
+		}
+		return "";
 	}
 	
 	@JsonIgnore

@@ -102,6 +102,11 @@ class PakietTreningowServiceTest {
 		}
 
 		@Override
+		public List<PakietTreningow> findByClosedIsFalse() {
+			return null;
+		}
+
+		@Override
 		public Optional<PakietTreningow> findById(Long id) {
 			// TODO Auto-generated method stub
 			return null;

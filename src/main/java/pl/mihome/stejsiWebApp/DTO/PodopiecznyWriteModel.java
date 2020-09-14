@@ -70,7 +70,8 @@ public class PodopiecznyWriteModel {
 		zapis.setImie(this.name);
 		zapis.setNazwisko(this.surname);
 		zapis.setEmail(this.email);
-		zapis.setPhoneNumber(Integer.valueOf(this.phoneNumber));
+		zapis.setPhoneNumber(Integer.parseInt(this.phoneNumber));
+		zapis.setSettingTipNotifications(true);
 		return zapis;
 	}
 }

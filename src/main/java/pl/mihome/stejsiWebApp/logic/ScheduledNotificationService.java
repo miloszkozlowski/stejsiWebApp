@@ -79,36 +79,38 @@ public class ScheduledNotificationService {
 //	@Scheduled(fixedDelay = 60000, initialDelay = 60000) //test
 	@Transactional
 	public void sendNoificationOnPresenceConfirmation() {
-		log.info("Rozpoczynanie wysyłki powiadomień z prośbą o potweirdzenie obecności na treningu z częstotliwością raz na " + CYCLE_PRESENCE_CONFIRMATION_MINS + " minut(y)");
+		log.info("Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na " + CYCLE_PRESENCE_CONFIRMATION_MINS + " minut(y)");
 		var trainings = trainingRepo.findByScheduledForIsNotNullAndPresenceConfirmedByUserIsNullAndScheduledForIsLessThan(LocalDateTime.now().minusHours(1)); //minus
 //		var trainings = trainingRepo.findByScheduledForIsNotNullAndPresenceConfirmedByUserIsNullAndScheduledForIsLessThan(LocalDateTime.now()); //test
 		if(!trainings.isEmpty()) {
 			Set<Podopieczny> presencesToConfirm = new HashSet<>();
 			
 			var trainingsToStream = trainings.stream()
-			.filter(t -> t.getUserNotified() == null)
-			.collect(Collectors.toList());
+					.filter(t -> t.getUserNotified() == null)
+					.collect(Collectors.toList());
 			
 			trainingsToStream.addAll(trainings.stream()
-			.filter(t -> t.getScheduledFor().isAfter(t.getUserNotified()))
-			.collect(Collectors.toList()));
+					.filter(t -> !trainingsToStream.contains(t))
+					.filter(t -> t.getScheduledFor().isAfter(t.getUserNotified()))
+					.collect(Collectors.toList()));
 			
 			trainingsToStream.stream()
-			.map(TreningReadModel::new)
-			.forEach(t -> {
-				if(!presencesToConfirm.contains(t.getTrainingPackage().getOwner().getRootSource())) {
-					presencesToConfirm.add(t.getTrainingPackage().getOwner().getRootSource());
-				}
-				
-			});
+					.filter(t -> t.getWhenCanceled() == null)
+					.map(TreningReadModel::new)
+					.forEach(t -> {
+						if(!presencesToConfirm.contains(t.getTrainingPackage().getOwner().getRootSource())) {
+							presencesToConfirm.add(t.getTrainingPackage().getOwner().getRootSource());
+						}
+						
+					});
 			
 			presencesToConfirm.stream()
-			.filter(u -> !tokenRepo.findByOwnerAndActiveIsTrue(u).isEmpty())
-			.forEach(k -> notificationsService.
-						notifyUserOnPresenceToBeConfirmed(tokenRepo.findByOwnerAndActiveIsTrue(k).get(0).getTokenFCM()));
+					.filter(u -> !tokenRepo.findByOwnerAndActiveIsTrue(u).isEmpty())
+					.forEach(k -> notificationsService.
+								notifyUserOnPresenceToBeConfirmed(tokenRepo.findByOwnerAndActiveIsTrue(k).get(0).getTokenFCM()));
 			
 			trainingsToStream.stream()
-			.forEach(t -> t.setUserNotified(LocalDateTime.now()));
+					.forEach(t -> t.setUserNotified(LocalDateTime.now()));
 
 		}
 	}
@@ -123,6 +125,7 @@ public class ScheduledNotificationService {
 			Set<Podopieczny> presencesToConfirm = new HashSet<>();
 			
 			trainings.stream()
+			.filter(t -> t.getScheduledFor().isBefore(LocalDateTime.now().minusDays(3)))
 			.map(TreningReadModel::new)
 			.forEach(t -> {
 				if(!presencesToConfirm.contains(t.getTrainingPackage().getOwner().getRootSource())) {

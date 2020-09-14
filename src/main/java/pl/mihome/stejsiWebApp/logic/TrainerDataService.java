@@ -38,7 +38,7 @@ public class TrainerDataService {
 
 
 	@Transactional
-	public void newSettings(TrainerData trainerData) {
+	public TrainerData newSettings(TrainerData trainerData) {
 		log.info("Zapisywanie nowych danych trenera");
 		
 		var oldSettings = repo.findByRemovedIsFalse();
@@ -47,7 +47,7 @@ public class TrainerDataService {
 		.filter(s -> !s.isRemoved())
 		.forEach(s -> s.setRemoved(true));
 		
-		repo.save(trainerData);
+		return repo.save(trainerData);
 	}
 
 }

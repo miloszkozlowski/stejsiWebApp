@@ -10,18 +10,18 @@ import org.springframework.stereotype.Service;
 public class EmailSenderService {
    
     public JavaMailSender javaMailSender;
-    
-    
- 
-    public EmailSenderService(JavaMailSender javaMailSender) {
+
+
+
+    public EmailSenderService(@SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection") JavaMailSender javaMailSender) {
 		this.javaMailSender = javaMailSender;
 	}
 
 
 
-	public void sendSimpleMessage(String to, String subject, String text) throws SendFailedException {
+	public void sendSimpleMessage(String to, String subject, String text) {
 		var email = new SimpleMailMessage();
-		email.setFrom("Stejsi <stejsiapp@tlen.pl>");
+		email.setFrom("Stejsi <automat@stejsi.pl>");
 		email.setSubject(subject);
 		email.setTo(to);
 		email.setText(text);

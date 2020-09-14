@@ -34,3 +34,4 @@ build/
 /src/main/resources/google/
 /src/main/resources/application-local.yml
 /src/main/resources/application-prod.yml
+/src/main/resources/application-e2e.yml

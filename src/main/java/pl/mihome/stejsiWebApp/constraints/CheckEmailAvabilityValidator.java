@@ -5,16 +5,17 @@ import javax.validation.ConstraintValidatorContext;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import pl.mihome.stejsiWebApp.logic.PodopiecznyService;
 import pl.mihome.stejsiWebApp.model.PodopiecznyRepo;
 
 public class CheckEmailAvabilityValidator implements ConstraintValidator<CheckEmailAvability, String> {
 	
 	@Autowired
-	private PodopiecznyRepo repo;
+	private PodopiecznyService service;
 
 	@Override
 	public boolean isValid(String value, ConstraintValidatorContext context) {
-		return !repo.existsByEmail(value.toLowerCase());
+		return service.isEmailAvailableForUse(value);
 	}
 
 }

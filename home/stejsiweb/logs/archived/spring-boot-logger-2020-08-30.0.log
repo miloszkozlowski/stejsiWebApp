@@ -1,0 +1,914 @@
+2020-08-30 00:11:51,899 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m5s426ms).
+2020-08-30 02:12:19,004 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s105ms).
+2020-08-30 02:13:22,133 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 04:14:16,416 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h26s711ms).
+2020-08-30 04:14:17,962 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 04:20:30,977 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m14s545ms).
+2020-08-30 04:51:52,253 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m51s269ms).
+2020-08-30 06:52:49,697 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s419ms).
+2020-08-30 08:30:22,146 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m2s434ms).
+2020-08-30 08:38:54,536 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 08:53:54,553 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 08:54:53,645 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 09:08:54,600 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 09:23:54,654 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 09:24:53,713 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 09:38:54,631 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 09:53:54,644 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 09:54:53,675 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 10:29:49,885 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m56s563ms).
+2020-08-30 10:40:21,466 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 10:46:05,490 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 11
+2020-08-30 10:46:26,933 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 2
+2020-08-30 10:46:31,183 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 6
+2020-08-30 10:46:32,220 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 5
+2020-08-30 10:52:52,143 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 5
+2020-08-30 10:53:54,542 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 5
+2020-08-30 10:54:17,812 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 5
+2020-08-30 10:54:26,248 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 5
+2020-08-30 10:54:55,044 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 5
+2020-08-30 10:55:21,526 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 10:55:45,757 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 5
+2020-08-30 10:56:09,581 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-2] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-30 10:56:09,724 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 10:56:09,740 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 10:56:09,744 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 10:56:09,808 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 10:56:09,850 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 10:56:09,848 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 10:56:09,891 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 10:56:09,910 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 10:56:20,474 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 10:56:27,716 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 1
+2020-08-30 10:56:29,995 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 5
+2020-08-30 10:56:34,569 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 7
+2020-08-30 10:59:03,182 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 7
+2020-08-30 10:59:12,122 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 10:59:28,468 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: janu
+2020-08-30 11:10:21,552 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 11:10:29,646 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: koz
+2020-08-30 11:10:36,814 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: kozlo
+2020-08-30 11:10:57,010 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: kolo
+2020-08-30 11:20:23,734 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-2] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-30 11:20:23,853 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 11:20:23,854 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 11:20:23,853 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 11:20:23,856 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 11:20:23,894 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 11:20:23,898 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 11:20:23,922 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 11:20:23,931 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 11:25:21,583 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 11:26:20,480 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 11:40:21,643 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 11:55:21,711 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 11:56:20,490 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 12:10:21,813 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 12:25:21,896 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 12:26:20,509 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 12:40:21,984 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 12:55:22,068 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 12:56:20,538 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 12:57:20,153 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-30 13:06:41,122 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: 
+2020-08-30 13:06:52,894 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: m
+2020-08-30 13:06:56,655 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: mk
+2020-08-30 13:10:22,097 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 13:18:43,081 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: 
+2020-08-30 13:18:48,733 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: H
+2020-08-30 13:18:54,988 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: 
+2020-08-30 13:25:22,118 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 13:26:20,569 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 13:28:08,553 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: o
+2020-08-30 13:30:11,198 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: 
+2020-08-30 13:30:33,736 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: h
+2020-08-30 13:30:50,457 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: 
+2020-08-30 13:31:19,413 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: 
+2020-08-30 13:31:31,017 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: jhj
+2020-08-30 13:31:35,722 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: jej
+2020-08-30 13:31:55,816 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: 
+2020-08-30 13:31:58,963 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: mkmo
+2020-08-30 13:32:00,228 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: mkk
+2020-08-30 13:32:01,206 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 13:36:34,788 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: 
+2020-08-30 13:36:51,107 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 13:37:02,211 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: oko
+2020-08-30 13:38:40,345 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: 
+2020-08-30 13:38:44,883 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 13:39:33,985 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: 
+2020-08-30 13:40:22,160 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 13:40:46,295 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: 
+2020-08-30 13:44:41,660 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 13:44:50,239 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: oko
+2020-08-30 13:45:45,015 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 13:45:47,967 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: milo
+2020-08-30 13:45:52,401 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: milosz
+2020-08-30 13:46:01,567 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: Milosz
+2020-08-30 13:46:31,730 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: milosz
+2020-08-30 13:46:37,310 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: Kozlowski
+2020-08-30 13:46:55,716 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: Kozlowski
+2020-08-30 13:49:29,345 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 13:49:34,437 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: oko
+2020-08-30 13:49:35,594 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-9] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-30 13:49:49,433 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 13:49:53,269 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 13:49:53,268 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 13:49:53,269 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 13:49:53,272 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 13:49:53,283 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 13:49:53,286 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 13:49:53,382 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 13:49:53,384 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 13:49:54,917 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 13:50:42,976 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: milo
+2020-08-30 13:50:49,232 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: milo
+2020-08-30 13:51:30,529 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-3] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-30 13:51:30,646 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 13:51:30,678 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 13:51:30,683 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 13:51:30,708 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 13:51:30,711 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 13:51:30,725 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 13:51:30,769 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 13:51:30,812 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 13:51:31,622 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: milo
+2020-08-30 13:52:06,735 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: janusz
+2020-08-30 13:52:09,856 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: Janusz
+2020-08-30 13:52:10,954 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-3] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-30 13:52:15,774 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 13:52:15,773 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 13:52:15,796 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 13:52:15,793 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 13:52:15,807 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 13:52:15,806 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 13:52:15,832 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 13:52:15,861 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 13:52:22,279 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: janusz
+2020-08-30 13:52:25,492 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 13:52:25,493 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 13:52:25,530 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 13:52:25,535 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 13:52:25,545 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 13:52:25,555 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 13:52:25,558 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 13:52:25,563 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 13:52:25,954 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: Janusz
+2020-08-30 13:55:22,196 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 13:56:20,583 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 13:58:42,445 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: jan
+2020-08-30 13:58:48,735 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: jan
+2020-08-30 13:59:32,014 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: jan
+2020-08-30 14:01:19,386 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 14:01:36,661 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 14:02:46,447 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 14:05:03,619 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 14:05:08,732 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-30 14:06:02,046 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Wczytywanie danych trenera
+2020-08-30 14:06:08,209 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 14:06:12,192 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: mkoz
+2020-08-30 14:06:15,085 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: mkozlo
+2020-08-30 14:07:26,523 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: oko
+2020-08-30 14:07:39,947 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-6] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-30 14:07:40,051 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 14:07:40,064 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 14:07:40,067 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 14:07:40,095 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 14:07:40,102 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 14:07:40,114 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 14:07:40,126 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 14:07:40,146 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 14:08:50,451 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-3] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-30 14:08:50,515 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 14:08:50,528 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 14:08:50,532 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 14:08:50,537 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 14:08:50,537 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 14:08:50,550 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 14:08:50,580 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 14:08:50,646 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 14:10:22,218 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 14:12:38,675 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: mkok
+2020-08-30 14:12:41,494 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 14:13:03,069 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: Milosz
+2020-08-30 14:14:13,694 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: mkp
+2020-08-30 14:14:19,492 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: mkpk
+2020-08-30 14:14:32,435 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: mkon
+2020-08-30 14:19:40,042 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 14:21:55,875 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: hjj
+2020-08-30 14:21:57,741 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: hjjj
+2020-08-30 14:21:59,971 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: hjj
+2020-08-30 14:22:24,951 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: ggg
+2020-08-30 14:23:49,338 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: ghh
+2020-08-30 14:23:53,452 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: ghhh
+2020-08-30 14:25:04,188 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: Mko
+2020-08-30 14:25:22,247 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 14:25:24,746 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: Jjjj
+2020-08-30 14:25:26,658 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: Jjj
+2020-08-30 14:25:48,416 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: Jjh
+2020-08-30 14:26:20,596 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 14:27:19,191 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 14:30:04,970 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: jdsfa
+2020-08-30 14:30:19,230 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: wski
+2020-08-30 14:31:18,758 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Wczytywanie danych trenera
+2020-08-30 14:32:44,314 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-30 14:32:49,564 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: wski
+2020-08-30 14:32:56,483 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-30 14:33:09,334 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: wskio
+2020-08-30 14:33:35,860 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: wsio
+2020-08-30 14:35:52,691 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: Kkk
+2020-08-30 14:36:02,107 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: Milosz
+2020-08-30 14:36:08,559 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: Mil
+2020-08-30 14:40:02,373 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: misio
+2020-08-30 14:40:08,140 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: misio
+2020-08-30 14:40:11,546 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: mis
+2020-08-30 14:40:15,674 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 14:40:22,274 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 14:40:30,498 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: oko
+2020-08-30 14:43:06,840 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: ergeg
+2020-08-30 14:43:40,696 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-30 14:43:40,787 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-30 14:43:40,862 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 14:43:41,544 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-30 14:43:41,574 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-30 14:43:53,938 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 48012 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-30 14:43:53,942 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-30 14:43:56,088 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-30 14:43:56,220 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 122ms. Found 10 JPA repository interfaces.
+2020-08-30 14:43:57,149 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 14:43:57,153 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 14:43:57,156 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@17043b04' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 14:43:57,159 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 14:43:57,165 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 14:43:57,612 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-30 14:43:57,631 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-30 14:43:57,632 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-30 14:43:57,633 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-30 14:43:57,810 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-30 14:43:57,811 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3770 ms
+2020-08-30 14:43:57,926 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-30 14:43:58,082 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-30 14:43:58,097 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-30 14:43:58,470 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-30 14:43:58,484 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-30 14:43:58,537 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-30 14:43:58,623 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.060s)
+2020-08-30 14:43:58,635 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-30 14:43:58,636 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-30 14:43:58,796 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-30 14:43:58,953 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-30 14:43:59,226 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-30 14:43:59,455 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-30 14:44:00,064 INFO org.hibernate.search.engine.Version [main] HSEARCH000034: Hibernate Search 5.11.5.Final
+2020-08-30 14:44:00,758 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-30 14:44:01,105 WARN org.hibernate.search.indexes.impl.LuceneEmbeddedIndexFamilyImpl [main] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2020-08-30 14:44:01,257 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 14:44:03,205 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-30 14:44:03,687 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65b17373, org.springframework.security.web.context.SecurityContextPersistenceFilter@275ff5f8, org.springframework.security.web.header.HeaderWriterFilter@111ae918, org.springframework.security.web.csrf.CsrfFilter@5b9aac82, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@655b9169, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@48861d1, org.springframework.security.web.authentication.logout.LogoutFilter@5b1ebbe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26acbc9d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a0161ee, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@1e9d6c78, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@27f4761b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@563bf9d2, org.springframework.security.web.session.SessionManagementFilter@5112858c, org.springframework.security.web.access.ExceptionTranslationFilter@17d5138, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ec63b9a]
+2020-08-30 14:44:03,926 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-30 14:44:04,056 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-30 14:44:05,014 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-30 14:44:05,386 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [Hibernate Search: identifierloader-1] HSEARCH000027: Going to reindex 13 entities
+2020-08-30 14:44:05,635 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [main] HSEARCH000028: Reindexed 13 entities
+2020-08-30 14:44:05,644 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-30 14:44:05,669 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-30 14:44:05,675 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 13.031 seconds (JVM running for 15.099)
+2020-08-30 14:44:09,859 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-30 14:44:09,859 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-30 14:44:09,903 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 44 ms
+2020-08-30 14:44:10,975 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: ergegjh
+2020-08-30 14:45:05,092 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 14:46:05,087 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 14:46:19,738 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: jnj
+2020-08-30 14:46:26,722 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: mkoz
+2020-08-30 14:46:30,406 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 14:47:05,091 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-30 14:58:18,612 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Wczytywanie danych trenera
+2020-08-30 14:58:22,530 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 14:58:34,297 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: oko
+2020-08-30 15:00:05,196 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 15:02:36,330 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-6] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-30 15:02:36,849 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 15:02:36,863 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 15:02:36,865 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 15:02:36,865 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 15:02:36,866 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 15:02:36,866 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 15:02:36,979 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 15:02:36,984 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 15:02:43,317 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: hjk
+2020-08-30 15:02:47,301 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 15:02:47,310 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 15:02:47,311 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 15:02:47,325 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 15:02:47,325 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 15:02:47,334 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 15:02:47,341 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 15:02:47,348 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 15:02:48,723 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: hak
+2020-08-30 15:02:52,100 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-2] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-30 15:02:53,705 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-1] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-30 15:02:53,774 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 15:02:53,775 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 15:02:53,777 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 15:02:53,778 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 15:02:53,809 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 15:02:53,875 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 15:02:53,875 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 15:02:53,876 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 15:02:56,762 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: fff
+2020-08-30 15:15:05,239 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 15:16:05,097 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 15:30:05,284 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 15:45:05,330 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 15:46:05,111 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 16:00:05,365 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 16:15:05,369 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 16:16:05,111 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 16:30:05,384 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 16:45:05,403 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 16:46:05,152 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 17:00:05,428 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 17:15:05,439 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 17:16:05,172 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 17:30:05,454 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 17:45:05,475 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 17:46:05,186 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 18:00:05,497 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 18:15:05,506 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 18:16:05,204 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 18:30:05,536 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 18:45:05,559 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 18:46:05,215 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 18:55:34,949 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 9
+2020-08-30 18:55:40,588 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 7
+2020-08-30 18:55:41,980 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 12
+2020-08-30 18:55:45,810 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 13
+2020-08-30 18:55:57,969 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: milosz
+2020-08-30 18:55:59,800 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 3
+2020-08-30 18:56:01,303 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: Milosz
+2020-08-30 18:56:03,060 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 3
+2020-08-30 18:57:39,691 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-30 18:57:39,741 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-30 18:57:39,769 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 18:57:39,993 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-30 18:57:40,013 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-30 18:57:47,482 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 49196 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-30 18:57:47,485 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-30 18:57:48,952 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-30 18:57:49,081 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 118ms. Found 10 JPA repository interfaces.
+2020-08-30 18:57:50,793 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 18:57:50,801 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 18:57:50,806 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@a6e4897' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 18:57:50,808 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 18:57:50,816 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 18:57:51,401 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-30 18:57:51,412 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-30 18:57:51,413 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-30 18:57:51,413 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-30 18:57:51,546 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-30 18:57:51,547 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3951 ms
+2020-08-30 18:57:51,690 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-30 18:57:51,846 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-30 18:57:51,859 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-30 18:57:52,117 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-30 18:57:52,130 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-30 18:57:52,181 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-30 18:57:52,332 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.119s)
+2020-08-30 18:57:52,352 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-30 18:57:52,354 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-30 18:57:52,617 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-30 18:57:52,780 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-30 18:57:52,981 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-30 18:57:53,138 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-30 18:57:53,625 INFO org.hibernate.search.engine.Version [main] HSEARCH000034: Hibernate Search 5.11.5.Final
+2020-08-30 18:57:54,219 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-30 18:57:54,572 WARN org.hibernate.search.indexes.impl.LuceneEmbeddedIndexFamilyImpl [main] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2020-08-30 18:57:54,713 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 18:57:59,069 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-30 18:57:59,786 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e9b68c5, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e02988, org.springframework.security.web.header.HeaderWriterFilter@78fcc4ef, org.springframework.security.web.csrf.CsrfFilter@14d43f13, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@715d82a0, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@230e163b, org.springframework.security.web.authentication.logout.LogoutFilter@38410ce5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@112d8c18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@318d69ea, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@13da6bc9, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@e8fb390, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d41881, org.springframework.security.web.session.SessionManagementFilter@7296675e, org.springframework.security.web.access.ExceptionTranslationFilter@ab5d5c8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@72cf43fa]
+2020-08-30 18:58:00,069 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-30 18:58:00,243 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-30 18:58:01,148 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-30 18:58:01,488 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [Hibernate Search: identifierloader-1] HSEARCH000027: Going to reindex 13 entities
+2020-08-30 18:58:01,819 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [main] HSEARCH000028: Reindexed 13 entities
+2020-08-30 18:58:01,839 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-30 18:58:01,876 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-30 18:58:01,886 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 16.089 seconds (JVM running for 17.787)
+2020-08-30 18:59:01,244 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 19:00:01,243 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 19:00:22,495 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-30 19:00:22,497 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-30 19:00:22,543 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 46 ms
+2020-08-30 19:01:01,243 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-30 19:03:00,363 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-8] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-30 19:03:00,510 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 19:03:00,516 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 19:03:00,516 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 19:03:00,516 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 19:03:00,517 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 19:03:00,518 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 19:03:00,594 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 19:03:00,594 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 19:03:48,285 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: ira
+2020-08-30 19:08:04,998 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 19:08:14,438 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: oko
+2020-08-30 19:08:23,141 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 19:11:08,289 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 19:11:11,502 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-30 19:11:37,171 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: ira
+2020-08-30 19:14:01,316 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 19:21:07,598 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 19:21:29,325 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: koz
+2020-08-30 19:21:42,876 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 19:21:55,086 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: wefewf
+2020-08-30 19:24:46,649 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: fggfh
+2020-08-30 19:27:03,333 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: hgkk
+2020-08-30 19:27:58,636 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: nbn
+2020-08-30 19:28:01,470 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: ibn
+2020-08-30 19:28:08,562 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: hcggh
+2020-08-30 19:28:18,139 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: hgcv
+2020-08-30 19:28:23,445 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: jgvuvjhv
+2020-08-30 19:28:33,154 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: jhvhjv
+2020-08-30 19:28:53,144 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: hbjk
+2020-08-30 19:29:01,326 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 19:30:01,260 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 19:34:01,780 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 19:34:12,664 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 19:34:15,473 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: mkou
+2020-08-30 19:34:19,046 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: mfkou
+2020-08-30 19:35:39,727 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-30 19:35:39,767 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-30 19:35:39,843 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 19:35:39,990 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-30 19:35:40,007 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-30 19:35:50,663 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 49438 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-30 19:35:50,670 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-30 19:35:52,120 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-30 19:35:52,232 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 103ms. Found 10 JPA repository interfaces.
+2020-08-30 19:35:52,761 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 19:35:52,765 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 19:35:52,768 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6cbe68e9' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 19:35:52,770 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 19:35:52,776 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 19:35:53,176 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-30 19:35:53,188 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-30 19:35:53,188 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-30 19:35:53,188 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-30 19:35:53,322 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-30 19:35:53,322 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2477 ms
+2020-08-30 19:35:53,440 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-30 19:35:53,566 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-30 19:35:53,575 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-30 19:35:53,782 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-30 19:35:53,802 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-30 19:35:53,827 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-30 19:35:53,879 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.040s)
+2020-08-30 19:35:53,897 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-30 19:35:53,899 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-30 19:35:54,077 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-30 19:35:54,212 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-30 19:35:54,385 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-30 19:35:54,497 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-30 19:35:54,894 INFO org.hibernate.search.engine.Version [main] HSEARCH000034: Hibernate Search 5.11.5.Final
+2020-08-30 19:35:55,433 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-30 19:35:55,711 WARN org.hibernate.search.indexes.impl.LuceneEmbeddedIndexFamilyImpl [main] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2020-08-30 19:35:55,860 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 19:35:57,957 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-30 19:35:58,381 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31af3f22, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d7914a5, org.springframework.security.web.header.HeaderWriterFilter@65134e6c, org.springframework.security.web.csrf.CsrfFilter@d833770, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@1a4c6e74, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@755a4ef5, org.springframework.security.web.authentication.logout.LogoutFilter@45dbbb97, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@136c3a6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34db5935, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@68423388, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@1104cf3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c418f0b, org.springframework.security.web.session.SessionManagementFilter@5f804b36, org.springframework.security.web.access.ExceptionTranslationFilter@1e250539, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@140e003e]
+2020-08-30 19:35:58,568 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-30 19:35:58,718 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-30 19:35:59,372 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-30 19:35:59,622 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [Hibernate Search: identifierloader-1] HSEARCH000027: Going to reindex 13 entities
+2020-08-30 19:35:59,857 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [main] HSEARCH000028: Reindexed 13 entities
+2020-08-30 19:35:59,865 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-30 19:35:59,883 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-30 19:35:59,887 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 10.222 seconds (JVM running for 11.708)
+2020-08-30 19:36:54,114 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-30 19:36:54,115 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-30 19:36:54,142 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 27 ms
+2020-08-30 19:36:54,272 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-08-30 19:36:59,430 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 19:37:03,839 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: ghmf
+2020-08-30 19:37:59,429 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 19:38:59,433 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-30 19:39:45,296 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-08-30 19:39:51,912 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 19:40:25,443 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-08-30 19:40:33,870 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: mkoo
+2020-08-30 19:40:39,078 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: moko
+2020-08-30 19:42:26,159 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-08-30 19:42:30,166 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: sdfds
+2020-08-30 19:43:04,973 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-08-30 19:43:09,253 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: zxccs
+2020-08-30 19:43:31,682 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-08-30 19:43:35,742 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: ljoij
+2020-08-30 19:44:07,450 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-08-30 19:44:11,693 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: sdvdsv
+2020-08-30 19:44:28,454 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 1
+2020-08-30 19:44:33,640 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Wczytywanie danych trenera
+2020-08-30 19:44:36,191 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: mbv
+2020-08-30 19:44:43,039 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: m4v
+2020-08-30 19:44:49,684 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: ira
+2020-08-30 19:44:56,038 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: wir
+2020-08-30 19:45:07,473 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: Elw
+2020-08-30 19:45:11,534 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: losz
+2020-08-30 19:45:14,430 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: los
+2020-08-30 19:45:15,461 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: ira
+2020-08-30 19:45:29,374 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: rad
+2020-08-30 19:45:42,294 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: kia
+2020-08-30 19:45:48,730 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: ata
+2020-08-30 19:45:53,834 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: atai
+2020-08-30 19:45:55,102 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: ira
+2020-08-30 19:45:59,416 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: elwia
+2020-08-30 19:46:01,622 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: elwi
+2020-08-30 19:46:06,245 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: elwiatna
+2020-08-30 19:46:07,711 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: atna
+2020-08-30 19:46:13,244 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: atnaatna
+2020-08-30 19:46:15,162 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: atna
+2020-08-30 19:46:39,353 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: elwira
+2020-08-30 19:46:48,426 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: Elwira
+2020-08-30 19:47:36,810 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-08-30 19:48:14,071 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: ira
+2020-08-30 19:51:59,468 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 19:52:00,136 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: elw
+2020-08-30 19:52:06,211 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: pro
+2020-08-30 19:52:22,171 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: lwi
+2020-08-30 19:52:28,327 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: ra 
+2020-08-30 19:52:36,408 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: Elwira Prostokatna
+2020-08-30 19:54:46,183 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: Elwira Prostokatnaxq
+2020-08-30 19:54:50,449 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: Elwira
+2020-08-30 19:55:34,888 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: Elwira 
+2020-08-30 19:55:35,780 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: Elwira OR
+2020-08-30 19:55:40,200 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: Elwira OR Milosz
+2020-08-30 20:06:59,505 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 20:07:59,439 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 20:21:59,544 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 20:34:17,786 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-30 20:34:17,837 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-30 20:34:17,864 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 20:34:18,040 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-30 20:34:18,060 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-30 20:34:33,119 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 49921 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-30 20:34:33,123 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-30 20:34:34,840 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-30 20:34:34,963 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 112ms. Found 10 JPA repository interfaces.
+2020-08-30 20:34:35,538 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 20:34:35,541 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 20:34:35,544 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1200458e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 20:34:35,547 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 20:34:35,552 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 20:34:35,974 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-30 20:34:35,984 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-30 20:34:35,985 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-30 20:34:35,986 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-30 20:34:36,126 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-30 20:34:36,126 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2919 ms
+2020-08-30 20:34:36,302 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-30 20:34:36,476 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-30 20:34:36,487 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-30 20:34:36,700 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-30 20:34:36,717 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-30 20:34:36,744 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-30 20:34:36,813 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.053s)
+2020-08-30 20:34:36,830 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-30 20:34:36,832 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-30 20:34:36,982 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-30 20:34:37,076 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-30 20:34:37,232 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-30 20:34:37,357 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-30 20:34:37,782 INFO org.hibernate.search.engine.Version [main] HSEARCH000034: Hibernate Search 5.11.5.Final
+2020-08-30 20:34:38,327 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-30 20:34:38,581 WARN org.hibernate.search.indexes.impl.LuceneEmbeddedIndexFamilyImpl [main] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2020-08-30 20:34:38,722 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 20:34:40,656 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-30 20:34:41,149 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34c3e307, org.springframework.security.web.context.SecurityContextPersistenceFilter@3986b56, org.springframework.security.web.header.HeaderWriterFilter@485dfac9, org.springframework.security.web.csrf.CsrfFilter@5f804b36, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@1a4c6e74, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@755a4ef5, org.springframework.security.web.authentication.logout.LogoutFilter@4e396d1c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e147828, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4cb641a5, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@68423388, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@1104cf3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d1703f8, org.springframework.security.web.session.SessionManagementFilter@63f093a, org.springframework.security.web.access.ExceptionTranslationFilter@148c571c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e02988]
+2020-08-30 20:34:41,369 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-30 20:34:41,508 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-30 20:34:42,441 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-30 20:34:42,778 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [Hibernate Search: identifierloader-1] HSEARCH000027: Going to reindex 13 entities
+2020-08-30 20:34:43,002 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [main] HSEARCH000028: Reindexed 13 entities
+2020-08-30 20:34:43,009 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-30 20:34:43,039 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-30 20:34:43,044 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 11.15 seconds (JVM running for 12.942)
+2020-08-30 20:35:42,543 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 20:36:42,524 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 20:37:42,521 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-30 20:50:42,597 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 20:54:41,417 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-30 20:54:41,425 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-30 20:54:41,499 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 74 ms
+2020-08-30 20:54:41,763 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-08-30 20:54:45,007 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: ira
+2020-08-30 20:54:50,812 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: elria
+2020-08-30 20:54:55,118 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: elr
+2020-08-30 20:54:59,662 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: milosz
+2020-08-30 20:55:02,594 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: mil
+2020-08-30 20:55:04,372 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: mio
+2020-08-30 20:55:05,141 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: miosz
+2020-08-30 20:55:07,523 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: mios
+2020-08-30 20:55:08,363 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: mio
+2020-08-30 20:55:10,479 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: losz
+2020-08-30 20:55:12,770 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: los
+2020-08-30 20:55:14,141 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: ilo
+2020-08-30 20:55:19,944 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: wski
+2020-08-30 20:55:25,082 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: wsk
+2020-08-30 20:55:27,085 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: milosz 
+2020-08-30 20:55:30,561 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: milosz kozlowski
+2020-08-30 20:55:47,396 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: milosz kozlowskijanusz
+2020-08-30 20:55:49,564 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: milosz kozlowski janusz
+2020-08-30 20:55:56,129 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: kowal
+2020-08-30 20:55:57,229 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: kowalski
+2020-08-30 20:55:59,608 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: kowalski 
+2020-08-30 20:56:04,917 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: kow
+2020-08-30 20:56:06,421 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: janusz
+2020-08-30 20:56:17,971 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: Janusz 
+2020-08-30 20:56:18,975 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: Janusz na
+2020-08-30 20:56:20,792 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: Janusz janu
+2020-08-30 20:56:26,717 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: Janusz januk
+2020-08-30 20:56:28,095 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: Janusz janu
+2020-08-30 20:56:29,811 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: Janusz januszkowsi
+2020-08-30 20:56:31,604 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: Janusz januszk
+2020-08-30 20:56:32,780 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: Janusz januszkwski
+2020-08-30 20:56:38,612 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: janusz
+2020-08-30 20:56:40,461 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: owsk
+2020-08-30 20:56:43,994 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: owak
+2020-08-30 21:05:42,644 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 21:06:42,540 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 21:07:50,352 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-30 21:07:50,384 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-30 21:07:50,420 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 21:07:50,680 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-30 21:07:50,723 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-30 21:07:59,602 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 50165 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-30 21:07:59,605 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-30 21:08:01,252 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-30 21:08:01,349 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 86ms. Found 10 JPA repository interfaces.
+2020-08-30 21:08:01,855 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:08:01,859 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:08:01,861 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@66fb45e5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:08:01,864 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:08:01,869 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:08:02,329 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-30 21:08:02,348 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-30 21:08:02,350 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-30 21:08:02,350 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-30 21:08:02,523 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-30 21:08:02,523 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2868 ms
+2020-08-30 21:08:02,646 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-30 21:08:02,782 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-30 21:08:02,791 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-30 21:08:03,041 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-30 21:08:03,058 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-30 21:08:03,095 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-30 21:08:03,159 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.051s)
+2020-08-30 21:08:03,175 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-30 21:08:03,176 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-30 21:08:03,322 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-30 21:08:03,424 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-30 21:08:03,582 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-30 21:08:03,699 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-30 21:08:04,083 INFO org.hibernate.search.engine.Version [main] HSEARCH000034: Hibernate Search 5.11.5.Final
+2020-08-30 21:08:04,677 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-30 21:08:04,991 WARN org.hibernate.search.indexes.impl.LuceneEmbeddedIndexFamilyImpl [main] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2020-08-30 21:08:05,156 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 21:08:07,457 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-30 21:08:07,909 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13835bdc, org.springframework.security.web.context.SecurityContextPersistenceFilter@63f093a, org.springframework.security.web.header.HeaderWriterFilter@3a22c944, org.springframework.security.web.csrf.CsrfFilter@a49995f, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@1a4c6e74, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@755a4ef5, org.springframework.security.web.authentication.logout.LogoutFilter@2f5378cd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3986b56, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@97842a0, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@68423388, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@1104cf3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39352f6b, org.springframework.security.web.session.SessionManagementFilter@485dfac9, org.springframework.security.web.access.ExceptionTranslationFilter@2fedfff1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7296675e]
+2020-08-30 21:08:08,110 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-30 21:08:08,230 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-30 21:08:08,999 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-30 21:08:09,252 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [Hibernate Search: identifierloader-1] HSEARCH000027: Going to reindex 13 entities
+2020-08-30 21:08:09,613 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [main] HSEARCH000028: Reindexed 13 entities
+2020-08-30 21:08:09,668 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-30 21:08:09,690 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-30 21:08:09,695 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 10.939 seconds (JVM running for 12.838)
+2020-08-30 21:08:10,399 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-30 21:08:10,399 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-30 21:08:10,432 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 33 ms
+2020-08-30 21:08:10,516 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 1
+2020-08-30 21:08:20,169 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: koz
+2020-08-30 21:08:25,742 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: kozlowski
+2020-08-30 21:08:29,253 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: koz
+2020-08-30 21:08:30,781 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: milosz
+2020-08-30 21:09:09,058 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 21:09:40,462 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-30 21:09:40,466 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-30 21:09:40,479 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 21:09:40,525 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-30 21:09:40,526 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-30 21:09:47,932 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 50201 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-30 21:09:47,937 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-30 21:09:49,132 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-30 21:09:49,235 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 92ms. Found 10 JPA repository interfaces.
+2020-08-30 21:09:49,803 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:09:49,806 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:09:49,809 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2c829dbc' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:09:49,810 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:09:49,815 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:09:50,259 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-30 21:09:50,270 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-30 21:09:50,270 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-30 21:09:50,271 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-30 21:09:50,419 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-30 21:09:50,419 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2395 ms
+2020-08-30 21:09:50,544 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-30 21:09:50,666 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-30 21:09:50,676 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-30 21:09:50,912 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-30 21:09:50,929 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-30 21:09:50,952 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-30 21:09:51,014 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.045s)
+2020-08-30 21:09:51,035 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-30 21:09:51,037 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-30 21:09:51,203 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-30 21:09:51,295 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-30 21:09:51,447 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-30 21:09:51,566 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-30 21:09:51,953 INFO org.hibernate.search.engine.Version [main] HSEARCH000034: Hibernate Search 5.11.5.Final
+2020-08-30 21:09:52,465 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-30 21:09:52,710 WARN org.hibernate.search.indexes.impl.LuceneEmbeddedIndexFamilyImpl [main] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2020-08-30 21:09:52,848 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 21:09:54,638 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-30 21:09:55,149 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50479c2b, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e966e67, org.springframework.security.web.header.HeaderWriterFilter@21132086, org.springframework.security.web.csrf.CsrfFilter@40fd25c7, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@37e28b20, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@4a937d43, org.springframework.security.web.authentication.logout.LogoutFilter@406cf37f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2330c5c5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1dcfbad1, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@40e7aea9, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@63ff861e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@554a4d18, org.springframework.security.web.session.SessionManagementFilter@7d90d4c6, org.springframework.security.web.access.ExceptionTranslationFilter@6da6c10e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13835bdc]
+2020-08-30 21:09:55,346 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-30 21:09:55,479 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-30 21:09:56,229 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-30 21:09:56,516 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [Hibernate Search: identifierloader-1] HSEARCH000027: Going to reindex 13 entities
+2020-08-30 21:09:56,751 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [main] HSEARCH000028: Reindexed 13 entities
+2020-08-30 21:09:56,762 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-30 21:09:56,786 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-30 21:09:56,792 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 9.764 seconds (JVM running for 10.811)
+2020-08-30 21:10:03,183 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-30 21:10:03,183 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-30 21:10:03,211 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 27 ms
+2020-08-30 21:10:04,289 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: milos
+2020-08-30 21:10:39,585 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: milosz
+2020-08-30 21:10:43,438 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: milos
+2020-08-30 21:10:48,045 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: milo
+2020-08-30 21:10:50,436 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: mil
+2020-08-30 21:10:56,307 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 21:10:57,063 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: milosx
+2020-08-30 21:11:09,376 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: milos
+2020-08-30 21:11:10,727 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: milosz 
+2020-08-30 21:11:11,403 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: milosz k
+2020-08-30 21:11:15,322 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: milosz kozlowski
+2020-08-30 21:11:27,803 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: mil
+2020-08-30 21:11:29,184 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: elwira
+2020-08-30 21:11:32,061 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: elwir
+2020-08-30 21:11:33,384 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: elwi
+2020-08-30 21:11:56,299 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 21:12:56,300 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-30 21:17:09,775 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-30 21:17:09,786 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-30 21:17:09,815 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 21:17:09,872 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-30 21:17:09,877 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-30 21:17:18,047 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 50286 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-30 21:17:18,053 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-30 21:17:19,926 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-30 21:17:20,029 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 93ms. Found 10 JPA repository interfaces.
+2020-08-30 21:17:20,678 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:17:20,684 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:17:20,687 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1d98daa0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:17:20,690 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:17:20,695 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-30 21:17:21,220 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-30 21:17:21,230 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-30 21:17:21,230 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-30 21:17:21,231 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-30 21:17:21,356 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-30 21:17:21,357 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3221 ms
+2020-08-30 21:17:21,470 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-30 21:17:21,597 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-30 21:17:21,605 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-30 21:17:21,793 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-30 21:17:21,815 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-30 21:17:21,838 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-30 21:17:21,897 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.048s)
+2020-08-30 21:17:21,919 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-30 21:17:21,920 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-30 21:17:22,082 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-30 21:17:22,167 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-30 21:17:22,319 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-30 21:17:22,449 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-30 21:17:22,852 INFO org.hibernate.search.engine.Version [main] HSEARCH000034: Hibernate Search 5.11.5.Final
+2020-08-30 21:17:23,368 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-30 21:17:23,622 WARN org.hibernate.search.indexes.impl.LuceneEmbeddedIndexFamilyImpl [main] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2020-08-30 21:17:23,760 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 21:17:27,072 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-30 21:17:27,782 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6da76bb1, org.springframework.security.web.context.SecurityContextPersistenceFilter@36c763cd, org.springframework.security.web.header.HeaderWriterFilter@7e147828, org.springframework.security.web.csrf.CsrfFilter@16a30d66, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@72fa021, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@15251cc2, org.springframework.security.web.authentication.logout.LogoutFilter@6cf47d05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41628b4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bdfae42, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@7e864fa4, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@452d6fd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ceb722e, org.springframework.security.web.session.SessionManagementFilter@7e383712, org.springframework.security.web.access.ExceptionTranslationFilter@21132086, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47166740]
+2020-08-30 21:17:28,068 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-30 21:17:28,221 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-30 21:17:29,232 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-30 21:17:29,817 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [Hibernate Search: identifierloader-1] HSEARCH000027: Going to reindex 13 entities
+2020-08-30 21:17:30,091 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [main] HSEARCH000028: Reindexed 13 entities
+2020-08-30 21:17:30,098 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-30 21:17:30,129 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-30 21:17:30,138 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 13.482 seconds (JVM running for 14.515)
+2020-08-30 21:17:33,239 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-30 21:17:33,239 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-30 21:17:33,266 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 26 ms
+2020-08-30 21:17:34,337 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: milos
+2020-08-30 21:17:40,935 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: wira
+2020-08-30 21:17:44,196 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: wirael
+2020-08-30 21:18:02,977 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: elw
+2020-08-30 21:18:09,341 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: Milosz Kozlowski
+2020-08-30 21:18:27,983 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: Milosz Kozlowskiatn
+2020-08-30 21:18:29,367 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 21:18:29,494 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: atn
+2020-08-30 21:18:32,535 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Inicjacja zapytania wyszukania podopiecznego z frazą: atnna
+2020-08-30 21:18:33,467 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: atna
+2020-08-30 21:19:29,362 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 21:20:29,364 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-30 21:23:05,468 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-08-30 21:23:59,243 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 21:24:21,363 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: mks
+2020-08-30 21:24:23,308 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: mas
+2020-08-30 21:24:34,327 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: adc
+2020-08-30 21:24:36,490 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: adv
+2020-08-30 21:24:44,592 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: das
+2020-08-30 21:25:48,522 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-08-30 21:25:51,723 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Inicjacja zapytania wyszukania podopiecznego z frazą: sfv
+2020-08-30 21:27:17,755 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-08-30 21:27:22,246 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Inicjacja zapytania wyszukania podopiecznego z frazą: kmn
+2020-08-30 21:27:26,001 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: kin
+2020-08-30 21:32:15,400 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-08-30 21:32:20,303 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 21:33:04,766 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-08-30 21:33:29,425 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 21:33:34,221 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Inicjacja zapytania wyszukania podopiecznego z frazą: mko
+2020-08-30 21:33:42,658 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Wczytywanie danych trenera
+2020-08-30 21:33:44,668 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: efs
+2020-08-30 21:37:30,338 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-08-30 21:37:36,442 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Inicjacja zapytania wyszukania podopiecznego z frazą: ijhgi
+2020-08-30 21:38:00,008 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-08-30 21:38:03,542 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Inicjacja zapytania wyszukania podopiecznego z frazą: kbk
+2020-08-30 21:38:58,379 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-08-30 21:39:00,126 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 1
+2020-08-30 21:40:04,293 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 0
+2020-08-30 21:40:11,538 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Inicjacja zapytania wyszukania podopiecznego z frazą: Milosz
+2020-08-30 21:40:21,285 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Inicjacja zapytania wyszukania podopiecznego z frazą: Kozlowski
+2020-08-30 21:40:54,690 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-08-30 21:41:02,640 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Inicjacja zapytania wyszukania podopiecznego z frazą: Mil
+2020-08-30 21:41:06,537 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 3
+2020-08-30 21:41:16,388 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-08-30 21:41:18,724 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 3
+2020-08-30 21:41:20,486 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-08-30 21:41:32,518 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-10] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-30 21:41:32,943 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 21:41:32,945 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 21:41:32,947 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 21:41:32,947 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 21:41:33,031 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 21:41:33,033 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 21:41:33,035 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 21:41:33,037 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 21:41:40,864 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 21:42:16,554 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-30 21:48:29,487 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 21:49:29,384 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 22:03:29,498 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 22:18:29,507 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 22:19:29,397 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 22:24:22,112 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-3] Usuwanie wybranej lokalizacji id: 22
+2020-08-30 22:24:31,948 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-08-30 22:24:48,586 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Inicjacja zapytania wyszukania podopiecznego z frazą: Jan
+2020-08-30 22:25:02,053 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 7
+2020-08-30 22:25:12,761 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-6] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-30 22:25:12,869 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 22:25:12,869 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 22:25:12,870 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 22:25:12,871 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 22:25:12,881 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 22:25:12,886 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 22:25:12,887 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 22:25:12,887 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 22:25:15,625 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 22:32:17,588 INFO org.keycloak.adapters.KeycloakDeployment [http-nio-8080-exec-3] Loaded URLs from http://192.168.0.190:8180/auth/realms/stejsiApp/.well-known/openid-configuration
+2020-08-30 22:33:29,520 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 22:36:29,593 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-4] Zaczytywanie wszytkich tipów
+2020-08-30 22:36:30,030 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 22:36:30,030 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 22:36:30,033 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 22:36:30,046 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 22:36:30,047 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 22:36:30,047 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 22:36:30,052 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 22:36:30,059 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 22:36:40,018 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-4] Zaczytywanie wszytkich tipów
+2020-08-30 22:36:40,093 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 10
+2020-08-30 22:36:40,093 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-30 22:36:40,097 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-30 22:36:40,103 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-30 22:36:40,105 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-30 22:36:40,108 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-30 22:36:40,108 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-30 22:36:40,116 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-30 22:36:50,521 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-5] Pobieranie listy treningów w cyklu tygodniowym dla tygodnia rozpoczynającego się od: 2020-08-24T00:00
+2020-08-30 22:36:53,861 INFO pl.mihome.stejsiWebApp.controller.PodopiecznyController [http-nio-8080-exec-9] [showUsers] Showing all users sorted by null z parametrem reverse: null
+2020-08-30 22:36:53,862 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie strony użytkowników do odczytu
+2020-08-30 22:37:03,326 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-8] Pobieranie wszystkich rodzajów pakietów
+2020-08-30 22:37:19,652 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-9] Pobieranie wszystkich lokalizacji lokalizacji
+2020-08-30 22:37:32,243 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Wczytywanie danych trenera
+2020-08-30 22:48:29,597 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-30 22:49:29,405 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-30 23:28:31,239 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m38s499ms).

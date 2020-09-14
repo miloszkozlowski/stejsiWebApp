@@ -4,11 +4,19 @@ import pl.mihome.stejsiWebApp.model.PakietTreningow;
 import pl.mihome.stejsiWebApp.model.Podopieczny;
 import pl.mihome.stejsiWebApp.model.RodzajPakietu;
 
+import javax.validation.constraints.NotNull;
+
 public class PakietWriteModel {
 
+	@NotNull(message = "User id must be provided")
 	private Long podopiecznyId;
+
+	@NotNull(message = "Package type id must be provided")
 	private Long rodzajPakietuId;
-	
+
+	public PakietWriteModel() {
+	}
+
 	public PakietWriteModel(Long podopiecznyId) {
 		this.podopiecznyId = podopiecznyId;
 	}

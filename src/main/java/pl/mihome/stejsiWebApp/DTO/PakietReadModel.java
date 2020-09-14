@@ -25,15 +25,15 @@ import pl.mihome.stejsiWebApp.model.Trening;
 		scope = PakietReadModel.class)
 public class PakietReadModel {
 
-	private Long id;
-	private PodopiecznyReadModel owner;
-	private RodzajPakietu packageType;
-	private List<TreningReadModel> trainings;
-	private Boolean paid;
-	private Boolean closed;
+	private final Long id;
+	private final PodopiecznyReadModel owner;
+	private final RodzajPakietu packageType;
+	private final List<TreningReadModel> trainings;
+	private final Boolean paid;
+	private final Boolean closed;
 	
 	@JsonSerialize(using = LocalDateTimeSerializer.class)
-	private LocalDateTime whenCreated;
+	private final LocalDateTime whenCreated;
 	
 	
 	public PakietReadModel(PakietTreningow pakiet, PodopiecznyReadModel user) {
@@ -105,38 +105,33 @@ public class PakietReadModel {
 
 	@JsonIgnore
 	public Long getAmountTrainingsPlanned() {
-		var amount = trainings.stream()
+		return trainings.stream()
 		.filter(t -> t.getScheduledFor() != null)
 		.count();
-		return amount;
-
 	}
 	
 	@JsonIgnore
 	public Long getAmountTrainigsPast() {
-		var amount = trainings.stream()
+		return  trainings.stream()
 				.filter(t -> t.getWhenCanceled() == null && t.getScheduledFor() != null)
 				.filter(t -> t.getScheduledFor().isBefore(LocalDateTime.now()))
 				.count();
-		return amount;
 	}
 	
 	@JsonIgnore
 	public Long getAmountTrainingsDone() {
-		var amount = trainings.stream()
-		.filter(t -> t.isDone())
+		return trainings.stream()
+		.filter(TreningReadModel::isDone)
 		.count();
-		return amount;
 	}
 	
 	@JsonIgnore
 	public Long getAmountOfPresenceConfirmations() {
 		return trainings.stream()
-				.filter(t -> t.isPresenceConfirmed())
+				.filter(TreningReadModel::isPresenceConfirmed)
 				.count();
 	}
-	
-	@JsonIgnore
+
 	public int getValidityDays() {
 		LocalDate today = LocalDate.now();
 		LocalDate created = getWhenCreated().toLocalDate();
@@ -144,8 +139,7 @@ public class PakietReadModel {
 		Period period = Period.between(today, validTo);
 		return period.getDays();
 	}
-	
-	@JsonIgnore
+
 	public Boolean isValid() {
 		if(packageType.getDaysValid() == 0)
 			return true;
@@ -153,17 +147,16 @@ public class PakietReadModel {
 			return getValidityDays() >= 0;
 					
 	}
-	
-	@JsonIgnore
-	public Boolean isValidIndefinetely() {
+
+	public Boolean isValidInfinitely() {
 		return packageType.getDaysValid() == 0;
 	}
 	
 	@JsonIgnore
 	public Boolean isDone() {
-		return trainings.stream()
-		.filter(t -> !t.isDone() && t.getPresenceConfirmedByUser() != null)
-		.count() == 0;
+		return trainings
+				.stream()
+				.noneMatch(t -> !t.isDone() && t.getPresenceConfirmedByUser() != null);
 	}
 	
 	@JsonIgnore
@@ -171,9 +164,7 @@ public class PakietReadModel {
 		if(this.isClosed()) {
 			final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 			Optional<TreningReadModel> dateReadable = trainings.stream()
-					.filter(t -> t.getMarkedAsDone() != null)
-					.sorted(Comparator.comparing(TreningReadModel::getMarkedAsDone).reversed())
-					.findFirst();
+					.filter(t -> t.getMarkedAsDone() != null).max(Comparator.comparing(TreningReadModel::getMarkedAsDone));
 			if(dateReadable.isPresent()) {
 				if(dateReadable.get().getMarkedAsDone() != null) {
 					return dateReadable.get().getMarkedAsDone().format(dtf);

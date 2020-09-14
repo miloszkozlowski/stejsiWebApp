@@ -1,0 +1,552 @@
+2020-09-09 00:35:17,931 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h17s552ms).
+2020-09-09 02:35:33,644 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h15s544ms).
+2020-09-09 04:35:55,726 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h22s209ms).
+2020-09-09 06:37:50,223 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1m54s547ms).
+2020-09-09 09:09:46,348 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h31m24s272ms).
+2020-09-09 09:10:36,118 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-09 09:20:03,100 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m46s435ms).
+2020-09-09 09:40:38,708 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-09 09:40:48,765 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m15s660ms).
+2020-09-09 10:20:37,067 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m47s981ms).
+2020-09-09 11:21:33,934 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26s845ms).
+2020-09-09 12:22:30,843 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26s903ms).
+2020-09-09 13:23:27,647 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26s799ms).
+2020-09-09 14:24:24,481 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26s823ms).
+2020-09-09 15:24:52,004 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h27s523ms).
+2020-09-09 16:25:20,293 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28s289ms).
+2020-09-09 17:26:17,274 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26s973ms).
+2020-09-09 18:26:44,146 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26s872ms).
+2020-09-09 19:27:41,219 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h27s71ms).
+2020-09-09 20:05:14,423 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m33s204ms).
+2020-09-09 20:13:17,004 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m2s581ms).
+2020-09-09 20:18:31,156 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m14s50ms).
+2020-09-09 20:18:40,890 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:18:51,314 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 1
+2020-09-09 20:18:51,556 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:18:54,294 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:18:57,664 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 1
+2020-09-09 20:18:57,688 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:18:59,659 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:19:08,927 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:19:27,666 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:19:29,646 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:19:49,034 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-09 20:20:29,278 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:20:51,181 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:21:06,359 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:21:40,551 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:22:08,972 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:22:14,260 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:22:16,461 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:22:45,548 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:22:49,162 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:23:04,697 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:23:07,975 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:28:24,109 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m52s591ms).
+2020-09-09 20:29:52,020 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m27s926ms).
+2020-09-09 20:30:24,264 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:30:27,028 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:30:49,246 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:30:49,339 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 10
+2020-09-09 20:30:50,679 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:31:33,853 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 11
+2020-09-09 20:31:33,859 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:31:43,993 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:32:10,394 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:33:52,933 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:34:10,720 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:34:12,688 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:34:44,668 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:34:47,063 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:35:44,282 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:36:04,718 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:36:07,813 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:37:00,928 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:37:02,787 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 1
+2020-09-09 20:37:24,530 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-10] Pobieranie wszystkich rodzajów pakietów
+2020-09-09 20:37:33,687 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-3] Pobieranie wszystkich rodzajów pakietów
+2020-09-09 20:37:45,054 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-7] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-09 20:37:49,719 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-4] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-09 20:38:09,651 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-09 20:39:10,011 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-09 20:39:34,457 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-1] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-09 20:39:36,445 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-10] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-09-09 20:39:36,727 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 10
+2020-09-09 20:39:36,744 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 9
+2020-09-09 20:39:36,765 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 8
+2020-09-09 20:39:36,768 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 6
+2020-09-09 20:39:36,768 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 7
+2020-09-09 20:39:36,772 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 5
+2020-09-09 20:39:36,967 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 4
+2020-09-09 20:39:36,968 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 3
+2020-09-09 20:40:09,307 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-09 20:40:30,600 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-10] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-09 20:40:50,237 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Wczytywanie danych trenera
+2020-09-09 20:47:32,040 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-09-09 20:47:32,190 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-09 20:47:32,328 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-09 20:47:34,028 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-09 20:47:34,146 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-09 20:47:51,928 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on macbookpro-milosz.home with PID 95474 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-09-09 20:47:51,953 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-09-09 20:47:54,374 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-09 20:47:54,544 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 155ms. Found 10 JPA repository interfaces.
+2020-09-09 20:47:55,347 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 20:47:55,351 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 20:47:55,354 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4f2d014a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 20:47:55,357 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 20:47:55,364 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 20:47:56,267 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-09-09 20:47:56,282 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-09 20:47:56,284 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-09-09 20:47:56,284 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-09-09 20:47:56,460 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-09-09 20:47:56,461 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4381 ms
+2020-09-09 20:47:56,595 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-09 20:47:56,729 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-09-09 20:47:56,739 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-09 20:47:56,949 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-09 20:47:56,959 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-09-09 20:47:56,995 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-09-09 20:47:57,068 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.061s)
+2020-09-09 20:47:57,087 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-09-09 20:47:57,089 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-09-09 20:47:57,226 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-09 20:47:57,327 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-09-09 20:47:57,493 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-09 20:47:57,643 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-09 20:47:58,091 INFO org.hibernate.search.engine.Version [main] HSEARCH000034: Hibernate Search 5.11.5.Final
+2020-09-09 20:47:58,667 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-09 20:47:59,118 WARN org.hibernate.search.indexes.impl.LuceneEmbeddedIndexFamilyImpl [main] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2020-09-09 20:47:59,329 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-09 20:48:01,637 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-09-09 20:48:02,138 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@420d123d, org.springframework.security.web.context.SecurityContextPersistenceFilter@485dfac9, org.springframework.security.web.header.HeaderWriterFilter@1666e021, org.springframework.security.web.csrf.CsrfFilter@3edc999f, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@46e38c28, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@3af6d7a7, org.springframework.security.web.authentication.logout.LogoutFilter@43ab4e83, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63f093a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2330c5c5, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@5e405eaf, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@4981b83, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36d8ddc5, org.springframework.security.web.session.SessionManagementFilter@3a22c944, org.springframework.security.web.access.ExceptionTranslationFilter@5e18a6a7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@78fcc4ef]
+2020-09-09 20:48:02,401 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-09 20:48:02,616 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-09-09 20:48:04,117 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-09-09 20:48:04,858 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [Hibernate Search: identifierloader-1] HSEARCH000027: Going to reindex 13 entities
+2020-09-09 20:48:05,467 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [main] HSEARCH000028: Reindexed 13 entities
+2020-09-09 20:48:05,482 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-09-09 20:48:05,512 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-09 20:48:05,515 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 15.775 seconds (JVM running for 18.607)
+2020-09-09 20:49:04,214 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-09 20:49:43,710 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-09 20:49:43,834 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-09-09 20:49:44,068 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 232 ms
+2020-09-09 20:50:04,200 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-09 20:51:04,194 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-09-09 21:04:04,385 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-09 21:10:44,889 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-09-09 21:10:44,925 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-09 21:10:44,966 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-09 21:10:45,331 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-09 21:10:45,357 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-09 21:11:09,335 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on macbookpro-milosz.home with PID 95821 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-09-09 21:11:09,365 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-09-09 21:11:12,577 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-09 21:11:12,804 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 203ms. Found 10 JPA repository interfaces.
+2020-09-09 21:11:15,850 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:11:15,863 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:11:15,872 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@43ac0a68' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:11:15,877 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:11:15,902 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:11:16,958 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-09-09 21:11:16,978 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-09 21:11:16,979 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-09-09 21:11:16,979 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-09-09 21:11:17,142 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-09-09 21:11:17,143 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7541 ms
+2020-09-09 21:11:17,316 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-09 21:11:17,564 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-09-09 21:11:17,585 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-09 21:11:18,308 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-09 21:11:18,362 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-09-09 21:11:18,480 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-09-09 21:11:18,692 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.194s)
+2020-09-09 21:11:18,722 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-09-09 21:11:18,725 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-09-09 21:11:19,089 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-09 21:11:19,566 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-09-09 21:11:19,884 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-09 21:11:20,080 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-09 21:11:20,877 INFO org.hibernate.search.engine.Version [main] HSEARCH000034: Hibernate Search 5.11.5.Final
+2020-09-09 21:11:21,754 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-09 21:11:22,238 WARN org.hibernate.search.indexes.impl.LuceneEmbeddedIndexFamilyImpl [main] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2020-09-09 21:11:22,776 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-09 21:11:25,244 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'activationController' defined in file [/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes/pl/mihome/stejsiWebApp/controller/ActivationController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'podopiecznyService' defined in file [/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes/pl/mihome/stejsiWebApp/logic/PodopiecznyService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appClientService' defined in file [/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes/pl/mihome/stejsiWebApp/logic/AppClientService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tipSQLRepo': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean pl.mihome.stejsiWebApp.model.TipRepo.existsByWhenNotificationSentIsNull()! No property whenNotificationSent found for type Tip!
+2020-09-09 21:11:25,246 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-09 21:11:25,258 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2020-09-09 21:11:25,346 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2020-09-09 21:11:25,348 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2020-09-09 21:11:25,365 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-09 21:11:25,377 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'activationController' defined in file [/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes/pl/mihome/stejsiWebApp/controller/ActivationController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'podopiecznyService' defined in file [/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes/pl/mihome/stejsiWebApp/logic/PodopiecznyService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appClientService' defined in file [/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes/pl/mihome/stejsiWebApp/logic/AppClientService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tipSQLRepo': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean pl.mihome.stejsiWebApp.model.TipRepo.existsByWhenNotificationSentIsNull()! No property whenNotificationSent found for type Tip!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at pl.mihome.stejsiWebApp.StejsiWebAppApplication.main(StejsiWebAppApplication.java:20)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'podopiecznyService' defined in file [/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes/pl/mihome/stejsiWebApp/logic/PodopiecznyService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appClientService' defined in file [/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes/pl/mihome/stejsiWebApp/logic/AppClientService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tipSQLRepo': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean pl.mihome.stejsiWebApp.model.TipRepo.existsByWhenNotificationSentIsNull()! No property whenNotificationSent found for type Tip!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appClientService' defined in file [/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes/pl/mihome/stejsiWebApp/logic/AppClientService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tipSQLRepo': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean pl.mihome.stejsiWebApp.model.TipRepo.existsByWhenNotificationSentIsNull()! No property whenNotificationSent found for type Tip!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tipSQLRepo': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean pl.mihome.stejsiWebApp.model.TipRepo.existsByWhenNotificationSentIsNull()! No property whenNotificationSent found for type Tip!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 47 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean pl.mihome.stejsiWebApp.model.TipRepo.existsByWhenNotificationSentIsNull()! No property whenNotificationSent found for type Tip!
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:209)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:78)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1056)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559)
+	at java.base/java.util.Optional.map(Optional.java:258)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 58 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property whenNotificationSent found for type Tip!
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:94)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:382)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:358)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:311)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:293)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:276)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:82)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:251)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:252)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:381)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:382)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:97)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:89)
+	... 84 common frames omitted
+2020-09-09 21:16:53,276 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on macbookpro-milosz.home with PID 95893 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-09-09 21:16:53,279 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-09-09 21:16:55,115 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-09 21:16:55,228 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 103ms. Found 10 JPA repository interfaces.
+2020-09-09 21:16:55,821 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:16:55,824 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:16:55,827 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4978777f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:16:55,830 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:16:55,834 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:16:56,226 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-09-09 21:16:56,236 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-09 21:16:56,236 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-09-09 21:16:56,236 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-09-09 21:16:56,365 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-09-09 21:16:56,365 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3038 ms
+2020-09-09 21:16:56,490 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-09 21:16:56,622 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-09-09 21:16:56,632 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-09 21:16:56,846 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-09 21:16:56,857 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-09-09 21:16:56,888 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-09-09 21:16:56,951 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.051s)
+2020-09-09 21:16:56,965 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-09-09 21:16:56,967 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-09-09 21:16:57,101 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-09 21:16:57,201 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-09-09 21:16:57,362 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-09 21:16:57,479 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-09 21:16:57,873 INFO org.hibernate.search.engine.Version [main] HSEARCH000034: Hibernate Search 5.11.5.Final
+2020-09-09 21:16:58,454 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-09 21:16:58,818 WARN org.hibernate.search.indexes.impl.LuceneEmbeddedIndexFamilyImpl [main] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2020-09-09 21:16:58,973 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-09 21:17:01,119 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-09-09 21:17:01,605 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17d5138, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bb78381, org.springframework.security.web.header.HeaderWriterFilter@13835bdc, org.springframework.security.web.csrf.CsrfFilter@31af3f22, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@230e163b, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@6fb2b972, org.springframework.security.web.authentication.logout.LogoutFilter@1e8fd198, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@318d69ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1acd952e, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@6a827b0c, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@39ee07a9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@266b7d1, org.springframework.security.web.session.SessionManagementFilter@34c3e307, org.springframework.security.web.access.ExceptionTranslationFilter@57be0d93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14ca4b4d]
+2020-09-09 21:17:01,809 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-09 21:17:01,974 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-09-09 21:17:02,883 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-09-09 21:17:03,186 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [Hibernate Search: identifierloader-1] HSEARCH000027: Going to reindex 13 entities
+2020-09-09 21:17:03,437 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [main] HSEARCH000028: Reindexed 13 entities
+2020-09-09 21:17:03,446 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-09-09 21:17:03,478 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-09 21:17:03,484 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 11.063 seconds (JVM running for 12.177)
+2020-09-09 21:17:46,597 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-09 21:17:46,599 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-09-09 21:17:46,760 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 161 ms
+2020-09-09 21:17:46,960 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-1] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-09 21:17:51,280 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-5] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-09-09 21:17:51,378 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 10
+2020-09-09 21:17:51,380 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 9
+2020-09-09 21:17:51,390 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 8
+2020-09-09 21:17:51,394 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 5
+2020-09-09 21:17:51,394 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 6
+2020-09-09 21:17:51,395 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 7
+2020-09-09 21:17:51,423 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 4
+2020-09-09 21:17:51,424 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 3
+2020-09-09 21:18:02,958 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-09 21:19:02,954 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-09 21:20:02,953 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-09-09 21:20:16,732 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-09-09 21:20:16,740 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-09 21:20:16,753 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-09 21:20:16,835 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-09 21:20:16,837 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-09 21:20:25,172 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on macbookpro-milosz.home with PID 95931 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-09-09 21:20:25,175 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-09-09 21:20:26,988 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-09 21:20:27,140 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 140ms. Found 10 JPA repository interfaces.
+2020-09-09 21:20:30,453 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:20:30,458 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:20:30,461 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4215e133' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:20:30,465 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:20:30,469 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 21:20:30,976 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-09-09 21:20:30,987 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-09 21:20:30,988 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-09-09 21:20:30,988 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-09-09 21:20:31,107 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-09-09 21:20:31,107 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5881 ms
+2020-09-09 21:20:31,230 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-09 21:20:31,562 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-09-09 21:20:31,571 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-09 21:20:31,771 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-09 21:20:31,794 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-09-09 21:20:31,817 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-09-09 21:20:31,896 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.046s)
+2020-09-09 21:20:31,916 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-09-09 21:20:31,918 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-09-09 21:20:32,078 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-09 21:20:32,265 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-09-09 21:20:32,472 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-09 21:20:32,587 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-09 21:20:32,980 INFO org.hibernate.search.engine.Version [main] HSEARCH000034: Hibernate Search 5.11.5.Final
+2020-09-09 21:20:33,552 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-09 21:20:33,816 WARN org.hibernate.search.indexes.impl.LuceneEmbeddedIndexFamilyImpl [main] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2020-09-09 21:20:33,933 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-09 21:20:35,719 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-09-09 21:20:36,112 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2dbfb843, org.springframework.security.web.context.SecurityContextPersistenceFilter@42210d27, org.springframework.security.web.header.HeaderWriterFilter@36e7b91c, org.springframework.security.web.csrf.CsrfFilter@1b6441c9, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@5e0602ff, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@69e23e94, org.springframework.security.web.authentication.logout.LogoutFilter@14d43f13, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9a932a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45382749, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@15251cc2, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@7bdaf563, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ab2c5d8, org.springframework.security.web.session.SessionManagementFilter@19e5e846, org.springframework.security.web.access.ExceptionTranslationFilter@97842a0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65448932]
+2020-09-09 21:20:36,309 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-09 21:20:36,426 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-09-09 21:20:37,067 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-09-09 21:20:37,290 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [Hibernate Search: identifierloader-1] HSEARCH000027: Going to reindex 13 entities
+2020-09-09 21:20:37,516 INFO org.hibernate.search.batchindexing.impl.SimpleIndexingProgressMonitor [main] HSEARCH000028: Reindexed 13 entities
+2020-09-09 21:20:37,522 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-09-09 21:20:37,565 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-09 21:20:37,569 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 13.109 seconds (JVM running for 14.1)
+2020-09-09 21:20:56,475 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-09 21:20:56,481 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-09-09 21:20:56,693 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 211 ms
+2020-09-09 21:20:57,057 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-2] Sprawdzanie, czy istnieją aktualności bez wysłanych powiadomień...
+2020-09-09 21:20:57,065 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-1] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-09-09 21:20:57,504 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 10
+2020-09-09 21:20:57,510 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 9
+2020-09-09 21:20:57,525 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 8
+2020-09-09 21:20:57,531 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 5
+2020-09-09 21:20:57,531 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 7
+2020-09-09 21:20:57,531 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 6
+2020-09-09 21:20:57,582 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 4
+2020-09-09 21:20:57,584 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 3
+2020-09-09 21:21:37,135 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-09 21:21:48,532 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-1] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-09-09 21:21:48,530 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-2] Sprawdzanie, czy istnieją aktualności bez wysłanych powiadomień...
+2020-09-09 21:21:48,758 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 8
+2020-09-09 21:21:48,758 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 9
+2020-09-09 21:21:48,758 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 10
+2020-09-09 21:21:48,759 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 7
+2020-09-09 21:21:48,760 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 6
+2020-09-09 21:21:48,764 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 5
+2020-09-09 21:21:48,786 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 3
+2020-09-09 21:21:48,786 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 4
+2020-09-09 21:22:35,481 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-9] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-09-09 21:22:35,478 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-10] Sprawdzanie, czy istnieją aktualności bez wysłanych powiadomień...
+2020-09-09 21:22:35,944 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 10
+2020-09-09 21:22:35,954 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 9
+2020-09-09 21:22:35,962 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 8
+2020-09-09 21:22:35,973 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 7
+2020-09-09 21:22:35,990 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 6
+2020-09-09 21:22:36,002 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 5
+2020-09-09 21:22:36,007 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 4
+2020-09-09 21:22:36,010 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 3
+2020-09-09 21:22:37,130 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-09 21:22:39,885 INFO pl.mihome.stejsiWebApp.logic.TipService [task-1] Powiadamianie na żądanie użytkowników o nowym tip (async)
+2020-09-09 21:22:48,495 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-1] Unexpected exception occurred invoking async method: public void pl.mihome.stejsiWebApp.logic.TipService.notifyUsersOnNewTips()
+org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:543)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:631)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: javax.persistence.RollbackException: Error while committing the transaction
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:81)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:104)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:534)
+	... 12 common frames omitted
+Caused by: javax.validation.ConstraintViolationException: Validation failed for classes [pl.mihome.stejsiWebApp.model.Tip] during update time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='Podany adres URL nie zawiera obrazka we właściwym formacie (JPEG, PNG lub GIF)', propertyPath=imageUrl, rootBeanClass=class pl.mihome.stejsiWebApp.model.Tip, messageTemplate='{pl.mihome.stejsiWebApp.constraints.ImageContent.message}'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:140)
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreUpdate(BeanValidationEventListener.java:88)
+	at org.hibernate.action.internal.EntityUpdateAction.preUpdate(EntityUpdateAction.java:304)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:174)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:723)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:348)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1352)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:443)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3202)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2370)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:447)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	... 13 common frames omitted
+2020-09-09 21:23:14,835 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-7] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-09-09 21:23:14,835 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-9] Sprawdzanie, czy istnieją aktualności bez wysłanych powiadomień...
+2020-09-09 21:23:15,118 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 10
+2020-09-09 21:23:15,126 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 9
+2020-09-09 21:23:15,137 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 8
+2020-09-09 21:23:15,145 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 7
+2020-09-09 21:23:15,155 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 6
+2020-09-09 21:23:15,165 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 5
+2020-09-09 21:23:15,177 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 4
+2020-09-09 21:23:15,184 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 3
+2020-09-09 21:23:37,125 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-09-09 21:36:37,182 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-09 21:42:27,922 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-8] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-09-09 21:42:27,922 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-2] Sprawdzanie, czy istnieją aktualności bez wysłanych powiadomień...
+2020-09-09 21:42:28,146 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 9
+2020-09-09 21:42:28,144 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 10
+2020-09-09 21:42:28,168 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 6
+2020-09-09 21:42:28,172 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 7
+2020-09-09 21:42:28,176 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 8
+2020-09-09 21:42:28,182 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 5
+2020-09-09 21:42:28,186 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 4
+2020-09-09 21:42:28,187 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 3
+2020-09-09 21:42:52,495 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-8] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-09-09 21:42:52,495 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-2] Sprawdzanie, czy istnieją aktualności bez wysłanych powiadomień...
+2020-09-09 21:42:52,608 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 8
+2020-09-09 21:42:52,608 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 10
+2020-09-09 21:42:52,609 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 7
+2020-09-09 21:42:52,608 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 5
+2020-09-09 21:42:52,610 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 9
+2020-09-09 21:42:52,667 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 6
+2020-09-09 21:42:52,671 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 4
+2020-09-09 21:42:52,677 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 3
+2020-09-09 21:43:48,058 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-1] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-09-09 21:43:48,057 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-6] Sprawdzanie, czy istnieją aktualności bez wysłanych powiadomień...
+2020-09-09 21:43:48,346 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 10
+2020-09-09 21:43:48,360 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 9
+2020-09-09 21:43:48,372 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 8
+2020-09-09 21:43:48,379 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 7
+2020-09-09 21:43:48,384 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 6
+2020-09-09 21:43:48,393 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 5
+2020-09-09 21:43:48,440 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 4
+2020-09-09 21:43:48,441 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 3
+2020-09-09 21:43:52,140 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-09 21:43:56,930 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 1
+2020-09-09 21:51:37,244 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-09 21:52:37,553 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-09 22:06:37,340 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-09 22:20:00,065 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s686ms).
+2020-09-09 22:50:32,205 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m31s859ms).
+2020-09-09 22:51:07,204 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-09 22:52:07,398 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-09 23:36:11,307 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m9s45ms).

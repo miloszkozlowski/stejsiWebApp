@@ -1,0 +1,222 @@
+2020-09-13 04:15:06,173 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h29m46s305ms).
+2020-09-13 07:30:03,158 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h14m56s947ms).
+2020-09-13 08:58:01,647 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h27m28s351ms).
+2020-09-13 09:05:42,317 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 09:06:41,532 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-13 09:20:46,683 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 09:48:07,613 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m34s462ms).
+2020-09-13 09:49:47,123 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m9s454ms).
+2020-09-13 10:30:42,601 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m55s403ms).
+2020-09-13 10:36:56,098 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 11:14:05,007 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m22s353ms).
+2020-09-13 11:14:43,970 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-13 11:48:54,450 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m19s440ms).
+2020-09-13 12:28:56,858 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m32s394ms).
+2020-09-13 13:26:23,637 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m56s762ms).
+2020-09-13 15:26:46,120 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h59m52s459ms).
+2020-09-13 16:51:13,636 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m57s492ms).
+2020-09-13 17:00:57,240 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 17:15:57,684 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 17:16:52,634 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-13 17:52:46,408 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m32s379ms).
+2020-09-13 18:00:49,182 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m2s680ms).
+2020-09-13 18:11:33,067 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 18:26:33,143 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 18:27:27,870 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-13 18:41:33,265 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 18:56:33,349 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 18:57:01,903 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-5] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 18:57:27,962 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-13 19:09:14,953 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-4] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 19:11:33,484 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 19:21:52,102 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-2] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 19:21:56,861 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-3] Failure in @ExceptionHandler pl.mihome.stejsiWebApp.controller.controllerRest.ErrorHandlerRest#handleUnexpectedExceptions(Exception)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:776)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:681)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.write(OnCommittedResponseWrapper.java:645)
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.write(OnCommittedResponseWrapper.java:645)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2137)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1150)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:923)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:287)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter.doFilter(KeycloakAuthenticatedActionsFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter.doFilter(KeycloakSecurityContextRequestFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter.doFilter(KeycloakPreAuthActionsFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter.doFilter(KeycloakAuthenticatedActionsFilter.java:74)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter.doFilter(KeycloakSecurityContextRequestFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter.doFilter(KeycloakPreAuthActionsFilter.java:96)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at pl.mihome.stejsiWebApp.controller.FirewallFilter.doFilter(FirewallFilter.java:26)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.keycloak.adapters.tomcat.AbstractAuthenticatedActionsValve.invoke(AbstractAuthenticatedActionsValve.java:67)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.keycloak.adapters.tomcat.AbstractKeycloakAuthenticatorValve.invoke(AbstractKeycloakAuthenticatorValve.java:181)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:484)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:138)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1253)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:740)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:560)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:504)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:538)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:190)
+	at org.apache.coyote.Response.doWrite(Response.java:601)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:339)
+	... 121 common frames omitted
+2020-09-13 19:26:10,369 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-10] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 19:26:33,559 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 19:27:28,146 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-13 19:27:42,297 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-2] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 20:14:48,115 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m58s156ms).
+2020-09-13 20:15:01,766 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 20:19:20,803 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m1s473ms).
+2020-09-13 20:33:33,350 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 20:34:27,828 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-13 20:48:33,534 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 20:53:37,976 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-4] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 20:54:43,949 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-8] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 21:03:33,716 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 21:04:27,945 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-13 21:18:33,899 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 21:33:33,993 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 21:34:28,054 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-13 21:48:34,211 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 22:03:34,343 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 22:04:28,383 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-13 22:05:21,962 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-09-13 22:05:27,985 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-2] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:05:29,332 ERROR pl.mihome.stejsiWebApp.logic.AndroidNotificationsService [scheduling-1] Nieudana wysyłka ponaglającego powiadomienia o potwierdzeniu obecności: com.google.firebase.messaging.FirebaseMessagingException: The registration token is not a valid FCM registration token
+2020-09-13 22:05:32,950 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-7] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:05:38,272 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-1] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:12:35,235 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-9] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:12:53,530 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-1] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:13:06,336 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-3] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:15:39,187 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-6] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:15:57,009 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-8] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:16:05,215 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-5] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:16:37,220 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-4] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:17:44,034 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-10] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:18:34,422 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 22:23:33,842 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-6] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:23:35,898 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-1] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:23:38,841 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-10] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:29:33,404 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-6] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:31:15,043 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-4] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:32:50,751 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-1] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:33:34,450 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 22:34:28,472 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-13 22:38:28,324 INFO pl.mihome.stejsiWebApp.logic.TreningService [http-nio-8080-exec-8] Pobieranie mapy treningów w cyklu tygodniowym dla indeksu tygodnia: 0
+2020-09-13 22:38:47,934 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-13 22:48:34,550 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-13 23:30:38,854 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m46s841ms).

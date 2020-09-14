@@ -1,0 +1,682 @@
+2020-08-24 00:10:24,380 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m58s507ms).
+2020-08-24 01:31:47,082 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m22s702ms).
+2020-08-24 01:39:22,470 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m35s369ms).
+2020-08-24 03:41:19,291 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h26s536ms).
+2020-08-24 04:00:04,547 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m45s257ms).
+2020-08-24 06:11:28,026 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h11m23s479ms).
+2020-08-24 06:11:57,729 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s699ms), soft-evicting connections from pool.
+2020-08-24 07:36:50,268 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m52s543ms).
+2020-08-24 07:58:17,949 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m27s675ms).
+2020-08-24 08:02:13,275 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m24s241ms).
+2020-08-24 08:55:30,112 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m16s829ms).
+2020-08-24 08:55:33,948 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 08:56:44,863 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m14s751ms).
+2020-08-24 08:58:12,734 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m27s871ms).
+2020-08-24 09:16:13,022 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m30s279ms).
+2020-08-24 09:37:39,252 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m19s285ms).
+2020-08-24 09:55:06,172 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m26s920ms).
+2020-08-24 10:15:34,004 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m27s832ms).
+2020-08-24 11:18:26,322 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m52s308ms).
+2020-08-24 11:19:54,172 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-8] Zapisywanie nowego rodzaju pakietu: Hhhh
+2020-08-24 11:20:08,499 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-2] Usuwanie rodzaju pakietu po id: 14
+2020-08-24 11:20:08,504 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-2] Pobieranie rodzaju pakietu po id: 14
+2020-08-24 11:27:30,195 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 11:28:30,047 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 11:33:21,694 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-1] Usuwanie rodzaju pakietu po id: 7
+2020-08-24 11:33:21,700 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-1] Pobieranie rodzaju pakietu po id: 7
+2020-08-24 11:34:26,877 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-2] Zapisywanie nowego rodzaju pakietu: Dodany testowo
+2020-08-24 11:35:01,861 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-1] Zapisywanie nowego rodzaju pakietu: af
+2020-08-24 11:35:21,404 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-8] Usuwanie rodzaju pakietu po id: 16
+2020-08-24 11:35:21,407 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-8] Pobieranie rodzaju pakietu po id: 16
+2020-08-24 11:37:25,276 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-1] Zapisywanie nowego rodzaju pakietu: Dnd
+2020-08-24 11:37:42,442 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-8] Usuwanie rodzaju pakietu po id: 17
+2020-08-24 11:37:42,444 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-8] Pobieranie rodzaju pakietu po id: 17
+2020-08-24 11:41:27,166 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-1] Zapisywanie nowego rodzaju pakietu: Nxnx
+2020-08-24 11:42:30,215 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 11:43:25,108 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-2] Usuwanie rodzaju pakietu po id: 18
+2020-08-24 11:43:25,111 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-2] Pobieranie rodzaju pakietu po id: 18
+2020-08-24 11:50:16,485 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-6] Usuwanie rodzaju pakietu po id: 18
+2020-08-24 11:50:16,488 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-6] Pobieranie rodzaju pakietu po id: 18
+2020-08-24 11:52:18,071 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-9] Zapisywanie nowego rodzaju pakietu: sdv
+2020-08-24 11:52:40,799 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-8] Usuwanie rodzaju pakietu po id: 19
+2020-08-24 11:52:40,799 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-8] Pobieranie rodzaju pakietu po id: 19
+2020-08-24 11:52:48,390 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-7] Usuwanie rodzaju pakietu po id: 19
+2020-08-24 11:52:48,390 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-7] Pobieranie rodzaju pakietu po id: 19
+2020-08-24 11:57:30,229 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 11:58:30,067 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 12:08:23,166 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-7] Usuwanie rodzaju pakietu po id: 1
+2020-08-24 12:08:23,179 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-7] Pobieranie rodzaju pakietu po id: 1
+2020-08-24 12:12:30,242 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 12:17:05,729 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-24 12:17:05,742 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-24 12:17:05,762 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 12:17:05,804 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-24 12:17:05,809 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-24 12:17:17,390 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 13880 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-24 12:17:17,392 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-24 12:17:19,013 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-24 12:17:19,122 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 99ms. Found 10 JPA repository interfaces.
+2020-08-24 12:17:19,728 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 12:17:19,733 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 12:17:19,736 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4b1ec694' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 12:17:19,739 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 12:17:19,745 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 12:17:20,267 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-24 12:17:20,280 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-24 12:17:20,281 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-24 12:17:20,281 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-24 12:17:20,436 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-24 12:17:20,437 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2959 ms
+2020-08-24 12:17:20,592 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-24 12:17:20,753 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-24 12:17:20,765 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-24 12:17:21,034 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-24 12:17:21,059 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-24 12:17:21,092 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-24 12:17:21,174 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.060s)
+2020-08-24 12:17:21,189 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-24 12:17:21,191 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-24 12:17:21,350 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-24 12:17:21,462 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-24 12:17:21,647 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-24 12:17:21,813 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-24 12:17:22,891 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-24 12:17:22,899 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 12:17:24,823 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-24 12:17:25,280 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bd67cf9, org.springframework.security.web.context.SecurityContextPersistenceFilter@77eb0e47, org.springframework.security.web.header.HeaderWriterFilter@639c5ab4, org.springframework.security.web.csrf.CsrfFilter@5397d41e, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@5274acd1, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@2d97344c, org.springframework.security.web.authentication.logout.LogoutFilter@21553c3a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38f7a20, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62b8dd6a, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@ff12b53, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@78141c58, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ba32242, org.springframework.security.web.session.SessionManagementFilter@6345dc06, org.springframework.security.web.access.ExceptionTranslationFilter@48463900, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1455a374]
+2020-08-24 12:17:25,495 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-24 12:17:25,626 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-24 12:17:26,196 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-24 12:17:26,287 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-24 12:17:26,315 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-24 12:17:26,319 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 10.116 seconds (JVM running for 11.781)
+2020-08-24 12:17:29,040 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-24 12:17:29,041 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-24 12:17:29,063 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 22 ms
+2020-08-24 12:17:48,215 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-4] Zapisywanie nowego rodzaju pakietu: asfda
+2020-08-24 12:18:03,511 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-8] Usuwanie rodzaju pakietu po id: 20
+2020-08-24 12:18:03,514 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-8] Pobieranie rodzaju pakietu po id: 20
+2020-08-24 12:18:11,167 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-1] Usuwanie rodzaju pakietu po id: 20
+2020-08-24 12:18:11,168 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-1] Pobieranie rodzaju pakietu po id: 20
+2020-08-24 12:18:26,289 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 12:19:26,288 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 12:20:26,284 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-24 12:33:26,303 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 12:48:50,267 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s20ms).
+2020-08-24 12:48:53,545 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 12:49:53,510 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 13:03:53,582 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 13:06:17,740 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-5] Zapisywanie nowego rodzaju pakietu: Długi tytuł oferty, że ho ho!!
+2020-08-24 13:09:18,808 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-24 13:09:18,821 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-24 13:09:18,825 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-24 13:09:18,825 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-24 13:09:18,825 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-24 13:09:18,825 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-24 13:09:18,904 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-24 13:18:53,598 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 13:19:53,525 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 13:27:54,973 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [174] milliseconds.
+2020-08-24 13:28:02,747 INFO org.keycloak.adapters.KeycloakDeployment [http-nio-8080-exec-8] Loaded URLs from http://192.168.0.190:8180/auth/realms/stejsiApp/.well-known/openid-configuration
+2020-08-24 13:28:08,696 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-4] Pobieranie wszystkich lokalizacji lokalizacji
+2020-08-24 13:28:16,979 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Wczytywanie danych trenera
+2020-08-24 13:28:16,984 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 13:28:18,571 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-5] Pobieranie wszystkich lokalizacji lokalizacji
+2020-08-24 13:28:20,108 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Wczytywanie danych trenera
+2020-08-24 13:28:20,109 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 13:33:53,630 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 13:48:53,754 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 13:49:53,548 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 14:03:53,827 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 14:14:37,734 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-24 14:14:37,751 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-24 14:14:37,787 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 14:14:37,867 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-24 14:14:37,882 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-24 14:14:48,591 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 14534 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-24 14:14:48,598 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-24 14:14:49,793 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-24 14:14:49,893 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 88ms. Found 10 JPA repository interfaces.
+2020-08-24 14:14:50,383 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 14:14:50,386 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 14:14:50,388 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2e62ead7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 14:14:50,390 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 14:14:50,394 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 14:14:50,840 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-24 14:14:50,858 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-24 14:14:50,859 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-24 14:14:50,860 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-24 14:14:50,990 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-24 14:14:50,990 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2311 ms
+2020-08-24 14:14:51,146 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-24 14:14:51,266 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-24 14:14:51,273 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-24 14:14:51,453 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-24 14:14:51,468 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-24 14:14:51,491 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-24 14:14:51,557 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.051s)
+2020-08-24 14:14:51,577 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-24 14:14:51,579 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-24 14:14:51,732 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-24 14:14:51,805 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-24 14:14:51,961 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-24 14:14:52,105 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-24 14:14:53,014 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-24 14:14:53,022 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 14:14:54,793 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-24 14:14:55,192 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13231e7b, org.springframework.security.web.context.SecurityContextPersistenceFilter@372c428, org.springframework.security.web.header.HeaderWriterFilter@264340f0, org.springframework.security.web.csrf.CsrfFilter@7510824, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@42db3ff, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@11ad327f, org.springframework.security.web.authentication.logout.LogoutFilter@18f8c76d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c364a9d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c7008b4, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@7402bfe7, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@1d5958d3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55b7f0d, org.springframework.security.web.session.SessionManagementFilter@48e1e18a, org.springframework.security.web.access.ExceptionTranslationFilter@23c0fcf0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34a06981]
+2020-08-24 14:14:55,381 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-24 14:14:55,532 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-24 14:14:56,028 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-24 14:14:56,086 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-24 14:14:56,138 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-24 14:14:56,142 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 8.538 seconds (JVM running for 9.621)
+2020-08-24 14:15:28,173 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-24 14:15:28,173 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-08-24 14:15:28,200 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 26 ms
+2020-08-24 14:15:28,260 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-2] Wczytywanie danych trenera
+2020-08-24 14:15:28,297 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-2] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 14:15:56,099 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 14:16:56,085 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 14:17:56,085 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-24 14:30:56,138 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 14:45:56,168 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 14:46:56,095 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 14:58:28,386 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Wczytywanie danych trenera
+2020-08-24 14:58:28,428 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 14:59:47,003 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-24 14:59:47,016 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-24 14:59:47,036 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 14:59:47,080 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-24 14:59:47,091 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-24 14:59:57,316 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 14758 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-24 14:59:57,319 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-24 14:59:58,399 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-24 14:59:58,509 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 99ms. Found 10 JPA repository interfaces.
+2020-08-24 14:59:58,999 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 14:59:59,002 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 14:59:59,004 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@77d4ac52' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 14:59:59,006 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 14:59:59,010 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 14:59:59,408 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-24 14:59:59,417 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-24 14:59:59,417 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-24 14:59:59,418 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-24 14:59:59,536 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-24 14:59:59,536 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2173 ms
+2020-08-24 14:59:59,648 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-24 14:59:59,810 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-24 14:59:59,825 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-24 15:00:00,048 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-24 15:00:00,062 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-24 15:00:00,084 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-24 15:00:00,139 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.042s)
+2020-08-24 15:00:00,156 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-24 15:00:00,157 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-24 15:00:00,357 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-24 15:00:00,447 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-24 15:00:00,620 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-24 15:00:00,740 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-24 15:00:01,673 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-24 15:00:01,681 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 15:00:03,699 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-24 15:00:04,195 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39aaa7db, org.springframework.security.web.context.SecurityContextPersistenceFilter@766ab25b, org.springframework.security.web.header.HeaderWriterFilter@11d474a, org.springframework.security.web.csrf.CsrfFilter@4ac2b4c6, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@3a5ffea, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@6802c10e, org.springframework.security.web.authentication.logout.LogoutFilter@597084b7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3577e37c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f959640, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@f2b4303, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@23dda7a3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14a3a66c, org.springframework.security.web.session.SessionManagementFilter@6c1d25fa, org.springframework.security.web.access.ExceptionTranslationFilter@2c555efb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3fb920d9]
+2020-08-24 15:00:04,418 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-24 15:00:04,562 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-24 15:00:05,016 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-24 15:00:05,100 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-24 15:00:05,126 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-24 15:00:05,129 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 8.993 seconds (JVM running for 10.391)
+2020-08-24 15:00:20,825 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-24 15:00:20,826 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-24 15:00:20,852 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 26 ms
+2020-08-24 15:00:22,917 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Wczytywanie danych trenera
+2020-08-24 15:00:22,953 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:00:38,784 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-2] Wczytywanie danych trenera
+2020-08-24 15:00:38,786 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-2] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:01:05,118 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 15:02:05,097 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 15:03:05,102 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-24 15:04:02,962 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Wczytywanie danych trenera
+2020-08-24 15:04:02,965 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:04:27,448 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Wczytywanie danych trenera
+2020-08-24 15:04:27,455 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:05:22,543 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-24 15:05:22,546 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:17:05,512 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m35s222ms).
+2020-08-24 15:17:10,367 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 15:27:16,475 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m40s948ms).
+2020-08-24 15:28:28,827 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-24 15:28:28,836 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:28:39,499 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Wczytywanie danych trenera
+2020-08-24 15:28:39,501 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:30:41,274 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-2] Wczytywanie danych trenera
+2020-08-24 15:30:41,292 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-2] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:31:27,013 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Wczytywanie danych trenera
+2020-08-24 15:31:27,016 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:33:41,831 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Wczytywanie danych trenera
+2020-08-24 15:33:41,835 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:34:00,139 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Wczytywanie danych trenera
+2020-08-24 15:34:00,140 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:36:25,773 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-8] Wczytywanie danych trenera
+2020-08-24 15:36:25,775 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-8] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:37:24,457 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-24 15:37:24,458 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:37:53,081 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Wczytywanie danych trenera
+2020-08-24 15:37:53,083 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:38:08,600 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Wczytywanie danych trenera
+2020-08-24 15:38:08,603 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:39:02,863 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Wczytywanie danych trenera
+2020-08-24 15:39:02,866 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:39:29,885 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Wczytywanie danych trenera
+2020-08-24 15:39:29,887 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:40:01,159 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Wczytywanie danych trenera
+2020-08-24 15:40:01,169 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:40:12,426 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Wczytywanie danych trenera
+2020-08-24 15:40:12,428 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:41:28,318 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 15:42:28,190 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 15:42:39,136 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-8] Wczytywanie danych trenera
+2020-08-24 15:42:39,142 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-8] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:45:55,059 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-24 15:45:55,063 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-24 15:45:55,076 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 15:45:55,116 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-24 15:45:55,123 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-24 15:46:08,946 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 15057 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-24 15:46:08,953 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-24 15:46:10,659 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-24 15:46:10,773 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 104ms. Found 10 JPA repository interfaces.
+2020-08-24 15:46:11,411 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 15:46:11,414 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 15:46:11,417 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2e1b374c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 15:46:11,419 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 15:46:11,425 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 15:46:11,958 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-24 15:46:11,967 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-24 15:46:11,968 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-24 15:46:11,968 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-24 15:46:12,117 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-24 15:46:12,118 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2992 ms
+2020-08-24 15:46:12,271 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-24 15:46:12,408 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-24 15:46:12,415 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-24 15:46:12,611 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-24 15:46:12,633 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-24 15:46:12,665 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-24 15:46:12,743 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.055s)
+2020-08-24 15:46:12,761 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-24 15:46:12,763 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-24 15:46:12,941 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-24 15:46:13,023 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-24 15:46:13,158 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-24 15:46:13,296 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-24 15:46:14,318 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-24 15:46:14,327 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 15:46:16,478 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-24 15:46:16,927 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@85eabca, org.springframework.security.web.context.SecurityContextPersistenceFilter@735d7b99, org.springframework.security.web.header.HeaderWriterFilter@4be6531a, org.springframework.security.web.csrf.CsrfFilter@326489c4, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@164db8f0, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@4a65c40, org.springframework.security.web.authentication.logout.LogoutFilter@5122387, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6919a8a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@74997ca6, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@1f6d3a81, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@641c8ba4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f8c4bcf, org.springframework.security.web.session.SessionManagementFilter@7510824, org.springframework.security.web.access.ExceptionTranslationFilter@17796f47, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3678f32e]
+2020-08-24 15:46:17,132 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-24 15:46:17,268 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-24 15:46:17,708 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-24 15:46:17,798 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-24 15:46:17,829 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-24 15:46:17,834 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 9.885 seconds (JVM running for 11.388)
+2020-08-24 15:46:21,083 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-24 15:46:21,083 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-24 15:46:21,104 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 21 ms
+2020-08-24 15:46:22,156 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Wczytywanie danych trenera
+2020-08-24 15:46:22,189 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:47:17,831 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 15:48:17,800 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 15:48:30,281 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Wczytywanie danych trenera
+2020-08-24 15:48:30,284 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:49:13,524 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Wczytywanie danych trenera
+2020-08-24 15:49:13,527 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:49:17,799 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-24 15:49:40,544 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Wczytywanie danych trenera
+2020-08-24 15:49:40,546 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:50:34,934 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-24 15:50:34,937 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:51:21,593 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-8] Wczytywanie danych trenera
+2020-08-24 15:51:21,597 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-8] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:53:43,456 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Wczytywanie danych trenera
+2020-08-24 15:53:43,460 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:54:08,119 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Wczytywanie danych trenera
+2020-08-24 15:54:08,122 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:54:40,921 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-2] Wczytywanie danych trenera
+2020-08-24 15:54:40,931 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-2] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:54:50,520 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Wczytywanie danych trenera
+2020-08-24 15:54:50,523 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:55:30,878 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Wczytywanie danych trenera
+2020-08-24 15:55:30,882 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:55:31,211 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-24 15:55:31,212 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:56:11,267 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-24 15:56:11,272 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:56:11,511 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Wczytywanie danych trenera
+2020-08-24 15:56:11,512 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:58:27,079 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Wczytywanie danych trenera
+2020-08-24 15:58:27,082 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:59:11,241 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Wczytywanie danych trenera
+2020-08-24 15:59:11,242 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:59:39,717 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Wczytywanie danych trenera
+2020-08-24 15:59:39,721 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 15:59:44,000 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Wczytywanie danych trenera
+2020-08-24 15:59:44,002 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 16:00:26,899 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-24 16:00:26,903 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 16:02:17,871 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 16:03:12,005 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-24 16:03:12,009 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 16:04:47,395 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Wczytywanie danych trenera
+2020-08-24 16:04:47,399 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 16:14:14,952 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Wczytywanie danych trenera
+2020-08-24 16:14:14,992 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 16:16:39,051 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Wczytywanie danych trenera
+2020-08-24 16:16:39,062 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 16:16:40,383 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Wczytywanie danych trenera
+2020-08-24 16:16:40,386 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 16:17:17,886 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 16:18:17,804 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 16:19:26,712 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-8] Wczytywanie danych trenera
+2020-08-24 16:19:26,716 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-8] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 16:19:28,041 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-24 16:19:28,047 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 16:21:35,311 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Wczytywanie danych trenera
+2020-08-24 16:21:35,334 WARN pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Nie odnaleziono ustawień trenera - zwracanie pustych
+2020-08-24 16:22:50,681 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Zapisywanie nowych danych trenera
+2020-08-24 16:23:06,023 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-24 16:23:50,461 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-8] Wczytywanie danych trenera
+2020-08-24 16:24:40,266 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-2] Wczytywanie danych trenera
+2020-08-24 16:25:48,910 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Wczytywanie danych trenera
+2020-08-24 16:25:54,077 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Zapisywanie nowych danych trenera
+2020-08-24 16:26:55,567 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Wczytywanie danych trenera
+2020-08-24 16:27:00,706 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Zapisywanie nowych danych trenera
+2020-08-24 16:27:16,925 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-2] Wczytywanie danych trenera
+2020-08-24 16:27:27,676 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Zapisywanie nowych danych trenera
+2020-08-24 16:32:17,901 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 16:32:19,833 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Wczytywanie danych trenera
+2020-08-24 16:43:57,873 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m14s319ms).
+2020-08-24 16:44:00,028 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [282] milliseconds.
+2020-08-24 16:44:01,058 INFO org.keycloak.adapters.KeycloakDeployment [http-nio-8080-exec-3] Loaded URLs from http://192.168.0.190:8180/auth/realms/stejsiApp/.well-known/openid-configuration
+2020-08-24 16:44:05,025 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-5] Pobieranie wszystkich lokalizacji lokalizacji
+2020-08-24 16:48:18,338 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-24 16:48:18,344 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-24 16:48:18,355 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 16:48:18,373 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-24 16:48:18,380 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-24 16:48:28,404 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 15427 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-24 16:48:28,408 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-24 16:48:29,769 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-24 16:48:29,867 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 86ms. Found 10 JPA repository interfaces.
+2020-08-24 16:48:30,351 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 16:48:30,353 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 16:48:30,356 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@77d4ac52' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 16:48:30,358 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 16:48:30,362 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 16:48:30,753 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-24 16:48:30,763 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-24 16:48:30,764 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-24 16:48:30,764 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-24 16:48:30,876 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-24 16:48:30,877 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2402 ms
+2020-08-24 16:48:30,986 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-24 16:48:31,127 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-24 16:48:31,135 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-24 16:48:31,339 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-24 16:48:31,356 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-24 16:48:31,383 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-24 16:48:31,445 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.044s)
+2020-08-24 16:48:31,459 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-24 16:48:31,460 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-24 16:48:31,589 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-24 16:48:31,715 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-24 16:48:31,866 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-24 16:48:31,976 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-24 16:48:32,927 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-24 16:48:32,936 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 16:48:35,371 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-24 16:48:35,837 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@345f4e0d, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c79a7c1, org.springframework.security.web.header.HeaderWriterFilter@28592982, org.springframework.security.web.csrf.CsrfFilter@1a1d7832, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@7505dcab, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@641c8ba4, org.springframework.security.web.authentication.logout.LogoutFilter@4a234e1f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17796f47, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@766ab25b, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@445b4594, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@1f602930, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c3eeda4, org.springframework.security.web.session.SessionManagementFilter@7df994ec, org.springframework.security.web.access.ExceptionTranslationFilter@174e5929, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@420c9959]
+2020-08-24 16:48:36,176 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-24 16:48:36,406 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-24 16:48:37,817 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-24 16:48:37,932 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-24 16:48:37,966 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-24 16:48:37,970 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 10.525 seconds (JVM running for 11.993)
+2020-08-24 16:48:41,210 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-24 16:48:41,211 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-24 16:48:41,246 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 33 ms
+2020-08-24 16:49:37,953 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 16:50:37,930 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 16:50:46,461 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-8] Tworzenie nowej lokalziacji w bazie
+2020-08-24 16:51:37,931 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-24 16:52:07,412 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Wczytywanie danych trenera
+2020-08-24 17:03:05,680 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Wczytywanie danych trenera
+2020-08-24 17:04:31,523 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Wczytywanie danych trenera
+2020-08-24 17:04:38,024 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 17:04:46,020 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Wczytywanie danych trenera
+2020-08-24 17:21:28,325 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m23s161ms).
+2020-08-24 17:23:34,719 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 17:24:34,619 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 17:35:11,041 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-08-24 17:35:16,817 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-24 17:35:16,819 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-24 17:35:16,835 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 17:35:16,853 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-24 17:35:16,860 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-24 17:35:30,575 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 15620 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-24 17:35:30,581 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-24 17:35:32,089 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-24 17:35:32,219 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 113ms. Found 10 JPA repository interfaces.
+2020-08-24 17:35:32,871 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 17:35:32,874 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 17:35:32,877 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@17b016ac' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 17:35:32,880 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 17:35:32,893 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 17:35:33,305 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-24 17:35:33,320 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-24 17:35:33,320 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-24 17:35:33,321 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-24 17:35:33,453 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-24 17:35:33,453 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2707 ms
+2020-08-24 17:35:33,569 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-24 17:35:33,694 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-24 17:35:33,703 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-24 17:35:33,935 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-24 17:35:33,948 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-24 17:35:33,972 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-24 17:35:34,028 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.043s)
+2020-08-24 17:35:34,048 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-24 17:35:34,049 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-24 17:35:34,170 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-24 17:35:34,245 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-24 17:35:34,384 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-24 17:35:34,493 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-24 17:35:35,472 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-24 17:35:35,485 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 17:35:37,685 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-24 17:35:38,162 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5cc28282, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c883b3f, org.springframework.security.web.header.HeaderWriterFilter@57fe6f2d, org.springframework.security.web.csrf.CsrfFilter@6db64abf, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@7ba623d1, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@682d8dad, org.springframework.security.web.authentication.logout.LogoutFilter@62b8dd6a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61b11d35, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@272cec71, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@576a8b00, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@1d988297, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a0b925a, org.springframework.security.web.session.SessionManagementFilter@5350a926, org.springframework.security.web.access.ExceptionTranslationFilter@5397d41e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4458887d]
+2020-08-24 17:35:38,468 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-24 17:35:38,618 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-24 17:35:39,111 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-24 17:35:39,177 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-24 17:35:39,201 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-24 17:35:39,205 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 9.979 seconds (JVM running for 11.67)
+2020-08-24 17:36:39,258 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 17:37:39,210 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 17:38:19,182 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-24 17:38:19,656 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-24 17:38:19,794 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 137 ms
+2020-08-24 17:38:39,211 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-24 17:39:44,495 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-8] Wczytywanie danych trenera
+2020-08-24 17:39:49,099 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-24 17:39:52,808 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Wczytywanie danych trenera
+2020-08-24 17:40:41,492 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-24 17:40:41,505 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-24 17:40:41,514 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-24 17:40:41,515 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-24 17:40:41,515 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-24 17:40:41,518 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-24 17:40:41,586 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-24 17:40:47,152 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-24 17:45:51,761 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-5] Tworzenie nowej lokalziacji w bazie
+2020-08-24 17:45:51,915 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-5] Ustawianie lokalziacji jako domyślna id: 2
+2020-08-24 17:46:46,131 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-8] Tworzenie nowej lokalziacji w bazie
+2020-08-24 17:46:46,135 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-8] Ustawianie lokalziacji jako domyślna id: 3
+2020-08-24 17:47:09,997 INFO org.keycloak.adapters.KeycloakDeployment [http-nio-8080-exec-3] Loaded URLs from http://192.168.0.190:8180/auth/realms/stejsiApp/.well-known/openid-configuration
+2020-08-24 17:47:13,043 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-2] Pobieranie wszystkich lokalizacji lokalizacji
+2020-08-24 17:47:38,369 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-7] Tworzenie nowej lokalziacji w bazie
+2020-08-24 17:47:38,374 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-7] Pobieranie wszystkich lokalizacji lokalizacji
+2020-08-24 17:51:39,334 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 18:06:39,363 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 18:07:39,221 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 18:31:07,730 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m32s659ms).
+2020-08-24 18:31:28,900 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Wczytywanie danych trenera
+2020-08-24 18:33:12,704 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Wczytywanie danych trenera
+2020-08-24 18:33:38,524 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Wczytywanie danych trenera
+2020-08-24 18:33:40,846 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-24 18:33:42,738 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 18:34:29,074 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Wczytywanie danych trenera
+2020-08-24 18:34:42,723 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-2] Wczytywanie danych trenera
+2020-08-24 18:34:47,551 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-24 18:34:50,699 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Wczytywanie danych trenera
+2020-08-24 18:35:13,822 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-24 18:35:27,165 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Wczytywanie danych trenera
+2020-08-24 18:35:36,613 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Wczytywanie danych trenera
+2020-08-24 18:36:11,724 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-24 18:36:19,790 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Wczytywanie danych trenera
+2020-08-24 18:36:25,631 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-24 18:48:42,745 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 18:49:42,589 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 19:03:42,778 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 19:18:42,807 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 19:19:42,600 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 19:33:42,863 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 19:42:52,655 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Wczytywanie danych trenera
+2020-08-24 19:45:22,685 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-24 19:48:42,894 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 19:49:42,610 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 20:03:28,211 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m19s880ms).
+2020-08-24 20:07:32,818 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 20:21:00,079 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Wczytywanie danych trenera
+2020-08-24 20:22:32,846 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 20:23:32,494 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 20:37:32,862 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 20:52:32,893 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 20:53:32,509 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 21:07:32,915 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 21:13:18,985 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-6] Tworzenie nowej lokalziacji w bazie
+2020-08-24 21:13:19,139 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-6] Ustawianie lokalziacji jako domyślna id: 5
+2020-08-24 21:16:24,245 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-4] Tworzenie nowej lokalziacji w bazie
+2020-08-24 21:16:24,427 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-4] SQL Error: 23502, SQLState: 23502
+2020-08-24 21:16:24,457 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-4] Pole nie może być NULL"domyslne"
+NULL not allowed for column "domyslne"; SQL statement:
+insert into lokalizacje (id, usuniety, when_created, domyslne, nazwa, adres) values (null, ?, ?, ?, ?, ?) [23502-200]
+2020-08-24 21:16:49,751 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-6] Tworzenie nowej lokalziacji w bazie
+2020-08-24 21:16:49,770 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-6] SQL Error: 23502, SQLState: 23502
+2020-08-24 21:16:49,772 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-6] Pole nie może być NULL"domyslne"
+NULL not allowed for column "domyslne"; SQL statement:
+insert into lokalizacje (id, usuniety, when_created, domyslne, nazwa, adres) values (null, ?, ?, ?, ?, ?) [23502-200]
+2020-08-24 21:17:46,695 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-24 21:17:46,705 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-24 21:17:46,743 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 21:17:46,885 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-24 21:17:46,927 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-24 21:17:55,849 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 17023 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-24 21:17:55,854 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-24 21:17:57,254 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-24 21:17:57,381 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 111ms. Found 10 JPA repository interfaces.
+2020-08-24 21:17:57,938 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 21:17:57,945 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 21:17:57,954 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@38ee7a9d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 21:17:57,956 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 21:17:57,971 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-24 21:17:59,986 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-24 21:18:00,003 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-24 21:18:00,004 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-24 21:18:00,005 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-24 21:18:00,173 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-24 21:18:00,174 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4151 ms
+2020-08-24 21:18:00,350 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-24 21:18:00,545 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-24 21:18:00,561 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-24 21:18:00,852 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-24 21:18:00,870 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-24 21:18:00,915 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-24 21:18:00,978 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.053s)
+2020-08-24 21:18:00,992 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-24 21:18:00,994 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-24 21:18:01,235 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-24 21:18:01,352 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-24 21:18:01,537 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-24 21:18:01,745 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-24 21:18:03,627 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-24 21:18:03,671 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 21:18:06,657 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-24 21:18:07,157 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1cafb30, org.springframework.security.web.context.SecurityContextPersistenceFilter@6567de86, org.springframework.security.web.header.HeaderWriterFilter@f6b128b, org.springframework.security.web.csrf.CsrfFilter@633dce39, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@513bec8c, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@5542418c, org.springframework.security.web.authentication.logout.LogoutFilter@7569bc9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c046af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@639c5ab4, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@6c26e588, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@62f73b0c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5cc28282, org.springframework.security.web.session.SessionManagementFilter@56dae6, org.springframework.security.web.access.ExceptionTranslationFilter@3582077c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@372c428]
+2020-08-24 21:18:07,464 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-24 21:18:07,724 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-24 21:18:08,469 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-24 21:18:08,658 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-24 21:18:08,723 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-24 21:18:08,740 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 13.91 seconds (JVM running for 15.124)
+2020-08-24 21:18:21,523 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-24 21:18:21,528 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-24 21:18:21,592 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 64 ms
+2020-08-24 21:19:08,673 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 21:20:08,655 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 21:21:08,657 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-24 21:24:41,903 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-6] Tworzenie nowej lokalziacji w bazie
+2020-08-24 21:24:41,999 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-6] SQL Error: 23502, SQLState: 23502
+2020-08-24 21:24:42,000 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-6] Pole nie może być NULL"domyslne"
+NULL not allowed for column "domyslne"; SQL statement:
+insert into lokalizacje (id, usuniety, when_created, domyslne, nazwa, adres) values (null, ?, ?, ?, ?, ?) [23502-200]
+2020-08-24 21:25:17,032 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-8] Tworzenie nowej lokalziacji w bazie
+2020-08-24 21:25:17,039 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-8] SQL Error: 23502, SQLState: 23502
+2020-08-24 21:25:17,040 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-8] Pole nie może być NULL"domyslne"
+NULL not allowed for column "domyslne"; SQL statement:
+insert into lokalizacje (id, usuniety, when_created, domyslne, nazwa, adres) values (null, ?, ?, ?, ?, ?) [23502-200]
+2020-08-24 21:26:05,763 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-10] Tworzenie nowej lokalziacji w bazie
+2020-08-24 21:26:05,783 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-10] Ustawianie lokalziacji jako domyślna id: 10
+2020-08-24 21:27:10,239 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-3] Tworzenie nowej lokalziacji w bazie
+2020-08-24 21:28:17,851 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-24 21:28:56,063 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-10] Tworzenie nowej lokalziacji w bazie
+2020-08-24 21:29:24,121 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-2] Wczytywanie danych trenera
+2020-08-24 21:34:08,704 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 21:36:34,998 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-24 21:36:49,812 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-24 21:36:49,812 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-24 21:36:49,812 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-24 21:36:49,812 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-24 21:36:49,864 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-24 21:36:49,864 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-24 21:36:49,865 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-24 21:38:38,324 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-24 21:38:38,324 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-24 21:38:38,324 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-24 21:38:38,326 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-24 21:38:38,352 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-24 21:38:38,352 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-24 21:38:38,352 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-24 22:12:15,187 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m12s461ms).
+2020-08-24 22:32:17,483 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m32s259ms).
+2020-08-24 22:32:53,567 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-6] Wczytywanie danych trenera
+2020-08-24 22:33:14,871 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-24 22:33:17,724 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Wczytywanie danych trenera
+2020-08-24 22:33:19,715 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-3] Wczytywanie danych trenera
+2020-08-24 22:33:58,412 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Wczytywanie danych trenera
+2020-08-24 22:34:01,043 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-4] Wczytywanie danych trenera
+2020-08-24 22:34:19,302 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-9] Tworzenie nowej lokalziacji w bazie
+2020-08-24 22:34:55,530 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-10] Tworzenie nowej lokalziacji w bazie
+2020-08-24 22:35:28,707 INFO pl.mihome.stejsiWebApp.logic.LokalizacjaService [http-nio-8080-exec-5] Tworzenie nowej lokalziacji w bazie
+2020-08-24 22:35:42,418 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-24 22:36:16,738 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-24 22:36:16,738 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-24 22:36:16,739 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-24 22:36:16,743 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-24 22:36:16,753 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-24 22:36:16,755 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-24 22:36:16,755 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-24 22:40:55,072 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-24 22:41:55,030 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-24 23:20:47,070 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m28s852ms).

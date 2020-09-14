@@ -20,7 +20,7 @@ import pl.mihome.stejsiWebApp.model.Lokalizacja;
 @RequestMapping("/ustawienia/lokalizacje")
 public class LokalizacjaController {
 
-	private LokalizacjaService locationService;
+	private final LokalizacjaService locationService;
 
 	
 	public LokalizacjaController(LokalizacjaService locationService) {

@@ -1,0 +1,308 @@
+2020-08-20 02:16:53,991 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h47m45s96ms).
+2020-08-20 04:17:40,770 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h14s366ms).
+2020-08-20 08:00:25,070 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h42m44s305ms).
+2020-08-20 08:05:42,037 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m45s894ms).
+2020-08-20 08:08:54,277 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m42s237ms).
+2020-08-20 08:13:54,493 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 08:14:54,387 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-20 08:25:00,960 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-20 08:25:01,020 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 08:25:01,068 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 08:25:01,153 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-20 08:25:01,228 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-20 08:25:13,935 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on macbookpro-milosz.home with PID 3042 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-20 08:25:13,941 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-20 08:25:15,181 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-20 08:25:15,290 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 96ms. Found 10 JPA repository interfaces.
+2020-08-20 08:25:15,804 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 08:25:15,807 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 08:25:15,809 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2da99821' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 08:25:15,812 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 08:25:15,817 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 08:25:16,253 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-20 08:25:16,265 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 08:25:16,266 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-20 08:25:16,266 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-20 08:25:16,394 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-20 08:25:16,394 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2375 ms
+2020-08-20 08:25:16,515 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 08:25:16,651 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-20 08:25:16,661 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-20 08:25:16,863 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-20 08:25:16,880 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-20 08:25:16,918 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-20 08:25:16,979 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.050s)
+2020-08-20 08:25:16,993 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-20 08:25:16,995 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-20 08:25:17,145 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 08:25:17,256 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-20 08:25:17,473 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 08:25:17,605 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-20 08:25:18,674 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 08:25:18,682 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 08:25:20,653 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-20 08:25:21,150 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23c0fcf0, org.springframework.security.web.context.SecurityContextPersistenceFilter@3dbcde0b, org.springframework.security.web.header.HeaderWriterFilter@4ed7db72, org.springframework.security.web.csrf.CsrfFilter@39329d81, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@116efe65, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@1c97c3bb, org.springframework.security.web.authentication.logout.LogoutFilter@639c5ab4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e95c023, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57fe6f2d, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@4bec6682, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@2d97344c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60a4595e, org.springframework.security.web.session.SessionManagementFilter@73624529, org.springframework.security.web.access.ExceptionTranslationFilter@60f70c9e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3bdf6d63]
+2020-08-20 08:25:21,383 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 08:25:21,526 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-20 08:25:21,999 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-20 08:25:22,070 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 08:25:22,108 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-20 08:25:22,112 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 9.167 seconds (JVM running for 10.501)
+2020-08-20 08:26:22,121 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 08:27:22,073 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-20 08:28:22,086 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-20 09:19:23,679 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m36s658ms).
+2020-08-20 09:25:28,888 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 09:31:16,927 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 09:31:16,929 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-20 09:31:16,962 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 33 ms
+2020-08-20 09:32:04,846 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@t
+2020-08-20 09:32:09,904 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tl
+2020-08-20 09:32:11,143 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tle
+2020-08-20 09:32:11,612 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen
+2020-08-20 09:32:14,379 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.p
+2020-08-20 09:32:15,193 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 09:32:29,183 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.p
+2020-08-20 09:32:32,668 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 09:34:07,600 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@t
+2020-08-20 09:34:09,895 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tl
+2020-08-20 09:34:10,455 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tle
+2020-08-20 09:34:10,923 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen
+2020-08-20 09:35:52,203 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Tworzenie nowego uzytkownika: 
+2020-08-20 09:37:47,969 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Tworzenie nowego uzytkownika: 
+2020-08-20 09:38:22,497 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 09:38:32,448 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Tworzenie nowego uzytkownika: mkozlowski@tlen.pl
+2020-08-20 09:40:28,915 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 09:40:47,183 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 09:41:17,848 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 09:41:28,774 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-20 09:44:47,653 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 09:47:01,163 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s320ms).
+2020-08-20 10:22:43,987 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m12s777ms).
+2020-08-20 10:56:20,580 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m36s568ms).
+2020-08-20 11:29:39,004 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m18s419ms).
+2020-08-20 13:30:36,907 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s25ms).
+2020-08-20 15:32:03,922 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s1ms).
+2020-08-20 16:47:53,513 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h15m49s591ms).
+2020-08-20 16:47:57,200 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 17:03:08,765 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 17:04:08,540 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-20 17:18:08,882 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 17:33:08,932 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 17:34:08,578 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-20 17:45:20,205 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-20 17:45:20,226 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:45:20,275 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:45:20,457 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-20 17:45:20,517 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-20 17:45:29,760 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on macbookpro-milosz.home with PID 3716 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-20 17:45:29,810 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-20 17:45:31,392 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-20 17:45:31,509 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 102ms. Found 10 JPA repository interfaces.
+2020-08-20 17:45:32,039 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 17:45:32,042 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 17:45:32,045 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@583fb274' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 17:45:32,047 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 17:45:32,052 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 17:45:32,511 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-20 17:45:32,522 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:45:32,523 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-20 17:45:32,523 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-20 17:45:32,652 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-20 17:45:32,652 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2749 ms
+2020-08-20 17:45:32,760 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 17:45:32,888 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-20 17:45:32,899 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-20 17:45:33,137 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-20 17:45:33,155 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-20 17:45:33,197 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-20 17:45:33,258 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.050s)
+2020-08-20 17:45:33,272 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-20 17:45:33,273 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-20 17:45:33,423 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 17:45:33,527 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-20 17:45:33,709 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 17:45:33,861 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-20 17:45:34,839 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 17:45:34,857 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:45:36,974 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-20 17:45:37,444 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@542759f, org.springframework.security.web.context.SecurityContextPersistenceFilter@59ebe484, org.springframework.security.web.header.HeaderWriterFilter@7a6078d, org.springframework.security.web.csrf.CsrfFilter@3577e37c, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@4516c2ef, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@5d782a4a, org.springframework.security.web.authentication.logout.LogoutFilter@63b85d97, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5cc28282, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11b234aa, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@112a50a1, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@6258f9d1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68ac6e6e, org.springframework.security.web.session.SessionManagementFilter@7b1bb01c, org.springframework.security.web.access.ExceptionTranslationFilter@264340f0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f4bc3ff]
+2020-08-20 17:45:37,659 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:45:37,778 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-20 17:45:38,199 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-20 17:45:38,258 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:45:38,286 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-20 17:45:38,289 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 9.676 seconds (JVM running for 11.33)
+2020-08-20 17:46:38,357 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 17:46:40,673 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 17:46:40,673 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-20 17:46:40,714 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 40 ms
+2020-08-20 17:46:40,855 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 17:47:08,146 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 17:47:26,584 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@t
+2020-08-20 17:47:27,475 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tl
+2020-08-20 17:47:27,981 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tle
+2020-08-20 17:47:28,161 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen
+2020-08-20 17:47:29,298 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.p
+2020-08-20 17:47:29,446 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 17:47:38,260 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-20 17:47:38,802 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.p
+2020-08-20 17:47:42,649 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 17:48:38,257 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-20 17:59:17,971 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.p
+2020-08-20 17:59:39,413 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen
+2020-08-20 18:16:55,831 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m52s486ms).
+2020-08-20 18:18:00,977 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 18:44:54,708 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m28s813ms).
+2020-08-20 18:45:24,543 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s835ms), soft-evicting connections from pool.
+2020-08-20 19:00:47,417 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m22s881ms).
+2020-08-20 19:13:18,099 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m668ms).
+2020-08-20 21:26:58,388 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h13m10s228ms).
+2020-08-20 21:31:57,998 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 21:32:57,710 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-20 21:42:26,289 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tl
+2020-08-20 21:42:33,035 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tle
+2020-08-20 21:42:40,685 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 21:43:09,879 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.p
+2020-08-20 21:44:30,710 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-20 21:44:30,710 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-20 21:44:36,759 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 21:44:51,755 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.p
+2020-08-20 21:44:58,645 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 21:46:58,399 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 21:47:40,573 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@s
+2020-08-20 21:51:41,637 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@t
+2020-08-20 21:51:48,779 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tl
+2020-08-20 21:53:45,603 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@t
+2020-08-20 21:53:45,697 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tl
+2020-08-20 21:53:45,856 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tle
+2020-08-20 21:53:46,006 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen
+2020-08-20 21:53:47,391 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.l
+2020-08-20 21:54:29,952 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.p
+2020-08-20 21:54:30,051 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 22:01:58,419 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 22:02:13,604 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-20 22:02:13,633 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 22:02:13,695 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 22:02:13,741 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-20 22:02:13,758 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-20 22:02:24,473 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on macbookpro-milosz.home with PID 4202 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-20 22:02:24,477 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-20 22:02:26,152 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-20 22:02:26,267 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 103ms. Found 10 JPA repository interfaces.
+2020-08-20 22:02:26,860 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 22:02:26,865 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 22:02:26,868 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3d299393' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 22:02:26,869 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 22:02:26,881 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 22:02:27,534 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-20 22:02:27,549 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 22:02:27,550 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-20 22:02:27,550 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-20 22:02:27,701 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-20 22:02:27,701 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3164 ms
+2020-08-20 22:02:27,853 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 22:02:28,001 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-20 22:02:28,015 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-20 22:02:28,286 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-20 22:02:28,309 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-20 22:02:28,345 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-20 22:02:28,451 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.082s)
+2020-08-20 22:02:28,474 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-20 22:02:28,476 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-20 22:02:28,712 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 22:02:28,832 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-20 22:02:29,051 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 22:02:29,215 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-20 22:02:30,347 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 22:02:30,358 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 22:02:32,515 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-20 22:02:32,917 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3577e37c, org.springframework.security.web.context.SecurityContextPersistenceFilter@4dd28982, org.springframework.security.web.header.HeaderWriterFilter@6e6ec9c, org.springframework.security.web.csrf.CsrfFilter@30be6a05, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@10f60e36, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@4fc8163, org.springframework.security.web.authentication.logout.LogoutFilter@7c046af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6db64abf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3dbcde0b, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@218e186b, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@12925d2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16ac67e3, org.springframework.security.web.session.SessionManagementFilter@4f0381cd, org.springframework.security.web.access.ExceptionTranslationFilter@7959fbe3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21553c3a]
+2020-08-20 22:02:33,118 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 22:02:33,235 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-20 22:02:33,643 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-20 22:02:33,707 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 22:02:33,732 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-20 22:02:33,736 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 9.966 seconds (JVM running for 11.421)
+2020-08-20 22:03:33,756 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 22:04:33,707 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-20 22:05:33,705 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-20 22:18:33,860 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 22:19:07,239 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 22:19:07,240 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-20 22:19:07,287 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 47 ms
+2020-08-20 22:19:07,490 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@t
+2020-08-20 22:19:24,539 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tl
+2020-08-20 22:19:39,210 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen
+2020-08-20 22:19:59,235 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 22:23:11,957 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@t
+2020-08-20 22:23:12,091 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tl
+2020-08-20 22:23:12,231 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tle
+2020-08-20 22:23:12,343 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen
+2020-08-20 22:23:12,865 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.p
+2020-08-20 22:23:12,939 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 22:23:20,441 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.p
+2020-08-20 22:23:21,962 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 22:23:34,574 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-20 22:23:34,579 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 22:23:34,618 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 22:23:34,700 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-20 22:23:34,718 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-20 22:23:44,148 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on macbookpro-milosz.home with PID 4312 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-20 22:23:44,151 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-20 22:23:45,634 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-20 22:23:45,771 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 125ms. Found 10 JPA repository interfaces.
+2020-08-20 22:23:46,268 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 22:23:46,271 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 22:23:46,274 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@626c19cf' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 22:23:46,276 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 22:23:46,281 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 22:23:46,708 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-20 22:23:46,719 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 22:23:46,719 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-20 22:23:46,719 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-20 22:23:46,859 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-20 22:23:46,860 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2647 ms
+2020-08-20 22:23:46,975 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 22:23:47,094 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-20 22:23:47,103 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-20 22:23:47,330 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-20 22:23:47,347 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-20 22:23:47,384 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-20 22:23:47,448 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.053s)
+2020-08-20 22:23:47,463 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-20 22:23:47,464 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-20 22:23:47,601 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 22:23:47,680 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-20 22:23:47,852 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 22:23:47,973 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-20 22:23:48,849 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 22:23:48,855 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 22:23:50,685 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-20 22:23:51,111 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@174e5929, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a4c1a6c, org.springframework.security.web.header.HeaderWriterFilter@e417628, org.springframework.security.web.csrf.CsrfFilter@52d68eb9, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@118879d2, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@68fc1e7f, org.springframework.security.web.authentication.logout.LogoutFilter@34714012, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2afa1b1a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@586a9fe1, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@2d97344c, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@7f839ec5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7569bc9f, org.springframework.security.web.session.SessionManagementFilter@354baab2, org.springframework.security.web.access.ExceptionTranslationFilter@64455184, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c39c520]
+2020-08-20 22:23:51,321 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 22:23:51,429 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-20 22:23:51,868 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-20 22:23:51,937 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 22:23:51,964 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-20 22:23:51,967 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 8.622 seconds (JVM running for 9.871)
+2020-08-20 22:23:53,838 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 22:23:53,839 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-08-20 22:23:53,867 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 28 ms
+2020-08-20 22:23:53,946 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tl
+2020-08-20 22:23:53,946 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@t
+2020-08-20 22:24:00,545 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tle
+2020-08-20 22:24:00,654 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen
+2020-08-20 22:24:01,851 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.p
+2020-08-20 22:24:01,995 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 22:24:51,973 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-20 22:25:51,935 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-20 22:26:51,933 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-20 22:35:10,824 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tl
+2020-08-20 22:35:22,573 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen
+2020-08-20 22:35:27,311 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl
+2020-08-20 22:35:47,503 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tle
+2020-08-20 22:35:48,432 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen
+2020-08-20 22:35:51,242 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen
+2020-08-20 22:35:56,671 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.p
+2020-08-20 22:35:58,970 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Sprawdzanie dostępności adresu e-mail do rejestracji dla: mkozlowski@tlen.pl

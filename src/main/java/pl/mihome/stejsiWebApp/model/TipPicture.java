@@ -24,8 +24,7 @@ public class TipPicture extends AuditBase {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@OneToOne(mappedBy = "picture")
-	@Basic(fetch = FetchType.LAZY)
+	@OneToOne(mappedBy = "picture", fetch = FetchType.LAZY)
 	private Tip tip;
 	
 	@Lob

@@ -40,7 +40,8 @@ public class ImageContentValidator implements ConstraintValidator<ImageContent, 
 	
 	private enum ALLOWED_TYPES {
 		
-		JPG("image/jpeg"),
+		JPEG("image/jpeg"),
+		JPG("image/jpg"),
 		GIF("image/gif"),
 		PNG("image/png");
 		

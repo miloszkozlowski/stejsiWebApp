@@ -2,17 +2,17 @@ package pl.mihome.stejsiWebApp.exeptions;
 
 import java.time.LocalDateTime;
 
-public class CallendarTimeConflictException extends RuntimeException {
+public class CalendarTimeConflictException extends RuntimeException {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 8204452669936353251L;
 
-	private String terminReadable;
-	private LocalDateTime termin;
+	private final String terminReadable;
+	private final LocalDateTime termin;
 	
-	public CallendarTimeConflictException(String terminReadable, LocalDateTime termin) {
+	public CalendarTimeConflictException(String terminReadable, LocalDateTime termin) {
 		this.terminReadable = terminReadable;
 		this.termin = termin;
 	}

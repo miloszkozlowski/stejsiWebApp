@@ -1,6 +1,7 @@
 package pl.mihome.stejsiWebApp.logic;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -32,7 +33,7 @@ import pl.mihome.stejsiWebApp.model.appClient.RegistrationAttemp;
 @Service
 public class AppClientService {
 
-	private List<RegistrationAttemp> registerAttempsList;
+	private List<RegistrationAttemp> registerAttemptsList = new ArrayList<>();
 
 	
 	private AndroidAppConfiguration androidAppConfiguration;
@@ -42,13 +43,12 @@ public class AppClientService {
 	
 	private static final Logger log = LoggerFactory.getLogger(AppClientService.class);
 
-	public AppClientService(List<RegistrationAttemp> registerAttempsList,
+	public AppClientService(
 			AndroidAppConfiguration androidAppConfiguration,
 			TokenRepo tokenRepo,
 			EmailSenderService emailSenderService,
 			TipRepo tipRepo) {
-		
-		this.registerAttempsList = registerAttempsList;
+
 		this.androidAppConfiguration = androidAppConfiguration;
 		this.tokenRepo = tokenRepo;
 		this.emailSenderService = emailSenderService;
@@ -60,9 +60,9 @@ public class AppClientService {
 		/*
 		 * Faktyczne sprawdzenie, czy w ciągu ostatnich {@code HOURS_FOR_REGISTRATION_LIMIT} ilość prób nie przekracza limitu {@code ALLOWED_AMOUNT_OF_REGISTRATION_ATTEMPS}
 		 */
-		if(registerAttempsList.isEmpty()) {
-			registerAttempsList.add(attemp);
-			log.info("Nie było wcześn iej prób z tego urządzenia");
+		if(registerAttemptsList.isEmpty()) {
+			registerAttemptsList.add(attemp);
+			log.info("Nie było wcześniej prób z tego urządzenia");
 			return true;
 		}
 			
@@ -70,14 +70,14 @@ public class AppClientService {
 			/*
 			 * Usuwanie rekordów starszych niż 1 godzina + {@code HOURS_FOR_REGISTRATION_LIMIT}
 			 */
-			registerAttempsList = registerAttempsList.stream()
+			registerAttemptsList = registerAttemptsList.stream()
 			.filter(a -> a.getRequestDateTime().isAfter(LocalDateTime.now().minusHours(1 + androidAppConfiguration.getRegistration().getSuspentionTimeInHours())))
 			.collect(Collectors.toList());
 			
 			/*
 			 * Właściwe sprawdzenie ilości prób rejestracji w ciągu określonego w konfiguracji czasu
 			 */
-			var tries = registerAttempsList.stream()
+			var tries = registerAttemptsList.stream()
 			.filter(a -> LocalDateTime.now().minusHours(androidAppConfiguration.getRegistration().getSuspentionTimeInHours()).isBefore(a.getRequestDateTime()))
 			.filter(a -> (a.getRequestDevId().equals(attemp.getRequestDevId()) || a.getRequestIpAdd().equals(attemp.getRequestIpAdd())))
 			.count();
@@ -89,7 +89,7 @@ public class AppClientService {
 			if(tries >= androidAppConfiguration.getRegistration().getAllowedAttempsAmount())
 				return false;
 			
-			registerAttempsList.add(attemp);
+			registerAttemptsList.add(attemp);
 			return true;
 		}
 		

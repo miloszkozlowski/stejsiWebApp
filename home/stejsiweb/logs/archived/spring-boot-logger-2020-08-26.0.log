@@ -1,0 +1,248 @@
+2020-08-26 01:12:25,920 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h26s848ms).
+2020-08-26 01:13:30,099 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 01:52:06,211 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m10s194ms).
+2020-08-26 03:55:33,839 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s55ms).
+2020-08-26 04:34:45,913 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m12s1ms).
+2020-08-26 06:35:43,355 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s422ms).
+2020-08-26 07:34:59,019 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m45s570ms).
+2020-08-26 07:36:02,956 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 07:37:02,804 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-26 07:51:03,087 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 08:06:03,110 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 08:07:02,830 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-26 08:13:14,276 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m44s497ms).
+2020-08-26 08:25:18,183 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 08:30:25,858 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m41s415ms).
+2020-08-26 08:47:44,494 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m40s482ms).
+2020-08-26 08:47:47,033 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 08:49:36,337 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s832ms).
+2020-08-26 08:49:38,710 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-26 08:52:55,366 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m49s21ms).
+2020-08-26 09:05:57,931 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 09:20:58,116 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 09:21:57,895 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-26 09:35:58,184 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 09:53:40,636 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m14s668ms).
+2020-08-26 09:57:48,132 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m37s462ms).
+2020-08-26 10:37:41,595 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m23s440ms).
+2020-08-26 10:45:02,201 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m20s599ms).
+2020-08-26 10:47:34,386 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 10:48:34,079 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-26 11:02:34,470 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 11:17:34,493 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 11:18:34,106 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-26 11:32:34,543 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 11:46:20,923 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s948ms).
+2020-08-26 11:48:22,507 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 11:49:22,070 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-26 12:00:23,588 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m32s520ms).
+2020-08-26 12:15:11,049 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m17s434ms).
+2020-08-26 12:18:12,491 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 12:27:23,018 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s875ms).
+2020-08-26 12:42:03,469 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m10s438ms).
+2020-08-26 12:48:34,841 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 12:49:34,342 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-26 13:03:34,890 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 13:13:13,574 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-26 13:13:13,590 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-26 13:13:13,624 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-26 13:13:13,807 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-26 13:13:13,870 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-26 16:38:05,401 INFO org.springframework.boot.StartupInfoLogger [main] Starting StejsiWebAppApplication on MacBookPro-Milosz.local with PID 26665 (/Users/mkozlowski/Developer/Java/stejsiWebApp/target/classes started by mkozlowski in /Users/mkozlowski/Developer/Java/stejsiWebApp)
+2020-08-26 16:38:05,405 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2020-08-26 16:38:06,926 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-26 16:38:07,055 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 113ms. Found 10 JPA repository interfaces.
+2020-08-26 16:38:07,683 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-26 16:38:07,691 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-26 16:38:07,698 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@daf22f0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-26 16:38:07,703 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-26 16:38:07,721 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-26 16:38:08,318 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-08-26 16:38:08,338 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-26 16:38:08,339 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-26 16:38:08,339 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-08-26 16:38:08,531 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-26 16:38:08,532 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3020 ms
+2020-08-26 16:38:09,127 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-26 16:38:09,332 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway Community Edition 6.0.8 by Redgate
+2020-08-26 16:38:09,346 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-26 16:38:09,663 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-26 16:38:09,684 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Database: jdbc:h2:file:/Users/mkozlowski/Developer/Java/stejsiWebApp/StejsiAppDB_mysql (H2 1.4)
+2020-08-26 16:38:09,728 WARN org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2020-08-26 16:38:09,803 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Successfully validated 22 migrations (execution time 00:00.063s)
+2020-08-26 16:38:09,821 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Current version of schema "public": 22
+2020-08-26 16:38:09,823 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2020-08-26 16:38:09,993 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-26 16:38:10,104 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-08-26 16:38:10,317 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-26 16:38:10,501 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-26 16:38:11,596 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-26 16:38:11,606 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-26 16:38:13,721 INFO pl.mihome.stejsiWebApp.logic.FirebaseCloudMessagingInit [main] Firebase application has been initialized
+2020-08-26 16:38:14,271 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72fc6b5e, org.springframework.security.web.context.SecurityContextPersistenceFilter@21553c3a, org.springframework.security.web.header.HeaderWriterFilter@17796f47, org.springframework.security.web.csrf.CsrfFilter@331eb953, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@1f24e33d, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@5b2fc2c0, org.springframework.security.web.authentication.logout.LogoutFilter@372c428, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ed6e557, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bdf6d63, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@513bec8c, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@693ed09d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4353230, org.springframework.security.web.session.SessionManagementFilter@5dc218e2, org.springframework.security.web.access.ExceptionTranslationFilter@1c8da7e8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64b242b3]
+2020-08-26 16:38:14,509 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-26 16:38:14,665 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-08-26 16:38:15,138 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-26 16:38:15,213 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-26 16:38:15,243 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-26 16:38:15,246 INFO org.springframework.boot.StartupInfoLogger [main] Started StejsiWebAppApplication in 11.153 seconds (JVM running for 12.688)
+2020-08-26 16:38:26,103 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-26 16:38:26,104 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-26 16:38:26,128 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 24 ms
+2020-08-26 16:38:27,205 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-1] Wczytywanie danych trenera
+2020-08-26 16:39:15,273 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 16:39:51,448 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-5] Wczytywanie danych trenera
+2020-08-26 16:40:15,216 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-26 16:41:15,209 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-08-26 16:41:46,931 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-10] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-26 16:41:47,118 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 16:41:47,123 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 16:41:47,124 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 16:41:47,125 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 16:41:47,126 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 16:41:47,126 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 16:41:47,238 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 16:42:00,924 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-7] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-26 16:42:01,020 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 16:42:01,020 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 16:42:01,036 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 16:42:01,036 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 16:42:01,037 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 16:42:01,052 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 16:42:01,074 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 16:43:36,961 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-3] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-26 16:43:37,041 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 16:43:37,051 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 16:43:37,086 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 16:43:37,092 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 16:43:37,092 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 16:43:37,095 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 16:43:37,119 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 16:44:20,084 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-9] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-26 16:44:20,184 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 16:44:20,185 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 16:44:20,185 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 16:44:20,187 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 16:44:20,206 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 16:44:20,206 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 16:44:20,206 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 16:44:42,206 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-5] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-26 16:44:42,381 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 16:44:42,382 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 16:44:42,382 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 16:44:42,382 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 16:44:42,398 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 16:44:42,398 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 16:44:42,398 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 16:54:15,340 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 17:09:15,386 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 17:10:15,235 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-26 17:14:47,151 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-3] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-26 17:14:47,300 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 17:14:47,300 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 17:14:47,306 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 17:14:47,311 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 17:14:47,351 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 17:14:47,364 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 17:14:47,390 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 17:15:48,664 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-8] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-26 17:15:48,752 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 17:15:48,768 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 17:15:48,783 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 17:15:48,790 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 17:15:48,814 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 17:15:48,819 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 17:15:48,820 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 17:16:50,712 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-3] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-26 17:16:50,790 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 17:16:50,821 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 17:16:50,830 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 17:16:50,830 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 17:16:50,834 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 17:16:50,835 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 17:16:50,836 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 17:17:44,729 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-4] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-26 17:17:44,880 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 17:17:44,894 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 17:17:44,895 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 17:17:44,898 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 17:17:44,901 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 17:17:44,899 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 17:17:44,905 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 17:19:57,221 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-8] Wczytywanie danych trenera
+2020-08-26 17:19:59,958 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-1] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-26 17:20:00,043 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 17:20:00,043 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 17:20:00,052 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 17:20:00,053 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 17:20:00,053 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 17:20:00,053 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 17:20:00,079 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 17:20:17,995 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-7] Wczytywanie danych trenera
+2020-08-26 17:20:21,298 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 17:20:21,299 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 17:20:21,300 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 17:20:21,352 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 17:20:21,351 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 17:20:21,353 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 17:20:21,362 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 17:24:15,483 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 17:34:44,993 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-9] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-26 17:34:45,099 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 17:34:45,110 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 17:34:45,127 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 17:34:45,127 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 17:34:45,137 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 17:34:45,259 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 17:34:45,259 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 17:39:15,502 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 17:40:15,241 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-26 17:47:05,578 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m25s366ms).
+2020-08-26 17:47:51,613 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-6] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-26 17:47:51,726 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 17:47:51,746 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 17:47:51,757 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 17:47:51,758 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 17:47:51,772 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 17:47:51,780 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 17:47:51,798 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 17:47:54,876 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 17:47:54,880 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 17:47:54,884 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 17:47:54,884 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 17:47:54,912 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 17:47:54,912 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 17:47:54,915 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 17:48:08,929 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-9] Wczytywanie danych trenera
+2020-08-26 17:55:10,883 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 17:56:57,050 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-8] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-08-26 17:56:57,222 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 17:56:57,222 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 17:56:57,224 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 17:56:57,227 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 17:56:57,241 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 17:56:57,241 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 17:56:57,242 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 17:57:40,521 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-4] Ładowanie obiekty obrazka dla tip id: 8
+2020-08-26 17:57:40,521 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 9
+2020-08-26 17:57:40,521 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 6
+2020-08-26 17:57:40,521 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-9] Ładowanie obiekty obrazka dla tip id: 7
+2020-08-26 17:57:40,560 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 5
+2020-08-26 17:57:40,568 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 4
+2020-08-26 17:57:40,598 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 3
+2020-08-26 17:57:53,981 INFO pl.mihome.stejsiWebApp.logic.TrainerDataService [http-nio-8080-exec-10] Wczytywanie danych trenera
+2020-08-26 18:11:02,431 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m25s944ms).
+2020-08-26 18:12:06,968 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 18:13:56,907 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m54s354ms).
+2020-08-26 18:14:31,010 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-08-26 18:50:31,635 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m4s648ms).
+2020-08-26 19:38:59,664 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m57s475ms).
+2020-08-26 20:13:06,568 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m36s861ms).
+2020-08-26 20:28:32,253 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m55s666ms).
+2020-08-26 21:38:23,730 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m51s455ms).
+2020-08-26 21:42:28,039 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-08-26 22:14:22,807 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m29s6ms).
+2020-08-26 22:22:20,519 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m27s662ms).
+2020-08-26 22:57:56,971 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m6s433ms).
+2020-08-26 23:33:38,389 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m41s418ms).
+2020-08-26 23:37:59,715 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m21s279ms).

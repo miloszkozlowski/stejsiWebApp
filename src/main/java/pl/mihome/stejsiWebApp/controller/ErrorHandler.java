@@ -1,11 +1,14 @@
 package pl.mihome.stejsiWebApp.controller;
 
+import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-@ControllerAdvice
+@ControllerAdvice(basePackages = {"pl.mihome.stejsiWebApp.controller"})
+@Order(2)
 public class ErrorHandler {
 
 	
@@ -15,5 +18,5 @@ public class ErrorHandler {
 	
 	@ExceptionHandler(IllegalStateException.class)
 	@ResponseStatus(code = HttpStatus.BAD_REQUEST, reason = "State cannot be changed")
-		void onIllegalStatetResponse(IllegalStateException ex) {}
+		void onIllegalStateResponse(IllegalStateException ex) {}
 }

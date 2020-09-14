@@ -20,6 +20,7 @@ import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import org.hibernate.annotations.BatchSize;
 import pl.mihome.stejsiWebApp.constraints.ImageContent;
 
 @Entity
@@ -51,13 +52,15 @@ public class Tip extends AuditBase {
 	@JsonIgnore
 	private LocalDateTime usersNotified;
 	
-	@OneToMany(mappedBy = "tip", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@OneToMany(mappedBy = "tip", cascade = CascadeType.ALL)
+	@BatchSize(size = 10)
 	private Set<TipComment> comments;
 	
 	@Column(name = "image_present")
 	private boolean localImagePresent;
 	
 	@ManyToMany(mappedBy = "tipsRead")
+	@BatchSize(size = 10)
 	private Set<Podopieczny> usersRead;
 
 	public Tip() {

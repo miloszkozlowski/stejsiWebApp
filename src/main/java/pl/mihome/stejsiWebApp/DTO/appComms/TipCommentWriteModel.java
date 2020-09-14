@@ -12,7 +12,6 @@ public class TipCommentWriteModel {
 	private Long tipId;
 	
 	public TipCommentWriteModel() {
-		super();
 	}
 	public String getBody() {
 		return body;

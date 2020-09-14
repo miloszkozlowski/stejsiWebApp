@@ -20,18 +20,18 @@ import pl.mihome.stejsiWebApp.model.appClient.UserRank;
 		scope = PodopiecznyReadModel.class)
 public class PodopiecznyReadModel {
 	
-	private Long id;
-	private String name;
-	private String surname;
-	private String email;
-	private int phoneNumber;
-	private boolean active;
-	private boolean settingTipNotifications;
-	private List<PakietReadModel> trainingPackages;
-	private List<TipCommentReadModel> tipComments;
+	private final Long id;
+	private final String name;
+	private final String surname;
+	private final String email;
+	private final int phoneNumber;
+	private final boolean active;
+	private final boolean settingTipNotifications;
+	private final List<PakietReadModel> trainingPackages;
+	private final List<TipCommentReadModel> tipComments;
 	
 	@JsonIgnore
-	private Podopieczny rootSource;
+	private final Podopieczny rootSource;
 
 	public PodopiecznyReadModel(Podopieczny source) {
 		this.rootSource = source;
@@ -104,14 +104,14 @@ public class PodopiecznyReadModel {
 
 	public List<PakietReadModel> getActivePackages() {
 		return trainingPackages.stream()
-		.filter(p -> !p.isClosed() && (p.getValidityDays() >= 0 || p.isValidIndefinetely()))
-		.sorted(Comparator.comparing(PakietReadModel::isValidIndefinetely).thenComparing(Comparator.comparing(PakietReadModel::getValidityDays)))
+		.filter(p -> !p.isClosed() && (p.getValidityDays() >= 0 || p.isValidInfinitely()))
+		.sorted(Comparator.comparing(PakietReadModel::isValidInfinitely).thenComparing(PakietReadModel::getValidityDays))
 		.collect(Collectors.toList());
 	}
 	
 	public List<PakietReadModel> getInactivePackages() {
 		return trainingPackages.stream()
-		.filter(p -> p.isClosed() || (p.getValidityDays() < 0 && !p.isValidIndefinetely()))
+		.filter(p -> p.isClosed() || (p.getValidityDays() < 0 && !p.isValidInfinitely()))
 		.sorted(Comparator.comparing(PakietReadModel::whenDoneReadable))
 		.collect(Collectors.toList());
 	}
@@ -133,7 +133,7 @@ public class PodopiecznyReadModel {
 				.flatMap(p -> p.getTrainings().stream())
 				.filter(t -> t.isDone() && t.getScheduledFor().isAfter(dateFourWeeksAgo))
 				.count();
-			return trainings / 4;
+			return (float)trainings / 4;
 		}
 		return 0;
 	}
@@ -145,16 +145,15 @@ public class PodopiecznyReadModel {
 
 	public Integer getUnconfirmedTrainings() {
 		if(getTrainingPackages() != null) {
-			Long amount = getTrainingPackages().stream()
+			long amount = getTrainingPackages().stream()
 					.flatMap(p -> p.getTrainings().stream())
-					.filter(t -> !t.isConfirmed() || t.getStatus() == TrainingStatus.PRESENCE_TO_CONFIRM)
+					.filter(t -> t.getStatus() == TrainingStatus.SCHEDULE_TO_CONFIRM || t.getStatus() == TrainingStatus.PRESENCE_TO_CONFIRM)
 					.count();
-			return amount.intValue();
+			return (int)amount;
 		}
 		return 0;
 	}
-	
-	@JsonIgnore
+
 	public UserRank getRank() {
 		/*
 		 * Punkty do zdobycia: 2 za wykonane ogółem, 5 za średnią, 3 za komentarze, 1 za potwierdzenia
@@ -180,6 +179,10 @@ public class PodopiecznyReadModel {
 		
 		return UserRank.LESER;
 		
+	}
+
+	public String getRankReadable() {
+		return getRank().getDescription();
 	}
 	
 	public float getProgressPoints() {

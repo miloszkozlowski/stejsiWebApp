@@ -14,7 +14,7 @@ create table tip_pictures (
 );
 create table tip_comments (
 	id bigint unsigned auto_increment primary key,
-	author bigint unsigned not null,
+	author bigint unsigned null,
 	body varchar(1000) not null,
 	tip_id bigint unsigned,
 	when_created datetime not null,

@@ -221,16 +221,10 @@
 					<div class="DB(100)">
 					<div class="DB(18px)" th:if="${!oneTraining.isInPast()}" ><a th:href="@{/plan/{pid}/usun/{tid}(week = ${week}, tid = ${oneTraining.getId()}, pid = ${oneTraining.getTrainingPackage().getId()})}" th:class="${oneTraining.isConfirmed() ? 'confirmationRemove' : ''}"><img th:src="@{/img/delete.png}" style="height:18px" alt="Usuń z grafiku"></a></div>
 						<div class="DB(18px)" th:if="${oneTraining.isInPast()} and ${!oneTraining.isDone()}"><a th:href="@{/plan/{pid}/obecny/{tid}(week = ${week}, pid = ${oneTraining.getTrainingPackage().getId()}, tid = ${oneTraining.getId()})}" class="confirmationPresence"><img th:src="@{/img/done.png}" style="height:18px" alt="Potwierdź odbycie treningu"></a></div>
-						<div title="Add to Calendar" class="addeventatc DB(18px)" data-styling="none" th:if="${!oneTraining.isInPast()} and ${!oneTraining.isCanceled()}">
-						    <img src="/img/cal.png" alt="" style="width:18px;" />
-						    <span class="start" th:text="${oneTraining.getReadableDateScheduled()} + ' ' + ${oneTraining.getReadableTimeScheduled()}"></span>
-						    <span class="end" th:text="${oneTraining.getReadableEndDateScheduled()} + ' ' + ${oneTraining.getReadableEndTimeScheduled()}"></span>
-						    <span class="timezone">Europe/Paris</span>
-						    <span class="title" th:text="'Trening personalny - ' + ${oneTraining.getTrainingPackage().getOwner().getName()} + ' ' + ${oneTraining.getTrainingPackage().getOwner().getSurname()}"></span>
-						    <span class="description" th:text="'Trening personalny z pakietu ' + ${oneTraining.getTrainingPackage().getPackageType().getTitle()}"></span>
-						    <span class="location" th:unless="${oneTraining.getLocation() == null}" th:text="${oneTraining.getLocation().getName()} + ', ' + ${oneTraining.getLocation().getPostalAddress()}"></span>
-						    <span class="all_day_event">false</span>
-						</div>
+						<div class="DB(18px)" th:if="${!oneTraining.isInPast()} and ${!oneTraining.isCanceled()}"><a th:href="@{
+						https://calendar.google.com/calendar/r/eventedit?text={traineeName}+{traineeSurname}+-+trening&dates={dateTimeFrom}/{dateTimeTo}&ctz=cest&location={location}&sf=true&output=xml
+						(traineeName = ${oneTraining.getTrainingPackage().getOwner().getName()}, traineeSurname = ${oneTraining.getTrainingPackage().getOwner().getSurname()}, dateTimeFrom = ${oneTraining.getScheduledFor().toString()}, dateTimeTo = ${oneTraining.getEndDateTime().toString()}, location = ${oneTraining.getLocationInGoogleCalendarFormat()})
+						}"><img src="/img/cal.png" alt="" style="height:18px;" /></a></div>
 						<div class="DB(18px)" th:if="${oneTraining.isCanceled()} and ${!oneTraining.isDone()}"><a th:href="@{/plan/{pid}/przywroc/{tid}(week = ${week}, tid = ${oneTraining.getId()}, pid = ${oneTraining.getTrainingPackage().getId()})}" class="confirmationReschedule"><img th:src="@{/img/reschedule.png}" style="height:18px" alt="Przywróć trening"></a></div>
 					</div>
 				</div>

@@ -33,4 +33,5 @@ public class TipPictureController {
 		headers.setContentType(MediaType.parseMediaType(media.getImageType()));
 		return new ResponseEntity<byte[]>(media.getThumb(), headers, HttpStatus.CREATED);
 	}
+
 }

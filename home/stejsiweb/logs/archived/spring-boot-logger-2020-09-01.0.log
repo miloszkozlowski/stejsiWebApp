@@ -1,0 +1,397 @@
+2020-09-01 00:36:08,257 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m34s286ms).
+2020-09-01 01:13:27,125 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m10s817ms).
+2020-09-01 01:17:02,809 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 01:47:19,206 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m22s33ms).
+2020-09-01 02:32:12,832 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m53s570ms).
+2020-09-01 04:33:10,298 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s433ms).
+2020-09-01 04:44:08,955 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m58s619ms).
+2020-09-01 05:17:40,003 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m1s20ms).
+2020-09-01 07:19:07,067 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h26s964ms).
+2020-09-01 07:19:36,624 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s621ms), soft-evicting connections from pool.
+2020-09-01 07:56:12,059 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m35s435ms).
+2020-09-01 08:10:41,289 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m29s178ms).
+2020-09-01 08:13:07,964 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m56s661ms).
+2020-09-01 08:50:36,004 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m28s40ms).
+2020-09-01 08:50:40,411 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 08:51:39,372 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 09:05:40,703 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 09:20:40,742 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 09:21:39,402 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 09:35:40,766 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 09:50:40,777 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 09:51:39,408 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 09:52:39,150 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-09-01 10:05:40,804 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 10:20:40,825 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 10:21:39,421 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 10:35:40,852 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 10:50:40,881 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 10:51:39,430 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 11:05:40,897 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 11:20:40,907 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 11:21:39,493 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 11:35:40,955 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 11:50:40,965 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 11:51:39,502 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 12:05:41,002 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 12:20:41,018 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 12:21:39,508 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 12:35:41,036 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 12:50:03,037 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 12:50:03,004 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 12:50:41,051 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 12:51:39,515 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 12:55:49,111 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 1
+2020-09-01 12:55:49,111 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 12:57:16,657 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 12:57:16,668 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 12:58:17,397 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 12:58:17,403 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 12:59:16,195 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 12:59:16,284 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 1
+2020-09-01 12:59:41,856 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-01 12:59:41,862 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 1
+2020-09-01 13:05:41,097 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 13:05:41,467 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 13:05:41,467 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:06:00,412 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 1
+2020-09-01 13:06:00,412 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:07:07,690 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-09-01 13:07:07,691 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:07:53,398 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:07:53,424 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 1
+2020-09-01 13:10:32,892 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:10:32,891 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 13:13:42,795 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 1
+2020-09-01 13:13:42,794 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:14:24,801 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:14:24,804 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 13:17:37,597 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 13:17:37,598 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:18:26,726 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:18:26,723 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 1
+2020-09-01 13:18:48,439 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:18:48,451 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 1
+2020-09-01 13:19:16,107 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:19:16,112 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 1
+2020-09-01 13:19:51,675 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:19:51,705 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 13:20:41,191 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 13:20:51,192 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:20:51,218 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 1
+2020-09-01 13:21:12,962 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:21:12,963 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-09-01 13:21:39,529 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 13:21:53,260 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:21:53,277 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 1
+2020-09-01 13:22:19,573 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 1
+2020-09-01 13:22:19,573 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:22:48,556 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:22:48,556 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 13
+2020-09-01 13:35:41,248 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 13:37:00,436 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:37:00,437 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 13:37:56,077 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:37:56,085 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 13:46:38,973 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:46:38,971 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 1
+2020-09-01 13:50:41,292 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 13:50:43,543 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 1
+2020-09-01 13:50:43,548 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:51:39,560 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 13:54:19,872 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:54:19,872 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 1
+2020-09-01 13:54:33,196 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:54:33,205 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-09-01 13:55:39,829 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 13:55:39,831 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:56:17,169 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:56:17,178 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 1
+2020-09-01 13:56:37,393 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:56:37,412 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 1
+2020-09-01 13:57:29,076 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:57:29,076 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 1
+2020-09-01 13:57:47,802 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:57:47,880 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 1
+2020-09-01 13:58:08,758 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:58:08,761 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 13:58:45,528 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:58:45,622 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 1
+2020-09-01 13:59:06,787 INFO pl.mihome.stejsiWebApp.logic.TipService [http-nio-8080-exec-9] Rozpoczynanie pobierania tipów w formacie strony, nr: 0
+2020-09-01 13:59:07,173 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-6] Ładowanie obiekty obrazka dla tip id: 9
+2020-09-01 13:59:07,174 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-2] Ładowanie obiekty obrazka dla tip id: 8
+2020-09-01 13:59:07,173 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-10] Ładowanie obiekty obrazka dla tip id: 10
+2020-09-01 13:59:07,176 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-3] Ładowanie obiekty obrazka dla tip id: 7
+2020-09-01 13:59:07,408 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-8] Ładowanie obiekty obrazka dla tip id: 6
+2020-09-01 13:59:07,409 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-7] Ładowanie obiekty obrazka dla tip id: 5
+2020-09-01 13:59:07,410 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-5] Ładowanie obiekty obrazka dla tip id: 4
+2020-09-01 13:59:07,438 INFO pl.mihome.stejsiWebApp.logic.TipPictureService [http-nio-8080-exec-1] Ładowanie obiekty obrazka dla tip id: 3
+2020-09-01 13:59:08,185 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:59:22,562 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:59:22,571 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 2
+2020-09-01 13:59:22,760 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:59:22,796 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 1
+2020-09-01 13:59:32,704 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:59:32,722 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 2
+2020-09-01 13:59:32,900 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:59:32,935 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 1
+2020-09-01 13:59:55,052 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:59:55,058 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 2
+2020-09-01 13:59:55,587 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 13:59:55,601 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 14:00:21,935 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:00:21,937 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 2
+2020-09-01 14:00:22,103 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:00:22,119 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-09-01 14:00:30,196 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:00:30,204 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 2
+2020-09-01 14:00:30,470 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:00:30,500 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 14:00:38,244 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:00:38,248 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 2
+2020-09-01 14:00:38,561 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:00:38,569 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 1
+2020-09-01 14:00:55,009 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:00:55,013 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 1
+2020-09-01 14:01:05,913 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:01:05,934 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 14:01:19,777 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 14:01:19,776 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:01:48,843 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:01:48,843 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 2
+2020-09-01 14:02:32,352 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:02:32,380 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 5
+2020-09-01 14:02:40,691 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:02:40,692 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 5
+2020-09-01 14:02:53,733 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:02:53,742 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 5
+2020-09-01 14:02:54,249 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:02:54,261 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 5
+2020-09-01 14:03:13,845 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:03:13,843 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 5
+2020-09-01 14:05:41,351 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 14:10:42,708 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:10:42,707 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 1
+2020-09-01 14:11:49,330 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:11:49,355 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 1
+2020-09-01 14:14:05,107 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:14:05,110 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 1
+2020-09-01 14:16:54,624 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:16:54,623 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-09-01 14:17:46,329 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 1
+2020-09-01 14:17:46,330 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:18:21,283 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:18:21,290 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 14:18:30,443 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:18:30,444 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 5
+2020-09-01 14:18:40,446 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:18:40,449 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 1
+2020-09-01 14:19:18,912 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:19:18,951 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 14:19:19,377 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 14:19:19,380 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:19:36,676 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:19:36,684 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 1
+2020-09-01 14:19:36,958 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:19:36,963 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 1
+2020-09-01 14:19:52,364 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:19:52,367 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 1
+2020-09-01 14:19:52,411 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:19:52,421 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 14:20:27,825 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:20:27,835 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 1
+2020-09-01 14:20:35,179 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:20:35,181 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 1
+2020-09-01 14:20:41,415 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 14:20:46,686 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 1
+2020-09-01 14:20:46,687 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:20:46,928 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:20:46,947 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 14:20:52,870 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:20:52,896 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 14:20:53,029 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:20:53,046 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 1
+2020-09-01 14:21:14,828 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-09-01 14:21:14,827 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:21:15,097 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:21:15,172 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 1
+2020-09-01 14:21:27,096 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:21:27,103 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 14:21:27,282 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:21:27,294 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 1
+2020-09-01 14:21:39,601 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 14:22:47,545 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:22:47,556 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 1
+2020-09-01 14:22:47,852 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:22:47,856 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 14:23:31,214 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:23:31,232 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 1
+2020-09-01 14:24:26,962 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:24:26,977 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 1
+2020-09-01 14:25:00,837 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:25:00,866 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 14:25:53,854 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:25:53,858 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 14:26:15,966 INFO pl.mihome.stejsiWebApp.logic.RodzajPakietuService [http-nio-8080-exec-9] Pobieranie wszystkich rodzajów pakietów
+2020-09-01 14:28:57,524 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 14:28:57,533 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:29:23,210 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:29:23,297 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 14:30:48,357 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:30:48,353 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-09-01 14:31:45,199 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:31:45,207 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 1
+2020-09-01 14:33:04,657 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 14:33:04,660 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 14:35:41,548 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 14:51:18,948 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m38s673ms).
+2020-09-01 14:58:51,040 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m2s55ms).
+2020-09-01 15:37:47,757 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m56s724ms).
+2020-09-01 15:48:05,222 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m47s421ms).
+2020-09-01 16:58:47,778 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m12s529ms).
+2020-09-01 17:53:11,931 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m54s142ms).
+2020-09-01 17:54:13,249 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 17:55:11,190 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 17:59:29,036 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-09-01 17:59:29,085 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:01:14,732 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 18:01:14,731 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:01:47,866 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:01:47,871 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 18:02:41,969 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:02:41,979 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 1
+2020-09-01 18:06:32,778 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:06:32,778 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 1
+2020-09-01 18:08:38,933 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:08:38,951 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 18:09:13,355 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 18:10:20,847 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 3
+2020-09-01 18:10:29,918 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 5
+2020-09-01 18:10:35,251 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:11:05,829 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 6
+2020-09-01 18:11:13,160 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:11:19,030 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 18:21:36,985 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 1
+2020-09-01 18:21:36,985 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:22:16,869 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:22:16,871 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-09-01 18:22:57,128 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:22:57,133 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 1
+2020-09-01 18:23:22,709 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:23:22,725 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 1
+2020-09-01 18:24:02,477 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:24:02,484 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 18:24:13,380 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 18:25:11,210 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 18:25:38,708 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 1
+2020-09-01 18:25:38,706 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:25:45,248 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:25:45,258 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 1
+2020-09-01 18:26:27,164 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:26:27,185 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 18:26:30,403 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 18:26:30,404 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:35:19,123 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:35:19,124 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 1
+2020-09-01 18:39:13,418 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 18:41:36,595 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:41:36,600 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 18:43:21,674 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:43:21,676 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-09-01 18:45:56,158 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:45:56,158 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 1
+2020-09-01 18:46:39,985 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:46:39,989 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 18:47:09,515 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:47:09,553 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 1
+2020-09-01 18:47:37,199 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:47:37,211 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 1
+2020-09-01 18:49:08,142 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:49:08,142 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 18:50:00,688 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:50:00,689 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 18:50:17,441 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 1
+2020-09-01 18:50:17,443 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:51:28,277 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:51:28,280 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 1
+2020-09-01 18:54:13,444 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 18:55:11,237 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 18:56:10,719 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień ponaglających o konieczności potwierdzenia obecności z częstotliwością raz na 360 minut(y)
+2020-09-01 18:57:14,529 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:57:14,530 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 18:57:57,257 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 18:57:57,272 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-09-01 19:02:12,205 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:02:12,203 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 1
+2020-09-01 19:03:10,252 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:03:10,296 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 19:04:02,669 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 1
+2020-09-01 19:04:02,669 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:06:12,267 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:06:12,270 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 19:07:55,671 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:07:55,671 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 1
+2020-09-01 19:08:33,189 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:08:33,197 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 1
+2020-09-01 19:09:13,222 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:09:13,230 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 19:09:13,464 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 19:09:36,025 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:09:36,031 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 1
+2020-09-01 19:11:20,735 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:11:20,754 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 1
+2020-09-01 19:12:29,800 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:12:29,793 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 1
+2020-09-01 19:13:14,569 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:13:14,577 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-09-01 19:16:59,424 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:16:59,430 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 19:18:08,756 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:18:08,767 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 1
+2020-09-01 19:19:58,169 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:19:58,181 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Pobieranie danych użytkownika id: 1
+2020-09-01 19:20:20,057 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:20:20,063 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 1
+2020-09-01 19:20:46,965 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:20:46,973 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 19:20:58,971 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:20:58,994 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 1
+2020-09-01 19:21:11,456 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:21:11,470 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Pobieranie danych użytkownika id: 1
+2020-09-01 19:24:13,484 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 19:25:11,260 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 19:34:00,456 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m17s870ms).
+2020-09-01 19:34:24,693 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:34:24,693 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 19:40:33,866 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m3s369ms).
+2020-09-01 19:45:19,346 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Pobieranie danych użytkownika id: 1
+2020-09-01 19:45:19,346 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:46:34,755 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 19:46:36,251 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:46:36,258 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 1
+2020-09-01 19:58:59,294 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Zwracanie slice podopiecznych - strona 0
+2020-09-01 19:58:59,294 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Pobieranie danych użytkownika id: 1
+2020-09-01 20:00:37,409 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-9] Pobieranie danych użytkownika id: 1
+2020-09-01 20:00:37,409 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-1] Zwracanie slice podopiecznych - strona 0
+2020-09-01 20:01:34,770 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 20:01:50,845 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Zwracanie slice podopiecznych - strona 0
+2020-09-01 20:01:50,886 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Pobieranie danych użytkownika id: 1
+2020-09-01 20:02:13,799 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-7] Zwracanie slice podopiecznych - strona 0
+2020-09-01 20:02:13,810 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-8] Pobieranie danych użytkownika id: 1
+2020-09-01 20:02:32,527 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 20:02:38,244 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-5] Zwracanie slice podopiecznych - strona 0
+2020-09-01 20:02:38,265 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-4] Pobieranie danych użytkownika id: 1
+2020-09-01 20:05:13,248 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-3] Zwracanie slice podopiecznych - strona 0
+2020-09-01 20:05:13,251 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-10] Pobieranie danych użytkownika id: 1
+2020-09-01 20:05:42,449 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-2] Zwracanie slice podopiecznych - strona 0
+2020-09-01 20:05:42,639 INFO pl.mihome.stejsiWebApp.logic.PodopiecznyService [http-nio-8080-exec-6] Pobieranie danych użytkownika id: 1
+2020-09-01 20:16:34,841 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 20:18:07,400 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m33s298ms).
+2020-09-01 20:21:22,126 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m14s732ms).
+2020-09-01 20:38:41,896 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m49s604ms).
+2020-09-01 20:55:51,324 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m39s409ms).
+2020-09-01 20:58:47,768 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m14s376ms).
+2020-09-01 20:58:48,347 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień o nowych treningach z częstotliwością raz na 15 minut(y)
+2020-09-01 21:29:35,938 INFO pl.mihome.stejsiWebApp.logic.ScheduledNotificationService [scheduling-1] Rozpoczynanie wysyłki powiadomień z prośbą o potwierdzenie obecności na treningu z częstotliwością raz na 30 minut(y)
+2020-09-01 21:29:37,778 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m19s993ms).
+2020-09-01 23:34:04,654 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h26s822ms).

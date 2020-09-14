@@ -21,27 +21,27 @@ public class AndroidRequestsInterceptor extends HandlerInterceptorAdapter {
 	}
 
 	@Override
-	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
-			throws Exception {
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
 		
 		HandlerMethod handlerMethod;
-		
+
 		if(handler instanceof HandlerMethod) {
 			handlerMethod = (HandlerMethod) handler;
 		}
-		else
+		else {
 			return true;
-		
+		}
+
 		AndroidAuthorization androidAuthorization = handlerMethod.getMethod().getAnnotation(AndroidAuthorization.class);
 		if(androidAuthorization == null)
 			return true;
-		
+
 		String token = request.getHeader("token");
 		String deviceId = request.getHeader("deviceId");
-		
+
 		if(token == null || deviceId == null)
 			throw new AndroidSessionNotAuthorizedException();
-		
+
 		if(!appClientService.isAuthorized(token, deviceId))
 			throw new AndroidSessionNotAuthorizedException();
 		

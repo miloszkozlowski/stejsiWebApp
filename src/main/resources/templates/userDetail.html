@@ -59,7 +59,7 @@
 		<legend>
 			Pakiety treningów
 		</legend>
-		<p class="Mt(0)" th:if="*{!isActive()}">Podopieczny nie ma jeszcze aktywnego konta. Aby aktywować konto konieczna jest instalacja aplikacji na telefonie, rejestracja i kliknięcie w link wiadomości e-mail, którą użytkownik otrzyma.<span th:text="*{email}"></span> <a href="#">klikając tutaj</a>.</p>		
+		<p class="Mt(0)" th:if="*{!isActive()}">Podopieczny nie ma jeszcze aktywnego konta. Aby aktywować konto konieczna jest instalacja aplikacji na telefonie, wpisanie adresu e-mail do palikacji i kliknięcie w link wiadomości e-mail, którą wtedy użytkownik otrzyma. Zarejestrowany adres: <span th:text="*{email}"></span>.</p>		
 		<p><a th:href="@{/podopieczni/{id}/newpackage(id=*{id})}" th:unless="*{#lists.size(getActivePackages()) > 10} or *{!isActive()} or ${newpackage != null}">Nowy pakiet</a></p>
 		<p style="text-align:center;color:graytext;font-style:italic" th:if="*{#lists.isEmpty(getTrainingPackages())}">Nie ma jeszcze żadnego pakietu treningów</p>
 		<div th:if="${not #lists.isEmpty(activePackages)}"><b>Aktywne:</b><br />
@@ -79,8 +79,8 @@
 					<td th:text="${pakiet.getAmountTrainingsDone()}"></td>
 					<td th:with="result=${pakiet.getPackageType().getAmountOfTrainings() - pakiet.getAmountTrainingsPlanned()}"><span th:text="${result}"></span> <span th:if="${pakiet.getPackageType().getAmountOfTrainings() > pakiet.getAmountTrainingsDone()} and (${pakiet.getValidityDays() > 0} or ${pakiet.getPackageType().getDaysValid() == 0})">(<a th:href="@{/plan/{pid}(pid = ${pakiet.getId()})}">planuj</a>)</span></td>
 					<td>
-						<span th:if="${pakiet.isValid()} and ${!pakiet.isValidIndefinetely()}" th:text="|${pakiet.getValidityDays()} dni|"></span>
-						<span th:if="${pakiet.isValidIndefinetely()}" th:text="bezterminowo"></span>
+						<span th:if="${pakiet.isValid()} and ${!pakiet.isValidInfinitely()}" th:text="|${pakiet.getValidityDays()} dni|"></span>
+						<span th:if="${pakiet.isValidInfinitely()}" th:text="bezterminowo"></span>
 						<span th:unless="${pakiet.isValid()}" th:text="'nie'"></span>
 					</td>
 					<td>

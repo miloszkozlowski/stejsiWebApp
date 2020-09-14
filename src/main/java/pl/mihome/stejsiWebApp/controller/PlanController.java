@@ -13,6 +13,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.springframework.lang.Nullable;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -24,7 +25,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import pl.mihome.stejsiWebApp.DTO.PakietReadModel;
 import pl.mihome.stejsiWebApp.DTO.TreningReadModel;
-import pl.mihome.stejsiWebApp.exeptions.CallendarTimeConflictException;
+import pl.mihome.stejsiWebApp.exeptions.CalendarTimeConflictException;
 import pl.mihome.stejsiWebApp.logic.LokalizacjaService;
 import pl.mihome.stejsiWebApp.logic.PakietTreningowService;
 import pl.mihome.stejsiWebApp.logic.TreningService;
@@ -34,30 +35,26 @@ import pl.mihome.stejsiWebApp.logic.TreningService;
 @RequestMapping("/plan")
 public class PlanController {
 	
-	private PakietTreningowService service;
-	private LokalizacjaService locationService;
-	private TreningService traininigService;
+	private final PakietTreningowService service;
+	private final LokalizacjaService locationService;
+	private final TreningService trainingService;
 
 	
-	PlanController(PakietTreningowService service, LokalizacjaService locationService, TreningService traininigService) {
+	PlanController(PakietTreningowService service, LokalizacjaService locationService, TreningService trainingService) {
 		this.service = service;
 		this.locationService = locationService;
-		this.traininigService = traininigService;
+		this.trainingService = trainingService;
 	}
 
 	
 	@GetMapping
-	String showCallendar(@RequestParam(required = false) Integer week,
-			 Model model) {
-		
-
-		//LocalDate weekEnd = weekStart.plusDays(6L);
-		
+	public String showCalendar(@RequestParam(required = false) Integer week,
+							   Model model) {
 		if(week == null)
 			week = 0;
 		model.addAttribute("weekDates", weekDates(weekStart(week)));
 		model.addAttribute("week", week);
-		model.addAttribute("weeklyTrainings", traininigService.getTrainingsWeekly(weekStart(week).atStartOfDay()));
+		model.addAttribute("weeklyTrainings", trainingService.getTrainingsWeekly(weekStart(week).atStartOfDay()));
 		
 		return "callendar";
 	}
@@ -66,7 +63,7 @@ public class PlanController {
 	String changeOneTraining(@PathVariable Long tid,
 			@RequestParam(required = false) Integer week,
 			Model model) {
-		var training = new TreningReadModel(traininigService.getOneToChange(tid));
+		var training = new TreningReadModel(trainingService.getOneToChange(tid));
 		//var traininigPackage = training.getTrainingPackage();
 		model.addAttribute("opcja", "trainingChange");
 		model.addAttribute("training", training);
@@ -74,7 +71,7 @@ public class PlanController {
 			week = 0;
 		model.addAttribute("weekDates", weekDates(weekStart(week)));
 		model.addAttribute("week", week);
-		model.addAttribute("weeklyTrainings", traininigService.getTrainingsWeekly(weekStart(week).atStartOfDay()));
+		model.addAttribute("weeklyTrainings", trainingService.getTrainingsWeekly(weekStart(week).atStartOfDay()));
 		model.addAttribute("locations", locationService.getAll());
 		
 		return "callendar";
@@ -86,39 +83,21 @@ public class PlanController {
 			@RequestParam(required = false) Integer week,
 			Model model) {
 		
-		traininigService.unCancel(tid);
-		
-		if(week == null)
-			week = 0;
-		model.addAttribute("weekDates", weekDates(weekStart(week)));
-		model.addAttribute("week", week);
-		model.addAttribute("weeklyTrainings", traininigService.getTrainingsWeekly(weekStart(week).atStartOfDay()));
-		model.addAttribute("opcja", "packagePlan");
-		model.addAttribute("package", service.getByIdEagerly(pid));
-		model.addAttribute("locations", locationService.getAll());
-	
-		
-		return "callendar";
+		trainingService.unCancel(tid);
+
+		return addAttributesToModel(pid, week, model);
 	}
-	
+
+
 	@GetMapping("/{pid}/usun/{tid}")
 	String removeOne(@PathVariable Long pid,
 			@PathVariable Long tid,
 			@RequestParam(required = false) Integer week,
 			Model model) {
 		
-		traininigService.removeSchedule(pid, tid);
-		
-		if(week == null)
-			week = 0;
-		model.addAttribute("weekDates", weekDates(weekStart(week)));
-		model.addAttribute("week", week);
-		model.addAttribute("weeklyTrainings", traininigService.getTrainingsWeekly(weekStart(week).atStartOfDay()));
-		model.addAttribute("opcja", "packagePlan");
-		model.addAttribute("package", service.getByIdEagerly(pid));
-		model.addAttribute("locations", locationService.getAll());
-	
-		return "callendar";
+		trainingService.removeSchedule(tid);
+
+		return addAttributesToModel(pid, week, model);
 	}
 	
 	@GetMapping("/{pid}/obecny/{tid}")
@@ -127,23 +106,13 @@ public class PlanController {
 			@RequestParam(required = false) Integer week,
 			Model model) {
 		
-		traininigService.confirmPresence(pid, tid);
-		
-		if(week == null)
-			week = 0;
-		model.addAttribute("weekDates", weekDates(weekStart(week)));
-		model.addAttribute("week", week);
-		model.addAttribute("weeklyTrainings", traininigService.getTrainingsWeekly(weekStart(week).atStartOfDay()));
-		model.addAttribute("opcja", "packagePlan");
-		model.addAttribute("package", service.getByIdEagerly(pid));
-		model.addAttribute("locations", locationService.getAll());
-		
-		
-		return "callendar";
+		trainingService.confirmPresence(tid);
+
+		return addAttributesToModel(pid, week, model);
 	}
 	
 	@GetMapping("/{pid}")
-	String planPackageInCallendar(@PathVariable Long pid,
+	public String planPackageInCallendar(@PathVariable Long pid,
 			@RequestParam(required = false) Integer week,
 			Model model) {
 		
@@ -152,7 +121,7 @@ public class PlanController {
 		model.addAttribute("weekDates", weekDates(weekStart(week)));
 		model.addAttribute("week", week);
 		model.addAttribute("opcja", "packagePlan");
-		model.addAttribute("weeklyTrainings", traininigService.getTrainingsWeekly(weekStart(week).atStartOfDay()));
+		model.addAttribute("weeklyTrainings", trainingService.getTrainingsWeekly(weekStart(week).atStartOfDay()));
 		var trainingPackage = service.getByIdEagerly(pid);
 		model.addAttribute("package", trainingPackage);
 		model.addAttribute("defaultLocation", defaultLocation(trainingPackage));
@@ -175,9 +144,9 @@ public class PlanController {
 			week = 0;
 		
 		try {
-			traininigService.schedule(trainingId, trainingDate, trainingTime, Optional.ofNullable(locationId));
+			trainingService.schedule(trainingId, trainingDate, trainingTime, Optional.ofNullable(locationId));
 		}
-		catch(CallendarTimeConflictException ex) {
+		catch(CalendarTimeConflictException ex) {
 			model.addAttribute("msg", "Termin " + ex.getReadableTermin() + " jest już zajęty");
 			week = (int)(ChronoUnit.WEEKS.between(weekStart(0), ex.getTermin().with(TemporalAdjusters.previousOrSame(DayOfWeek.MONDAY))));
 		}
@@ -185,7 +154,7 @@ public class PlanController {
 
 		model.addAttribute("weekDates", weekDates(weekStart(week)));
 		model.addAttribute("week", week);
-		model.addAttribute("weeklyTrainings", traininigService.getTrainingsWeekly(weekStart(week).atStartOfDay()));
+		model.addAttribute("weeklyTrainings", trainingService.getTrainingsWeekly(weekStart(week).atStartOfDay()));
 		model.addAttribute("opcja", "packagePlan");
 		var trainingPackage = service.getByIdEagerly(pid);
 		model.addAttribute("package", trainingPackage);
@@ -198,9 +167,8 @@ public class PlanController {
 	
 	Long defaultLocation(PakietReadModel pakiet) {
 		Long lastPickedLocation = pakiet.getTrainings().stream()
-		.filter(t -> t.getLocation() != null)
-		.sorted(Comparator.comparing(TreningReadModel::getScheduledFor, Comparator.nullsFirst(Comparator.naturalOrder())).reversed())
-		.findFirst()
+				.filter(t -> t.getLocation() != null)
+				.max(Comparator.comparing(TreningReadModel::getScheduledFor, Comparator.nullsFirst(Comparator.naturalOrder())))
 		.map(t -> t.getLocation().getId())
 		.orElse(0L);
 		
@@ -221,5 +189,17 @@ public class PlanController {
 	LocalDate weekStart(Integer week) {
 		LocalDate today = LocalDate.now();
 		return today.with(WeekFields.of(Locale.FRANCE).dayOfWeek(), 1L).plusWeeks(week);
+	}
+
+	private String addAttributesToModel(Long pid, @Nullable Integer week, Model model) {
+		if(week == null)
+			week = 0;
+		model.addAttribute("weekDates", weekDates(weekStart(week)));
+		model.addAttribute("week", week);
+		model.addAttribute("weeklyTrainings", trainingService.getTrainingsWeekly(weekStart(week).atStartOfDay()));
+		model.addAttribute("opcja", "packagePlan");
+		model.addAttribute("package", service.getByIdEagerly(pid));
+		model.addAttribute("locations", locationService.getAll());
+		return "callendar";
 	}
 }
